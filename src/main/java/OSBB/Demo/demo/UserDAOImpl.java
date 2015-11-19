@@ -19,7 +19,4 @@ public class UserDAOImpl implements UserDAO {
         Query query = entityManager.createQuery("SELECT u FROM User u WHERE u.user_login =:login", User.class);
         return (User) query.getSingleResult();
     }
-
-
-
 }
