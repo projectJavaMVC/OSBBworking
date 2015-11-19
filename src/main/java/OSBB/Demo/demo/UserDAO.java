@@ -1,11 +1,9 @@
-//package OSBB.Demo.demo;
-//
-//import org.springframework.stereotype.Repository;
-//
-///**
-// * Created by Пользователь on 19.11.2015.
-// */
-//@Repository
-//public interface UserDAO {
-//    void doLogin(User user);
-//}
+package OSBB.Demo.demo;
+
+/**
+ * Created by Пользователь on 19.11.2015.
+ */
+
+public interface UserDAO {
+    public User getUser(String login);
+}
