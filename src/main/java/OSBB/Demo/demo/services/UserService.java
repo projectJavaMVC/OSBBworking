@@ -1,12 +1,15 @@
 package OSBB.Demo.demo.services;
 
-import OSBB.Demo.demo.User;
-import org.springframework.stereotype.Service;
+import OSBB.Demo.demo.entity.User;
+
+import java.util.List;
 
 /**
  * Created by Пользователь on 19.11.2015.
  */
-@Service
+
 public interface UserService {
-        public User getUserByLogin(String login);
+        User getUserByLogin(String login);
+        List<User> getAllUsers();
+        void addUser(User user);
 }

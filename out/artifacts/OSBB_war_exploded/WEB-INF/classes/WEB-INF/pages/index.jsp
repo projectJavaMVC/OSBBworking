@@ -9,7 +9,8 @@
     </head>
 
     <body>
-        <div class="container">
+    IT FUCKING WORKS!
+<%--        <div class="container">
             <h3><a href="/">Contacts List</a></h3>
 
             <nav class="navbar navbar-default">
@@ -98,6 +99,6 @@
             $( "li .searchterm" ).click(function() {
                 console.log('testing');
             });
-        </script>
+        </script>--%>
     </body>
 </html>
