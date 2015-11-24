@@ -9,23 +9,38 @@ import java.math.BigDecimal;
 @Entity
 @Table(name = "flats", schema = "", catalog = "prog")
 public class FlatsEntity {
-    private int id;
+    @Id
+    @GeneratedValue
+    private long id;
     private Integer flatNumber;
     private Integer peopleCnt;
     private BigDecimal area;
 
-    @Id
-    @Column(name = "ID", nullable = false, insertable = true, updatable = true)
-    public int getId() {
+    @ManyToOne
+    @JoinColumn(name = "build_id")
+    private BuildsEntity buildsEntity;
+
+    public FlatsEntity() {
+    }
+
+    public FlatsEntity(long id, Integer flatNumber, Integer peopleCnt, BigDecimal area, BuildsEntity buildsEntity) {
+        this.id = id;
+        this.flatNumber = flatNumber;
+        this.peopleCnt = peopleCnt;
+        this.area = area;
+        this.buildsEntity = buildsEntity;
+    }
+
+
+
+    public long getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(long id) {
         this.id = id;
     }
 
-    @Basic
-    @Column(name = "Flat_Number", nullable = true, insertable = true, updatable = true)
     public Integer getFlatNumber() {
         return flatNumber;
     }
@@ -34,8 +49,6 @@ public class FlatsEntity {
         this.flatNumber = flatNumber;
     }
 
-    @Basic
-    @Column(name = "People_CNT", nullable = true, insertable = true, updatable = true)
     public Integer getPeopleCnt() {
         return peopleCnt;
     }
@@ -44,8 +57,6 @@ public class FlatsEntity {
         this.peopleCnt = peopleCnt;
     }
 
-    @Basic
-    @Column(name = "Area", nullable = true, insertable = true, updatable = true, precision = 2)
     public BigDecimal getArea() {
         return area;
     }
@@ -54,36 +65,11 @@ public class FlatsEntity {
         this.area = area;
     }
 
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-
-        FlatsEntity that = (FlatsEntity) o;
-
-        if (id != that.id) return false;
-        if (area != null ? !area.equals(that.area) : that.area != null) return false;
-        if (flatNumber != null ? !flatNumber.equals(that.flatNumber) : that.flatNumber != null) return false;
-        if (peopleCnt != null ? !peopleCnt.equals(that.peopleCnt) : that.peopleCnt != null) return false;
-
-        return true;
+    public BuildsEntity getBuildsEntity() {
+        return buildsEntity;
     }
 
-    public FlatsEntity() {
-    }
-
-    public FlatsEntity(Integer flatNumber, Integer peopleCnt, BigDecimal area) {
-        this.flatNumber = flatNumber;
-        this.peopleCnt = peopleCnt;
-        this.area = area;
-    }
-
-    @Override
-    public int hashCode() {
-        int result = id;
-        result = 31 * result + (flatNumber != null ? flatNumber.hashCode() : 0);
-        result = 31 * result + (peopleCnt != null ? peopleCnt.hashCode() : 0);
-        result = 31 * result + (area != null ? area.hashCode() : 0);
-        return result;
+    public void setBuildsEntity(BuildsEntity buildsEntity) {
+        this.buildsEntity = buildsEntity;
     }
 }

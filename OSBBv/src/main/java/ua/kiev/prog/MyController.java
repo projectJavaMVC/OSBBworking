@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.SessionAttributes;
 import ua.kiev.prog.entity.BuildsEntity;
+import ua.kiev.prog.entity.FlatsEntity;
 import ua.kiev.prog.entity.UserEntity;
 import ua.kiev.prog.entity.UserInfoEntity;
 import ua.kiev.prog.services.Services;
@@ -67,6 +68,14 @@ public class MyController {
                            @RequestParam String buildNum, @ModelAttribute("build") BuildsEntity build, Model model) {
         build.setBuildNum(buildNum);
         services.mergeBuild(build);
+        if ( build.getId()!=0 ){
+            for (int i = 1; i <= build.getFlatCnt(); i++) {
+               FlatsEntity flat = new FlatsEntity() ;
+                flat.setFlatNumber(i);
+                flat.setBuildsEntity(build);
+                services.addFlat(flat);
+            }
+        }
         model.addAttribute("users", services.list(null));
         return "userlist";
     }

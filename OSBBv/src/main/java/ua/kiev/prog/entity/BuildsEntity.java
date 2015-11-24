@@ -19,6 +19,17 @@ public class BuildsEntity {
     private String street;
     private String buildNum;
 
+    public List<FlatsEntity> getFlats() {
+        return flats;
+    }
+
+    public void setFlats(List<FlatsEntity> flats) {
+        this.flats = flats;
+    }
+
+    @OneToMany(mappedBy = "buildsEntity" , targetEntity = FlatsEntity.class)
+    private List<FlatsEntity> flats = new ArrayList<FlatsEntity>();
+
 
    @OneToMany(mappedBy = "buildsEntity", cascade=CascadeType.ALL, targetEntity = UserEntity.class)
    private List<UserEntity> users = new ArrayList<UserEntity>();
