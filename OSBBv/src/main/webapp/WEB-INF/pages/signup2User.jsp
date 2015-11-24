@@ -15,11 +15,10 @@
     <div class="form-group"><input type="text" class="form-control" name="lastName" placeholder="Фамилия"></div>
     <div class="form-group"><input type="text" class="form-control" name="secondName" placeholder="Отчество"></div>
     <div class="form-group"><input type="text" class="form-control" name="phone" placeholder="Номер телефона"></div>
-    <div class="form-group"><input type="text" class="form-control" name="flatNum" placeholder="Номер квартиры"></div>
-    <select class="selectpicker form-control form-group" name="group">
-      <option value="-1">Default</option>
-      <c:forEach items="${groups}" var="group">
-        <option value="${group.id}">${group.name}</option>
+
+    <select class="selectpicker form-control form-group" name="flatNum">
+      <c:forEach items="${listFlat}" var="flat">
+        <option value="${flat.id}">${flat.flatNumber}</option>
       </c:forEach>
     </select>
     <div class="form-group"><input type="submit" class="btn btn-primary" value="Готово!"></div>

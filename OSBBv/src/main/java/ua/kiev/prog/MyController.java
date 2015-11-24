@@ -49,8 +49,7 @@ public class MyController {
             build = services.getBuildByKey(key);
             user = new UserEntity(login, pass, email, group, build);
             model.addAttribute("user", user);
-
-
+            model.addAttribute("listFlat",services.listFlat(build));
         } else if (group == ADMIN_TYPE) {
             build = new BuildsEntity(null);
             services.addBuild(build);

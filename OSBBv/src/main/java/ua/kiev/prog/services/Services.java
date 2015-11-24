@@ -61,4 +61,8 @@ public class Services {
     public void addFlat(FlatsEntity flat){
        flatDAO.addFlat(flat);
     }
+    @Transactional
+    public List<FlatsEntity> listFlat(BuildsEntity buildsEntity){
+        return (List<FlatsEntity>) flatDAO.listFlat(buildsEntity);
+    }
 }
