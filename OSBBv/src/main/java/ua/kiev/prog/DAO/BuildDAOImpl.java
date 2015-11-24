@@ -30,4 +30,10 @@ public class BuildDAOImpl implements BuildDAO {
         entityManager.merge(build);
     }
 
+    @Override
+    public void addBuild(BuildsEntity build) {
+        entityManager.persist(build);
+        entityManager.refresh(build);
+    }
+
     }

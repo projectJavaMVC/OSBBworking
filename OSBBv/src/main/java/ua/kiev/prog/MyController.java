@@ -42,7 +42,7 @@ public class MyController {
         else if (group==ADMIN_TYPE)
         {
             build = new BuildsEntity(null);
-            services.mergeBuild(build);
+            services.addBuild(build);
             us=new UserEntity(login,pass,email,group,build);
             model.addAttribute("build",build);
         }
