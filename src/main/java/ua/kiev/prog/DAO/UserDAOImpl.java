@@ -32,4 +32,5 @@ public class UserDAOImpl implements UserDAO{
     public void add(UserEntity user){
         entityManager.persist(user);
     }
+
 }

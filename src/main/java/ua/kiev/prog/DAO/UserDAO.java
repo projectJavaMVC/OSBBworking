@@ -11,4 +11,5 @@ import java.util.List;
 public interface UserDAO {
     void add(UserEntity user);
     List<UserEntity> list(BuildsEntity build);
+
 }
