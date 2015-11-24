@@ -9,6 +9,7 @@
 </head>
 <body>
 <div class="container">
+<<<<<<< HEAD
   <form role="form" enctype="multipart/form-data" class="form-horizontal" action="/signup/add" method="post">
     <div class="form-group"><h3>Регистрация</h3></div>
     <div class="form-group"><input type="text" class="form-control" name="login" placeholder="Login"></div>
@@ -25,5 +26,24 @@
     <div class="form-group"><input type="submit" class="btn btn-primary" value="Готово!"></div>
   </form>
 </div>
+=======
+  <form role="form" enctype="multipart/form-data" class="form-horizontal" action="/signup" method="post">
+    <div class="form-group"><h3>Регистрация</h3></div>
+    <div class="form-group"><input type="text" class="form-control" name="j_username" placeholder="Login"></div>
+    <div class="form-group"><input type="text" class="form-control" name="j_password" placeholder="Password"></div>
+    <div class="form-group"><input type="text" class="form-control" name="email" placeholder="@Email"></div>
+    <div class="form-group">
+          <label for="sel1">Тип учетной записи:</label>
+          <select class="form-control" id="sel1">
+              <option>Житель Дома</option>
+              <option>УправДом</option>
+          </select>
+    </div>
+
+    <div class="form-group"><input type="submit" class="btn btn-primary" value="Готово!"></div>
+  </form>
+</div>
+</div>
+>>>>>>> bd0dc951f5077bde7a1e7adbbf9eb934e855cd76
 </body>
 </html>

@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
+<<<<<<< HEAD
     <option name="DEFAULT_COMPILER" value="Javac" />
+=======
+>>>>>>> bd0dc951f5077bde7a1e7adbbf9eb934e855cd76
     <resourceExtensions />
     <wildcardResourcePatterns>
       <entry name="!?*.java" />
@@ -12,11 +15,16 @@
       <entry name="!?*.flex" />
       <entry name="!?*.kt" />
       <entry name="!?*.clj" />
+<<<<<<< HEAD
+=======
+      <entry name="!?*.aj" />
+>>>>>>> bd0dc951f5077bde7a1e7adbbf9eb934e855cd76
     </wildcardResourcePatterns>
     <annotationProcessing>
       <profile default="true" name="Default" enabled="false">
         <processorPath useClasspath="true" />
       </profile>
+<<<<<<< HEAD
       <profile default="false" name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
@@ -27,6 +35,18 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="OSBBv" target="1.7" />
+=======
+      <profile default="false" name="Annotation profile for OSBB" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="OSBB" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="OSBB" target="1.7" />
+>>>>>>> bd0dc951f5077bde7a1e7adbbf9eb934e855cd76
     </bytecodeTargetLevel>
   </component>
 </project>

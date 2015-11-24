@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+<<<<<<< HEAD
   <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false" />
+=======
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src/main/java/OSBB/Demo/demo/config/WebInitializer.java" charset="UTF-8" />
+  </component>
+>>>>>>> bd0dc951f5077bde7a1e7adbbf9eb934e855cd76
 </project>
