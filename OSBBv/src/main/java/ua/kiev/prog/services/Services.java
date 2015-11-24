@@ -22,12 +22,6 @@ public class Services {
     private UserDAO userDAO;
 
     @Transactional
-    public void addBuild (BuildsEntity build){
-        buildDAO.addBuild(build);
-
-    }
-
-    @Transactional
     public BuildsEntity getBuildByKey(String key){
         return buildDAO.getIDByKey(key);
     }

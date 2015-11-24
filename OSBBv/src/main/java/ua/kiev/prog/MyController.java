@@ -5,9 +5,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 import ua.kiev.prog.entity.BuildsEntity;
-import ua.kiev.prog.services.BuildService;
 import ua.kiev.prog.services.Services;
-import ua.kiev.prog.services.UserService;
 import ua.kiev.prog.entity.UserEntity;
 
 @Controller
@@ -44,7 +42,7 @@ public class MyController {
         else if (group==ADMIN_TYPE)
         {
             build = new BuildsEntity(null);
-            services.addBuild(build);
+            services.mergeBuild(build);
             us=new UserEntity(login,pass,email,group,build);
             model.addAttribute("build",build);
         }
