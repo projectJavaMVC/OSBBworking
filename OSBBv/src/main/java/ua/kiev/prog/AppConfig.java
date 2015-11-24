@@ -26,11 +26,11 @@ public class AppConfig {
 
     @Bean
     public LocalContainerEntityManagerFactoryBean entityManagerFactory
-            (DataSource dataSource, JpaVendorAdapter jpaVendeorAdapter)
+            (DataSource dataSource, JpaVendorAdapter jpaVendorAdapter)
     {
         LocalContainerEntityManagerFactoryBean entityManagerFactory = new LocalContainerEntityManagerFactoryBean();
         entityManagerFactory.setDataSource(dataSource);
-        entityManagerFactory.setJpaVendorAdapter(jpaVendeorAdapter);
+        entityManagerFactory.setJpaVendorAdapter(jpaVendorAdapter);
         entityManagerFactory.setPackagesToScan("ua.kiev.prog");
         return entityManagerFactory;
     }
@@ -58,7 +58,7 @@ public class AppConfig {
         ds.setDriverClassName("com.mysql.jdbc.Driver");
         ds.setUrl("jdbc:mysql://localhost:3306/prog");
         ds.setUsername("root");
-        ds.setPassword("GFDert567");
+        ds.setPassword("Root24646498");
 
         return ds;
     }

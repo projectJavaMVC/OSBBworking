@@ -3,61 +3,91 @@ package ua.kiev.prog;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.SessionAttributes;
 import ua.kiev.prog.entity.BuildsEntity;
-import ua.kiev.prog.services.Services;
 import ua.kiev.prog.entity.UserEntity;
+import ua.kiev.prog.entity.UserInfoEntity;
+import ua.kiev.prog.services.Services;
 
 @Controller
 @RequestMapping("/")
-@SessionAttributes (names = "build", types = BuildsEntity.class)
+@SessionAttributes(names = {"build", "user"}, types = {BuildsEntity.class, UserEntity.class})
 public class MyController {
-    static final int DEFAULT_GROUP_ID = -1;
-    static final int USER_TYPE=0;
-    static final int ADMIN_TYPE=1;
+
+    static final int USER_TYPE = 0;
+    static final int ADMIN_TYPE = 1;
 
     @Autowired
     private Services services;
 
 
-   /////--------------------Всеволод
+    /////--------------------Всеволод
     @RequestMapping("/")
-     public String index(Model model) {
+    public String index(Model model) {
         return "signup";
     }
 
 
-
     @RequestMapping("/signup/add")
-    public String addUser(@RequestParam String login,@RequestParam String pass,@RequestParam String email,@RequestParam Short group,@RequestParam String key,Model model) {
-        UserEntity us=null;
+    public String addUser(@RequestParam String login, @RequestParam String pass, @RequestParam String email,
+                          @RequestParam Short group, @RequestParam String key, Model model) {
         BuildsEntity build;
 
-        if (group==USER_TYPE)
-        {
-            build = services.getBuildByKey(key);
-            us = new UserEntity(login,pass,email,group,build);
+        if ((login == null) || (login.isEmpty()))
+            return "403_Error";
+        if ((pass == null) || (pass.isEmpty()))
+            return "403_Error";
+        if ((email == null) || (email.isEmpty()))
+            return "403_Error";
 
-        }
-        else if (group==ADMIN_TYPE)
-        {
+        UserEntity user = new UserEntity();
+        if (group == USER_TYPE) {
+            build = services.getBuildByKey(key);
+            user = new UserEntity(login, pass, email, group, build);
+            model.addAttribute("user", user);
+
+
+        } else if (group == ADMIN_TYPE) {
             build = new BuildsEntity(null);
             services.addBuild(build);
-            us=new UserEntity(login,pass,email,group,build);
-            model.addAttribute("build",build);
+            user = new UserEntity(login, pass, email, group, build);
+            model.addAttribute("build", build);
         }
-        services.addUser(us);
-        return group==USER_TYPE ? "signup2User" : "signup2Admin";
+
+        services.addUser(user);
+        return group == USER_TYPE ? "signup2User" : "signup2Admin";
     }
+
 
     @RequestMapping("/signup/addAdmin2")
-    public String addBuild(@RequestParam Short flatCnt,@RequestParam String city,@RequestParam String street,@RequestParam String buildNum,@ModelAttribute("build") BuildsEntity build,Model model) {
+    public String addBuild(@RequestParam Short flatCnt, @RequestParam String city, @RequestParam String street,
+                           @RequestParam String buildNum, @ModelAttribute("build") BuildsEntity build, Model model) {
         build.setBuildNum(buildNum);
         services.mergeBuild(build);
-        model.addAttribute("users",services.list(null));
+        model.addAttribute("users", services.list(null));
         return "userlist";
-
     }
 
+    @RequestMapping("/signup/addUser2")
+    public String addUserInfo(@RequestParam String name, @RequestParam String lastName, @RequestParam String secondName,
+                              @RequestParam String phone, @RequestParam String flatNum, @ModelAttribute("user") UserEntity user, Model model) {
+        UserInfoEntity userIE;
+        if ((name == null) || (name.isEmpty()))
+            return "403_Error";
+        if ((phone == null) || (phone.isEmpty()))
+            return "403_Error";
+        if ((secondName == null) || (secondName.isEmpty()))
+            return "403_Error";
+        if ((lastName == null) || (lastName.isEmpty()))
+            return "403_Error";
+        if ((flatNum == null) || (flatNum.isEmpty()))
+            return "403_Error";
 
+        userIE = new UserInfoEntity(name, lastName, secondName, phone, flatNum, user);
+        services.addUserInfo(userIE);
+        return "success";
+    }
 }

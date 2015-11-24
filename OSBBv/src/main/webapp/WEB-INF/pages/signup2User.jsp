@@ -9,7 +9,7 @@
 </head>
 <body>
 <div class="container">
-  <form role="form" enctype="multipart/form-data" class="form-horizontal" action="/signup/add2U" method="post">
+  <form role="form" enctype="multipart/form-data" class="form-horizontal" action="/signup/addUser2" method="post">
     <div class="form-group"><h3>Укажите персональные данные</h3></div>
     <div class="form-group"><input type="text" class="form-control" name="name" placeholder="Имя"></div>
     <div class="form-group"><input type="text" class="form-control" name="lastName" placeholder="Фамилия"></div>

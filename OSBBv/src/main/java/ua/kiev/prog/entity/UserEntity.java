@@ -17,8 +17,11 @@ public class UserEntity {
     private Short type;
 
 
-  @ManyToOne(targetEntity = BuildsEntity.class)
-  @JoinColumn(name = "build_id")
+    @OneToOne(mappedBy = "userEntity")
+    public UserInfoEntity userInfo;
+
+    @ManyToOne(targetEntity = BuildsEntity.class)
+    @JoinColumn(name = "build_id")
     private BuildsEntity buildsEntity;
 
     public UserEntity() {

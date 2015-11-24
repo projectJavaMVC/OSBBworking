@@ -2,6 +2,7 @@ package ua.kiev.prog.DAO;
 
 import org.springframework.stereotype.Repository;
 import ua.kiev.prog.entity.BuildsEntity;
+
 import javax.persistence.Query;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
@@ -16,13 +17,13 @@ public class BuildDAOImpl implements BuildDAO {
 
     @Override
     public BuildsEntity getIDByKey(String key) {
-        Query query=null;
+        Query query = null;
 
         if (key != null) {
             query = entityManager.createQuery("SELECT c FROM BuildsEntity c where c.code = :key ", BuildsEntity.class);
             query.setParameter("key", key);
-    }
-    return (BuildsEntity) query.getSingleResult();
+        }
+        return (BuildsEntity) query.getSingleResult();
     }
 
     @Override
@@ -35,5 +36,4 @@ public class BuildDAOImpl implements BuildDAO {
         entityManager.persist(build);
         entityManager.refresh(build);
     }
-
-    }
+}

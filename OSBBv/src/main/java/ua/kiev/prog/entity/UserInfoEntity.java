@@ -12,7 +12,21 @@ public class UserInfoEntity {
     private String lastName;
     private String firstName;
     private String secondName;
-    private Long phone;
+    private String phone;
+    private String flatNumber;
+    private UserEntity userEntity;
+
+
+    @OneToOne
+    @JoinColumn(name="User_id", unique = true, nullable = false, updatable = true)
+    public UserEntity getUserEntity() {
+        return userEntity;
+    }
+
+    public void setUserEntity(UserEntity userEntity) {
+        this.userEntity = userEntity;
+    }
+
 
     @Id
     @Column(name = "ID", nullable = false, insertable = true, updatable = true)
@@ -57,12 +71,22 @@ public class UserInfoEntity {
 
     @Basic
     @Column(name = "phone", nullable = true, insertable = true, updatable = true)
-    public Long getPhone() {
+    public String getPhone() {
         return phone;
     }
 
-    public void setPhone(Long phone) {
+    public void setPhone(String phone) {
         this.phone = phone;
+    }
+
+    @Basic
+    @Column(name = "flatNumber", nullable = true, insertable = true, updatable = true)
+    public String getFlatNumber() {
+        return flatNumber;
+    }
+
+    public void setFlatNumber(String flatNumber) {
+        this.flatNumber = flatNumber;
     }
 
     @Override
@@ -84,11 +108,16 @@ public class UserInfoEntity {
     public UserInfoEntity() {
     }
 
-    public UserInfoEntity(String lastName, Long phone, String secondName, String firstName) {
+
+
+    public UserInfoEntity(String firstName, String lastName,String secondName, String phone, String flatNum, UserEntity user) {
         this.lastName = lastName;
         this.phone = phone;
         this.secondName = secondName;
         this.firstName = firstName;
+        this.flatNumber = flatNum;
+
+        this.userEntity = user;
     }
 
     @Override
