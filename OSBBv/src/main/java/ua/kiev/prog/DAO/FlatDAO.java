@@ -14,4 +14,5 @@ public interface FlatDAO {
     void addFlat(FlatsEntity flat);
     List<FlatsEntity> listFlat(BuildsEntity buildsEntity);
     FlatsEntity getFlatByID (long id);
+    FlatsEntity mergeFlat(FlatsEntity flat);
 }

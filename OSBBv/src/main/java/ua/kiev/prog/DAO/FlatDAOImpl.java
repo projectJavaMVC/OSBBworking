@@ -31,6 +31,11 @@ public class FlatDAOImpl implements FlatDAO {
     }
 
     @Override
+    public FlatsEntity mergeFlat(FlatsEntity flat) {
+       return entityManager.merge(flat);
+    }
+
+    @Override
     public List<FlatsEntity> listFlat(BuildsEntity buildsEntity) {
         Query query;
         query = entityManager.createQuery("SELECT f from FlatsEntity f where buildsEntity=:build",FlatsEntity.class);
