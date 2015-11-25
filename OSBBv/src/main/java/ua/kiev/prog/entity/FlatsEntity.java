@@ -16,9 +16,12 @@ public class FlatsEntity {
     private Integer peopleCnt;
     private BigDecimal area;
 
-    @ManyToOne
+    @ManyToOne(targetEntity = BuildsEntity.class)
     @JoinColumn(name = "build_id")
     private BuildsEntity buildsEntity;
+
+    @OneToOne (mappedBy = "flatsEntity",targetEntity = UserInfoEntity.class)
+    private UserInfoEntity userInfoEntity;
 
     public FlatsEntity() {
     }

@@ -31,6 +31,7 @@ public class MyController {
         return "signIN";
     }
 
+
     @RequestMapping("/signup")
     public String signup(Model model) {
         return "signup";
@@ -80,8 +81,8 @@ public class MyController {
                 services.addFlat(flat);
             }
         }
-        model.addAttribute("users", services.list(null));
-        return "userlist";
+       // model.addAttribute("users", services.list(null));
+        return "signupadmin3";
     }
 
     @RequestMapping("/signup/addUser2")
@@ -99,8 +100,8 @@ public class MyController {
         if ((flatNum == null) || (flatNum.isEmpty()))
             return "403_Error";
 
-        userIE = new UserInfoEntity(name, lastName, secondName, phone, flatNum, user);
-        services.addUserInfo(userIE);
+        //userIE = new UserInfoEntity(name, lastName, secondName, phone, flatNum, user);
+        //services.addUserInfo(userIE);
         return "success";
     }
 }
