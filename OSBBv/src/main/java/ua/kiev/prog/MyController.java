@@ -1,5 +1,6 @@
 package ua.kiev.prog;
 
+import com.sun.javafx.sg.prism.NGShape;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -7,13 +8,12 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.SessionAttributes;
-import ua.kiev.prog.entity.BuildsEntity;
-import ua.kiev.prog.entity.FlatsEntity;
-import ua.kiev.prog.entity.UserEntity;
-import ua.kiev.prog.entity.UserInfoEntity;
+import ua.kiev.prog.entity.*;
 import ua.kiev.prog.services.Services;
 
 import java.math.BigDecimal;
+import java.util.ArrayList;
+import java.util.List;
 
 @Controller
 @RequestMapping("/")
@@ -30,12 +30,12 @@ public class MyController {
     /////--------------------Всеволод
     @RequestMapping("/")
     public String index(Model model) {
-        return "signIN";
+        return "hello/signIN";
     }
 
     @RequestMapping("/signup")
     public String signup(Model model) {
-        return "signup";
+        return "regist/signup";
     }
 
 
@@ -47,7 +47,7 @@ public class MyController {
         String[] list = {login, pass, email};
         for (String s : list) {
             if((s == null)||(s.isEmpty()))
-                return "403_Error";
+                return "errors/403_Error";
         }
 
         UserEntity user = null;
@@ -64,7 +64,7 @@ public class MyController {
         }
 
         services.addUser(user);
-        return group == USER_TYPE ? "signup2User" : "signup2Admin";
+        return group == USER_TYPE ? "regist/user/signup2User" : "regist/admin/signup2Admin";
     }
 
 
@@ -81,8 +81,9 @@ public class MyController {
                 services.addFlat(flat);
             }
         }
-        model.addAttribute("users", services.list(null));
-        return "userlist";
+
+        model.addAttribute("users", services.listUsers(null));
+        return "main/userslist";
     }
 
     @RequestMapping("/signup/addUser2")
@@ -93,20 +94,20 @@ public class MyController {
         String[] list = {name, lastName, secondName, phone};
         for (String s : list) {
             if((s == null)||(s.isEmpty()))
-                return "403_Error";
+                return "errors/403_Error";
         }
         if(flat == null)
-            return "403_Error";
+            return "errors/403_Error";
 
         userIE = new UserInfoEntity(name, lastName, secondName, phone,user, flat);
         model.addAttribute("userIE", userIE);
         services.addUserInfo(userIE);
-        return "success";
+        return "regist/user/success";
     }
 
     @RequestMapping("/signup/gotoFlat")
     public String addFlat(Model model) {
-        return "signup2Flat";
+        return "regist/user/signup2Flat";
     }
 
 
@@ -114,12 +115,32 @@ public class MyController {
     public String addFlat(@RequestParam int peopleCount, @RequestParam BigDecimal area, @ModelAttribute("user") UserEntity user,
                           @ModelAttribute("userIE") UserInfoEntity userIE, Model model) {
         if(peopleCount == 0)
-            return "403_Error";
+            return "errors/403_Error";
         FlatsEntity flat = userIE.getFlatsEntity();
         flat.setBuildsEntity(user.getBuildsEntity());
         flat.setPeopleCnt(peopleCount);
         flat.setArea(area);
         services.mergeFlat(flat);
-        return "endOfRegUser";
+        return "regist/endOfRegUser";
+    }
+
+
+    //войти
+    @RequestMapping ("/signin")
+    public String signin (@RequestParam String login,@RequestParam String pass,Model model)
+    {
+        UserEntity user = services.getUserByLogin(login);
+        if (user.getPass().equals(pass)){
+            model.addAttribute("user",user);
+            List<UserEntity> listUsers = services.listUsers(user.getBuildsEntity());
+            List<User> listUser = new ArrayList<>();
+             for(UserEntity u : listUsers){
+                User us = new User(u);
+                listUser.add(us);
+            }
+            model.addAttribute("users",listUser);
+            return "main/userslist";
+        }
+        else return "hello/signIN";
     }
 }

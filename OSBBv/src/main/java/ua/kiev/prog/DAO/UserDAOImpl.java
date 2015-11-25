@@ -18,11 +18,14 @@ public class UserDAOImpl implements UserDAO {
     private EntityManager entityManager;
 
     @Override
-    public List<UserEntity> list(BuildsEntity build) {
-        Query query = null;
-        if (build == null) {
-            query = entityManager.createQuery("SELECT u from UserEntity u", UserEntity.class);
-        }
+    public UserEntity getUserByLogin(String login) {
+        return entityManager.createQuery("SELECT u from UserEntity u where login=:login",UserEntity.class).setParameter("login",login).getSingleResult();
+    }
+
+    @Override
+    public List<UserEntity> listUsers(BuildsEntity build) {
+        Query query = entityManager.createQuery("SELECT u from UserEntity u where type = 0 and u.buildsEntity=:build", UserEntity.class).setParameter("build",build);
+
         return (List<UserEntity>) query.getResultList();
     }
 

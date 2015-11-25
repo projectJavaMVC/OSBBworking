@@ -14,6 +14,7 @@ public class UserInfoEntity {
     private String lastName;
     private String firstName;
     private String secondName;
+    @Column( unique = true)
     private String phone;
 
     @OneToOne(targetEntity = UserEntity.class)

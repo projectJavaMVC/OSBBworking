@@ -12,29 +12,24 @@
 <table class="table table-striped">
   <thead>
   <tr>
-    <td></td>
-    <td><b>Name</b></td>
-    <td><b>Surname</b></td>
-    <td><b>Phone</b></td>
-    <td><b>E-mail</b></td>
-    <td><b>Group</b></td>
-  </tr>
+    <td><b>Номер квартиры</b></td>
+    <td><b>Имя</b></td>
+    <td><b>Фамилия</b></td>
+    <td><b>Тел.</b></td>
+    <td><b>Емейл</b></td>
+    <td><b>Площадь</b></td>
+    <td><b>Проживает</b></td>
+   </tr>
   </thead>
-  <c:forEach items="${users}" var="users">
+  <c:forEach items="${users}" var="user">
     <tr>
-      <td><input type="checkbox" name="toDelete[]" value="${users.id}" id="checkbox_${users.id}"/></td>
-      <td>${users.name}</td>
-      <td>${users.surname}</td>
-      <td>${users.phone}</td>
-      <td>${users.email}</td>
-      <c:choose>
-        <c:when test="${users.group ne null}">
-          <td>${users.group.name}</td>
-        </c:when>
-        <c:otherwise>
-          <td>Default</td>
-        </c:otherwise>
-      </c:choose>
+      <td>${user.flatNum}</td>
+      <td>${user.name}</td>
+      <td>${user.surename}</td>
+      <td>${user.phone}</td>
+      <td>${user.email}</td>
+      <td>${user.area}</td>
+      <td>${user.peopleCNT}</td>
     </tr>
   </c:forEach>
 </table>

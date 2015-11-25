@@ -36,6 +36,11 @@ public class Services {
     }
 
     @Transactional
+    public UserEntity getUserByLogin(String login){
+        return userDAO.getUserByLogin(login);
+    }
+
+    @Transactional
     public BuildsEntity getBuildByKey(String key){
         return buildDAO.getIDByKey(key);
     }
@@ -52,8 +57,8 @@ public class Services {
     }
 
     @Transactional
-    public List<UserEntity> list (BuildsEntity build){
-        return userDAO.list(build);
+    public List<UserEntity> listUsers (BuildsEntity build){
+        return userDAO.listUsers(build);
     }
     @Transactional
     public void mergeBuild (BuildsEntity build) {buildDAO.mergeBuild(build);}
