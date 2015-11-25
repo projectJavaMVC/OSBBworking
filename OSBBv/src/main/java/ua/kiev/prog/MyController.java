@@ -37,12 +37,11 @@ public class MyController {
                           @RequestParam Short group, @RequestParam String key, Model model) {
         BuildsEntity build;
 
-        if ((login == null) || (login.isEmpty()))
-            return "403_Error";
-        if ((pass == null) || (pass.isEmpty()))
-            return "403_Error";
-        if ((email == null) || (email.isEmpty()))
-            return "403_Error";
+        String[] list = {login, pass, email};
+        for (String s : list) {
+            if((s == null)||(s.isEmpty()))
+                return "403_Error";
+        }
 
         UserEntity user = new UserEntity();
         if (group == USER_TYPE) {
@@ -83,16 +82,12 @@ public class MyController {
     public String addUserInfo(@RequestParam String name, @RequestParam String lastName, @RequestParam String secondName,
                               @RequestParam String phone, @RequestParam String flatNum, @ModelAttribute("user") UserEntity user, Model model) {
         UserInfoEntity userIE;
-        if ((name == null) || (name.isEmpty()))
-            return "403_Error";
-        if ((phone == null) || (phone.isEmpty()))
-            return "403_Error";
-        if ((secondName == null) || (secondName.isEmpty()))
-            return "403_Error";
-        if ((lastName == null) || (lastName.isEmpty()))
-            return "403_Error";
-        if ((flatNum == null) || (flatNum.isEmpty()))
-            return "403_Error";
+
+        String[] list = {name, lastName, secondName, phone, flatNum};
+        for (String s : list) {
+            if((s == null)||(s.isEmpty()))
+                return "403_Error";
+        }
 
         userIE = new UserInfoEntity(name, lastName, secondName, phone, flatNum, user);
         services.addUserInfo(userIE);

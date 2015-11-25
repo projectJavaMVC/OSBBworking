@@ -19,28 +19,20 @@ public class BuildsEntity {
     private String street;
     private String buildNum;
 
-    public List<FlatsEntity> getFlats() {
-        return flats;
-    }
-
-    public void setFlats(List<FlatsEntity> flats) {
-        this.flats = flats;
-    }
-
-    @OneToMany(mappedBy = "buildsEntity" , targetEntity = FlatsEntity.class)
+    @OneToMany(mappedBy = "buildsEntity", targetEntity = FlatsEntity.class)
     private List<FlatsEntity> flats = new ArrayList<FlatsEntity>();
 
 
-   @OneToMany(mappedBy = "buildsEntity", cascade=CascadeType.ALL, targetEntity = UserEntity.class)
-   private List<UserEntity> users = new ArrayList<UserEntity>();
+    @OneToMany(mappedBy = "buildsEntity", cascade = CascadeType.ALL, targetEntity = UserEntity.class)
+    private List<UserEntity> users = new ArrayList<UserEntity>();
 
     public BuildsEntity(String code, Short flatCnt, String city, String street, String buildNum) {
 
         String symbols = "qwertyuiopasdfghjklzxcvbnm1234657890ZXCVBNASDFGHQWERTY";
         StringBuilder randString = new StringBuilder();
         int count = 10;
-        for(int i=0;i<count;i++)
-            randString.append(symbols.charAt((int)(Math.random()*symbols.length())));
+        for (int i = 0; i < count; i++)
+            randString.append(symbols.charAt((int) (Math.random() * symbols.length())));
         this.code = randString.toString();
         this.flatCnt = flatCnt;
         this.city = city;
@@ -52,12 +44,20 @@ public class BuildsEntity {
         String symbols = "qwertyuiopasdfghjklzxcvbnm1234657890ZXCVBNASDFGHQWERTY";
         StringBuilder randString = new StringBuilder();
         int count = 10;
-        for(int i=0;i<count;i++)
-            randString.append(symbols.charAt((int)(Math.random()*symbols.length())));
+        for (int i = 0; i < count; i++)
+            randString.append(symbols.charAt((int) (Math.random() * symbols.length())));
         this.code = randString.toString();
     }
 
     public BuildsEntity() {
+    }
+
+    public List<FlatsEntity> getFlats() {
+        return flats;
+    }
+
+    public void setFlats(List<FlatsEntity> flats) {
+        this.flats = flats;
     }
 
     public long getId() {
