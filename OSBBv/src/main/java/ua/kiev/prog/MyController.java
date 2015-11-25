@@ -50,7 +50,7 @@ public class MyController {
                 return "403_Error";
         }
 
-        UserEntity user = new UserEntity();
+        UserEntity user = null;
         if (group == USER_TYPE) {
             build = services.getBuildByKey(key);
             user = new UserEntity(login, pass, email, group, build);
@@ -104,6 +104,12 @@ public class MyController {
         return "success";
     }
 
+    @RequestMapping("/signup/gotoFlat")
+    public String addFlat(Model model) {
+        return "signup2Flat";
+    }
+
+
     @RequestMapping("/signup/addFlat")
     public String addFlat(@RequestParam int peopleCount, @RequestParam BigDecimal area, @ModelAttribute("user") UserEntity user,
                           @ModelAttribute("userIE") UserInfoEntity userIE, Model model) {
@@ -113,7 +119,7 @@ public class MyController {
         flat.setBuildsEntity(user.getBuildsEntity());
         flat.setPeopleCnt(peopleCount);
         flat.setArea(area);
-        services.addFlat(flat);
+        services.mergeFlat(flat);
         return "endOfRegUser";
     }
 }

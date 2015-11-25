@@ -69,4 +69,9 @@ public class Services {
     public FlatsEntity getFlatById(long id){
         return flatDAO.getFlatByID(id);
     }
+    @Transactional
+    public FlatsEntity mergeFlat(FlatsEntity flatsEntity){
+        return flatDAO.mergeFlat(flatsEntity);
+
+    }
 }
