@@ -32,11 +32,7 @@ public class MyController {
     public String index(Model model) {
         return "signIN";
     }
-
-<<<<<<< HEAD
-
-=======
->>>>>>> refs/remotes/origin/DevGod
+ 
     @RequestMapping("/signup")
     public String signup(Model model) {
         return "signup";
@@ -102,14 +98,13 @@ public class MyController {
         if(flat == null)
             return "403_Error";
 
-<<<<<<< HEAD
+
         //userIE = new UserInfoEntity(name, lastName, secondName, phone, flatNum, user);
         //services.addUserInfo(userIE);
-=======
+
         userIE = new UserInfoEntity(name, lastName, secondName, phone,user, flat);
         model.addAttribute("userIE", userIE);
         services.addUserInfo(userIE);
->>>>>>> refs/remotes/origin/DevGod
         return "success";
     }
 
