@@ -1,8 +1,8 @@
 <%--
   Created by IntelliJ IDEA.
   User: Пользователь
-  Date: 24.11.2015
-  Time: 19:49
+  Date: 25.11.2015
+  Time: 14:10
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
@@ -15,10 +15,12 @@
 </head>
 <body>
 <div class="container">
-<form role="form" enctype="multipart/form-data" class="form-horizontal" action="/signup/gotoFlat" method="post">
-  <h3>Поздравляем! Регистрация прошла успешно! Нажмите кнопку чтобы заполнить информацию о квартире.</h3>
-  <div class="form-group"><input type="submit" class="btn btn-primary" value="Регистрация квартиры"></div>
-</form>
+  <form role="form" enctype="multipart/form-data" class="form-horizontal" action="/signup/addFlat" method="post">
+    <h3>Введите данные</h3>
+    <div class="form-group"><input type="text" class="form-control" name="peopleCount" placeholder="Площадь"></div>
+    <div class="form-group"><input type="text" class="form-control" name="area" placeholder="Количество жильцов"></div>
+    <div class="form-group"><input type="submit" class="btn btn-primary" value="Готово!"></div>
+  </form>
 </div>
 </body>
 </html>

@@ -13,9 +13,11 @@ import ua.kiev.prog.entity.UserEntity;
 import ua.kiev.prog.entity.UserInfoEntity;
 import ua.kiev.prog.services.Services;
 
+import java.math.BigDecimal;
+
 @Controller
 @RequestMapping("/")
-@SessionAttributes(names = {"build", "user"}, types = {BuildsEntity.class, UserEntity.class})
+@SessionAttributes(names = {"build", "user", "userIE"}, types = {BuildsEntity.class, UserEntity.class, UserInfoEntity.class})
 public class MyController {
 
     static final int USER_TYPE = 0;
@@ -31,7 +33,10 @@ public class MyController {
         return "signIN";
     }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> refs/remotes/origin/DevGod
     @RequestMapping("/signup")
     public String signup(Model model) {
         return "signup";
@@ -43,14 +48,13 @@ public class MyController {
                           @RequestParam Short group, @RequestParam String key, Model model) {
         BuildsEntity build;
 
-        if ((login == null) || (login.isEmpty()))
-            return "403_Error";
-        if ((pass == null) || (pass.isEmpty()))
-            return "403_Error";
-        if ((email == null) || (email.isEmpty()))
-            return "403_Error";
+        String[] list = {login, pass, email};
+        for (String s : list) {
+            if((s == null)||(s.isEmpty()))
+                return "403_Error";
+        }
 
-        UserEntity user = new UserEntity();
+        UserEntity user = null;
         if (group == USER_TYPE) {
             build = services.getBuildByKey(key);
             user = new UserEntity(login, pass, email, group, build);
@@ -87,21 +91,44 @@ public class MyController {
 
     @RequestMapping("/signup/addUser2")
     public String addUserInfo(@RequestParam String name, @RequestParam String lastName, @RequestParam String secondName,
-                              @RequestParam String phone, @RequestParam String flatNum, @ModelAttribute("user") UserEntity user, Model model) {
+                              @RequestParam String phone, @RequestParam long flatNum, @ModelAttribute("user") UserEntity user, Model model) {
         UserInfoEntity userIE;
-        if ((name == null) || (name.isEmpty()))
-            return "403_Error";
-        if ((phone == null) || (phone.isEmpty()))
-            return "403_Error";
-        if ((secondName == null) || (secondName.isEmpty()))
-            return "403_Error";
-        if ((lastName == null) || (lastName.isEmpty()))
-            return "403_Error";
-        if ((flatNum == null) || (flatNum.isEmpty()))
+        FlatsEntity  flat = services.getFlatById(flatNum);
+        String[] list = {name, lastName, secondName, phone};
+        for (String s : list) {
+            if((s == null)||(s.isEmpty()))
+                return "403_Error";
+        }
+        if(flat == null)
             return "403_Error";
 
+<<<<<<< HEAD
         //userIE = new UserInfoEntity(name, lastName, secondName, phone, flatNum, user);
         //services.addUserInfo(userIE);
+=======
+        userIE = new UserInfoEntity(name, lastName, secondName, phone,user, flat);
+        model.addAttribute("userIE", userIE);
+        services.addUserInfo(userIE);
+>>>>>>> refs/remotes/origin/DevGod
         return "success";
+    }
+
+    @RequestMapping("/signup/gotoFlat")
+    public String addFlat(Model model) {
+        return "signup2Flat";
+    }
+
+
+    @RequestMapping("/signup/addFlat")
+    public String addFlat(@RequestParam int peopleCount, @RequestParam BigDecimal area, @ModelAttribute("user") UserEntity user,
+                          @ModelAttribute("userIE") UserInfoEntity userIE, Model model) {
+        if(peopleCount == 0)
+            return "403_Error";
+        FlatsEntity flat = userIE.getFlatsEntity();
+        flat.setBuildsEntity(user.getBuildsEntity());
+        flat.setPeopleCnt(peopleCount);
+        flat.setArea(area);
+        services.mergeFlat(flat);
+        return "endOfRegUser";
     }
 }
