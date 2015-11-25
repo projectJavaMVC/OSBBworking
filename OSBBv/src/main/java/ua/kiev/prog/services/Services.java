@@ -2,11 +2,14 @@ package ua.kiev.prog.services;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import ua.kiev.prog.DAO.BuildDAO;
+import ua.kiev.prog.DAO.FlatDAO;
+import ua.kiev.prog.DAO.UserDAO;
+import ua.kiev.prog.DAO.UserInfoDAO;
 import ua.kiev.prog.entity.BuildsEntity;
 import ua.kiev.prog.entity.FlatsEntity;
 import ua.kiev.prog.entity.UserEntity;
 import ua.kiev.prog.entity.UserInfoEntity;
-
 
 import javax.transaction.Transactional;
 import java.util.List;
@@ -18,13 +21,57 @@ import java.util.List;
 public class Services {
 
     @Autowired
-    private UserEntityRepository userEntityRepository;
-
+    private BuildDAO buildDAO;
+    @Autowired
+    private UserDAO userDAO;
+    @Autowired
+    private UserInfoDAO userInfoDAO;
+    @Autowired
+    private FlatDAO flatDAO;
 
     @Transactional
-    public UserEntity savefl(UserEntity userEntity){
-       return userEntityRepository.saveAndFlush(userEntity);
+    public void addBuild (BuildsEntity build){
+        buildDAO.addBuild(build);
+
+    }
+
+    @Transactional
+    public BuildsEntity getBuildByKey(String key){
+        return buildDAO.getIDByKey(key);
     }
 
 
+    @Transactional
+    public void addUser (UserEntity user){
+        userDAO.add(user);
+    }
+
+    @Transactional
+    public void addUserInfo (UserInfoEntity userIE){
+        userInfoDAO.add(userIE);
+    }
+
+    @Transactional
+    public List<UserEntity> list (BuildsEntity build){
+        return userDAO.list(build);
+    }
+    @Transactional
+    public void mergeBuild (BuildsEntity build) {buildDAO.mergeBuild(build);}
+    @Transactional
+    public void addFlat(FlatsEntity flat){
+       flatDAO.addFlat(flat);
+    }
+    @Transactional
+    public List<FlatsEntity> listFlat(BuildsEntity buildsEntity){
+        return (List<FlatsEntity>) flatDAO.listFlat(buildsEntity);
+    }
+    @Transactional
+    public FlatsEntity getFlatById(long id){
+        return flatDAO.getFlatByID(id);
+    }
+    @Transactional
+    public FlatsEntity mergeFlat(FlatsEntity flatsEntity){
+        return flatDAO.mergeFlat(flatsEntity);
+
+    }
 }
