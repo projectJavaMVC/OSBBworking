@@ -65,4 +65,8 @@ public class Services {
     public List<FlatsEntity> listFlat(BuildsEntity buildsEntity){
         return (List<FlatsEntity>) flatDAO.listFlat(buildsEntity);
     }
+    @Transactional
+    public FlatsEntity getFlatById(long id){
+        return flatDAO.getFlatByID(id);
+    }
 }

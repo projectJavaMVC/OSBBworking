@@ -4,9 +4,9 @@ import org.springframework.stereotype.Repository;
 import ua.kiev.prog.entity.BuildsEntity;
 import ua.kiev.prog.entity.FlatsEntity;
 
-import javax.persistence.Query;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
+import javax.persistence.Query;
 import java.util.List;
 
 /**
@@ -16,6 +16,15 @@ import java.util.List;
 public class FlatDAOImpl implements FlatDAO {
     @PersistenceContext
     private EntityManager entityManager;
+
+    @Override
+    public FlatsEntity getFlatByID(long ID) {
+        Query query;
+        query = entityManager.createQuery("SELECT f from FlatsEntity f where ID=:id",FlatsEntity.class);
+        query.setParameter("id",ID);
+        return (FlatsEntity) query.getSingleResult();
+    }
+
     @Override
     public void addFlat(FlatsEntity flat) {
         entityManager.persist(flat);

@@ -15,7 +15,7 @@
 </head>
 <body>
 <div class="container">
-  <form role="form" enctype="multipart/form-data" class="form-horizontal" action="/addFlat" method="post">
+  <form role="form" enctype="multipart/form-data" class="form-horizontal" action="/signup/addFlat" method="post">
     <h3>Введите данные</h3>
     <div class="form-group"><input type="text" class="form-control" name="peopleCount" placeholder="Площадь"></div>
     <div class="form-group"><input type="text" class="form-control" name="area" placeholder="Количество жильцов"></div>

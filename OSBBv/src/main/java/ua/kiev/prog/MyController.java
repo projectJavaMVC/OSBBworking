@@ -13,6 +13,8 @@ import ua.kiev.prog.entity.UserEntity;
 import ua.kiev.prog.entity.UserInfoEntity;
 import ua.kiev.prog.services.Services;
 
+import java.math.BigDecimal;
+
 @Controller
 @RequestMapping("/")
 @SessionAttributes(names = {"build", "user", "userIE"}, types = {BuildsEntity.class, UserEntity.class, UserInfoEntity.class})
@@ -85,30 +87,33 @@ public class MyController {
 
     @RequestMapping("/signup/addUser2")
     public String addUserInfo(@RequestParam String name, @RequestParam String lastName, @RequestParam String secondName,
-                              @RequestParam String phone, @RequestParam String flatNum, @ModelAttribute("user") UserEntity user, Model model) {
+                              @RequestParam String phone, @RequestParam long flatNum, @ModelAttribute("user") UserEntity user, Model model) {
         UserInfoEntity userIE;
-
-        String[] list = {name, lastName, secondName, phone, flatNum};
+        FlatsEntity  flat = services.getFlatById(flatNum);
+        String[] list = {name, lastName, secondName, phone};
         for (String s : list) {
             if((s == null)||(s.isEmpty()))
                 return "403_Error";
         }
-        userIE = new UserInfoEntity(name, lastName, secondName, phone, flatNum, user);
+        if(flat == null)
+            return "403_Error";
+
+        userIE = new UserInfoEntity(name, lastName, secondName, phone,user, flat);
         model.addAttribute("userIE", userIE);
         services.addUserInfo(userIE);
         return "success";
     }
 
-    /*@RequestMapping("/signup/addFlat")
-    public String addFlat(@RequestParam int peopleCount, @RequestParam BigDecimal area,
-                          @ModelAttribute("build") BuildsEntity build,@ModelAttribute("userIE") UserInfoEntity userIE, Model model) {
-       FlatsEntity flat;
-        if(peopleCount == 0)                                                                        //TODO
+    @RequestMapping("/signup/addFlat")
+    public String addFlat(@RequestParam int peopleCount, @RequestParam BigDecimal area, @ModelAttribute("user") UserEntity user,
+                          @ModelAttribute("userIE") UserInfoEntity userIE, Model model) {
+        if(peopleCount == 0)
             return "403_Error";
-        flat = new FlatsEntity(userIE.getFlatNumber() ,peopleCount, area, build);
+        FlatsEntity flat = userIE.getFlatsEntity();
+        flat.setBuildsEntity(user.getBuildsEntity());
+        flat.setPeopleCnt(peopleCount);
+        flat.setArea(area);
         services.addFlat(flat);
-        return "success";
-    }*/
-
-
+        return "endOfRegUser";
+    }
 }

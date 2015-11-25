@@ -13,4 +13,5 @@ import java.util.List;
 public interface FlatDAO {
     void addFlat(FlatsEntity flat);
     List<FlatsEntity> listFlat(BuildsEntity buildsEntity);
+    FlatsEntity getFlatByID (long id);
 }

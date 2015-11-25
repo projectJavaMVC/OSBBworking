@@ -8,7 +8,7 @@ import java.math.BigDecimal;
  */
 @Entity
 @Table(name = "flats", schema = "", catalog = "prog")
-public class FlatsEntity {
+    public class FlatsEntity {
     @Id
     @GeneratedValue
     private long id;
@@ -16,15 +16,18 @@ public class FlatsEntity {
     private Integer peopleCnt;
     private BigDecimal area;
 
-    @ManyToOne
+    @ManyToOne(targetEntity = BuildsEntity.class)
     @JoinColumn(name = "build_id")
     private BuildsEntity buildsEntity;
+
+    @OneToOne (mappedBy = "flatsEntity",targetEntity = UserInfoEntity.class)
+    private UserInfoEntity userInfoEntity;
 
     public FlatsEntity() {
     }
 
-    public FlatsEntity(/*long id, */Integer flatNumber, Integer peopleCnt, BigDecimal area, BuildsEntity buildsEntity) {
-       /* this.id = id;*/
+    public FlatsEntity(long id, Integer flatNumber, Integer peopleCnt, BigDecimal area, BuildsEntity buildsEntity) {
+        this.id = id;
         this.flatNumber = flatNumber;
         this.peopleCnt = peopleCnt;
         this.area = area;
