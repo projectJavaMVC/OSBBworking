@@ -13,7 +13,7 @@
     <div class="form-group"><h3>Регистрация</h3></div>
     <div class="form-group"><input type="text" class="form-control" name="login" placeholder="Login"></div>
     <div class="form-group"><input type="password" class="form-control" name="pass" placeholder="Password"></div>
-    <div class="form-group"><input type="email" class="form-control" name="email" placeholder="@Email"></div>
+    <div class="form-group"><input type="text" class="form-control" name="email" placeholder="@Email"></div>
 
     <div class="form-group"><h4>Тип учетной записи:</h4>
     <select class="selectpicker form-control form-group" name="group">

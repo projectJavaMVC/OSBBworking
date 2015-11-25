@@ -1,6 +1,7 @@
 package ua.kiev.prog;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.ModelAttribute;
@@ -17,7 +18,8 @@ import java.math.BigDecimal;
 
 @Controller
 @RequestMapping("/")
-@SessionAttributes(names = {"build", "user", "userIE"}, types = {BuildsEntity.class, UserEntity.class, UserInfoEntity.class})
+@SessionAttributes( types = {BuildsEntity.class, UserEntity.class, UserInfoEntity.class})
+@PreAuthorize("hasRole('ADMIN')")
 public class MyController {
 
     static final int USER_TYPE = 0;
@@ -32,7 +34,7 @@ public class MyController {
     public String index(Model model) {
         return "signIN";
     }
- 
+
     @RequestMapping("/signup")
     public String signup(Model model) {
         return "signup";
@@ -42,7 +44,7 @@ public class MyController {
     @RequestMapping("/signup/add")
     public String addUser(@RequestParam String login, @RequestParam String pass, @RequestParam String email,
                           @RequestParam Short group, @RequestParam String key, Model model) {
-        BuildsEntity build;
+      /*  BuildsEntity build;
 
         String[] list = {login, pass, email};
         for (String s : list) {
@@ -61,9 +63,9 @@ public class MyController {
             services.addBuild(build);
             user = new UserEntity(login, pass, email, group, build);
             model.addAttribute("build", build);
-        }
+        }*/
 
-        services.addUser(user);
+      //  services.addUser(user);
         return group == USER_TYPE ? "signup2User" : "signup2Admin";
     }
 
@@ -72,39 +74,34 @@ public class MyController {
     public String addBuild(@RequestParam Short flatCnt, @RequestParam String city, @RequestParam String street,
                            @RequestParam String buildNum, @ModelAttribute("build") BuildsEntity build, Model model) {
         build.setBuildNum(buildNum);
-        services.mergeBuild(build);
+       // services.mergeBuild(build);
         if ( build.getId()!=0 ){
             for (int i = 1; i <= build.getFlatCnt(); i++) {
                FlatsEntity flat = new FlatsEntity() ;
                 flat.setFlatNumber(i);
                 flat.setBuildsEntity(build);
-                services.addFlat(flat);
+              //  services.addFlat(flat);
             }
         }
-       // model.addAttribute("users", services.list(null));
-        return "signupadmin3";
+     //   model.addAttribute("users", services.list(null));
+        return "userlist";
     }
 
     @RequestMapping("/signup/addUser2")
     public String addUserInfo(@RequestParam String name, @RequestParam String lastName, @RequestParam String secondName,
                               @RequestParam String phone, @RequestParam long flatNum, @ModelAttribute("user") UserEntity user, Model model) {
         UserInfoEntity userIE;
-        FlatsEntity  flat = services.getFlatById(flatNum);
+        //FlatsEntity  flat = services.getFlatById(flatNum);
         String[] list = {name, lastName, secondName, phone};
         for (String s : list) {
             if((s == null)||(s.isEmpty()))
                 return "403_Error";
         }
-        if(flat == null)
-            return "403_Error";
 
 
-        //userIE = new UserInfoEntity(name, lastName, secondName, phone, flatNum, user);
-        //services.addUserInfo(userIE);
-
-        userIE = new UserInfoEntity(name, lastName, secondName, phone,user, flat);
-        model.addAttribute("userIE", userIE);
-        services.addUserInfo(userIE);
+      //  userIE = new UserInfoEntity(name, lastName, secondName, phone,user, flat);
+      //  model.addAttribute("userIE", userIE);
+       // services.addUserInfo(userIE);
         return "success";
     }
 
@@ -123,7 +120,7 @@ public class MyController {
         flat.setBuildsEntity(user.getBuildsEntity());
         flat.setPeopleCnt(peopleCount);
         flat.setArea(area);
-        services.mergeFlat(flat);
+      //  services.mergeFlat(flat);
         return "endOfRegUser";
     }
 }

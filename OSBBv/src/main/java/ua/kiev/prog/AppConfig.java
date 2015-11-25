@@ -1,5 +1,6 @@
 package ua.kiev.prog;
 
+import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
@@ -12,6 +13,7 @@ import org.springframework.transaction.PlatformTransactionManager;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 import org.springframework.web.multipart.commons.CommonsMultipartResolver;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
+import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 import org.springframework.web.servlet.view.JstlView;
 import org.springframework.web.servlet.view.UrlBasedViewResolver;
 
@@ -22,7 +24,8 @@ import javax.sql.DataSource;
 @ComponentScan("ua.kiev.prog")
 @EnableTransactionManagement
 @EnableWebMvc
-public class AppConfig {
+
+public class AppConfig extends WebMvcConfigurerAdapter {
 
     @Bean
     public LocalContainerEntityManagerFactoryBean entityManagerFactory
@@ -77,4 +80,6 @@ public class AppConfig {
     public CommonsMultipartResolver multipartResolver() {
         return new CommonsMultipartResolver();
     }
+
+
 }
