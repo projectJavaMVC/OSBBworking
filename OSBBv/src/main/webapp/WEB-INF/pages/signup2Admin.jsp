@@ -13,7 +13,7 @@
   <form role="form" enctype="multipart/form-data" class="form-horizontal" action="/signup/addAdmin2" method="post">
 
     <div class="form-group"><h3>Регистрация</h3></div>
-
+    <hidden > dfsfsd</hidden>
     <div class="form-group"><input type="text" class="form-control" name="flatCnt" placeholder="Количество квартир"></div>
     <div class="form-group"><input type="text" class="form-control" name="city" placeholder="Город"></div>
     <div class="form-group"><input type="text" class="form-control" name="street" placeholder="Улица"></div>
