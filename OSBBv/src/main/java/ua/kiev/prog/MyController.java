@@ -28,7 +28,7 @@ public class MyController {
     /////--------------------Всеволод
     @RequestMapping("/")
     public String index(Model model) {
-        return "signup";
+        return "signIN";
     }
 
 
