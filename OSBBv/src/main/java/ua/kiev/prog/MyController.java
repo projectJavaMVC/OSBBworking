@@ -31,6 +31,11 @@ public class MyController {
         return "signIN";
     }
 
+    @RequestMapping("/signup")
+    public String signup(Model model) {
+        return "signup";
+    }
+
 
     @RequestMapping("/signup/add")
     public String addUser(@RequestParam String login, @RequestParam String pass, @RequestParam String email,
