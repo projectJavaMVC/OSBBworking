@@ -8,9 +8,17 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title></title>
+  <title>OSBB</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 </head>
 <body>
-SUCCESS MOTHERFOCKER!!!!
+<div class="container">
+<form role="form" enctype="multipart/form-data" class="form-horizontal" action="/signup2Flat" method="post">
+  <h3>Поздравляем! Регистрация прошла успешно! Нажмите кнопку чтобы заполнить информацию о квартире.</h3>
+  <div class="form-group"><input type="submit" class="btn btn-primary" value="Регистрация квартиры"></div>
+</form>
+</div>
 </body>
 </html>

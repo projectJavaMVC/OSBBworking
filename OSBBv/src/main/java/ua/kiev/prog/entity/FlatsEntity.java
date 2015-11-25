@@ -23,8 +23,8 @@ public class FlatsEntity {
     public FlatsEntity() {
     }
 
-    public FlatsEntity(long id, Integer flatNumber, Integer peopleCnt, BigDecimal area, BuildsEntity buildsEntity) {
-        this.id = id;
+    public FlatsEntity(/*long id, */Integer flatNumber, Integer peopleCnt, BigDecimal area, BuildsEntity buildsEntity) {
+       /* this.id = id;*/
         this.flatNumber = flatNumber;
         this.peopleCnt = peopleCnt;
         this.area = area;

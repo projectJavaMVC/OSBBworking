@@ -15,7 +15,7 @@ import ua.kiev.prog.services.Services;
 
 @Controller
 @RequestMapping("/")
-@SessionAttributes(names = {"build", "user"}, types = {BuildsEntity.class, UserEntity.class})
+@SessionAttributes(names = {"build", "user", "userIE"}, types = {BuildsEntity.class, UserEntity.class, UserInfoEntity.class})
 public class MyController {
 
     static final int USER_TYPE = 0;
@@ -28,6 +28,11 @@ public class MyController {
     /////--------------------Всеволод
     @RequestMapping("/")
     public String index(Model model) {
+        return "signIN";
+    }
+
+    @RequestMapping("/signup")
+    public String signup(Model model) {
         return "signup";
     }
 
@@ -88,9 +93,22 @@ public class MyController {
             if((s == null)||(s.isEmpty()))
                 return "403_Error";
         }
-
         userIE = new UserInfoEntity(name, lastName, secondName, phone, flatNum, user);
+        model.addAttribute("userIE", userIE);
         services.addUserInfo(userIE);
         return "success";
     }
+
+    /*@RequestMapping("/signup/addFlat")
+    public String addFlat(@RequestParam int peopleCount, @RequestParam BigDecimal area,
+                          @ModelAttribute("build") BuildsEntity build,@ModelAttribute("userIE") UserInfoEntity userIE, Model model) {
+       FlatsEntity flat;
+        if(peopleCount == 0)                                                                        //TODO
+            return "403_Error";
+        flat = new FlatsEntity(userIE.getFlatNumber() ,peopleCount, area, build);
+        services.addFlat(flat);
+        return "success";
+    }*/
+
+
 }

@@ -1,7 +1,182 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="78b783f5-a228-4430-bccc-cde53557e651" name="Default" comment="" />
+    <list default="true" id="78b783f5-a228-4430-bccc-cde53557e651" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/addFlat.jsp" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\.idea\.name" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\.idea\artifacts\OSBBv_war_exploded.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\.idea\compiler.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\.idea\copyright\profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\.idea\encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\.idea\libraries\Maven__antlr_antlr_2_7_7.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\.idea\libraries\Maven__aopalliance_aopalliance_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\.idea\libraries\Maven__commons_fileupload_commons_fileupload_1_3_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\.idea\libraries\Maven__commons_io_commons_io_2_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\.idea\libraries\Maven__commons_logging_commons_logging_1_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\.idea\libraries\Maven__dom4j_dom4j_1_6_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\.idea\libraries\Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\.idea\libraries\Maven__javax_servlet_jstl_1_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\.idea\libraries\Maven__mysql_mysql_connector_java_5_1_34.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\.idea\libraries\Maven__org_hibernate_common_hibernate_commons_annotations_4_0_5_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\.idea\libraries\Maven__org_hibernate_hibernate_core_4_3_11_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\.idea\libraries\Maven__org_hibernate_hibernate_entitymanager_4_3_11_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\.idea\libraries\Maven__org_hibernate_javax_persistence_hibernate_jpa_2_1_api_1_0_0_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\.idea\libraries\Maven__org_javassist_javassist_3_18_1_GA.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\.idea\libraries\Maven__org_jboss_jandex_1_1_0_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\.idea\libraries\Maven__org_jboss_logging_jboss_logging_3_1_3_GA.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\.idea\libraries\Maven__org_jboss_logging_jboss_logging_annotations_1_2_0_Beta1.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\.idea\libraries\Maven__org_jboss_spec_javax_transaction_jboss_transaction_api_1_2_spec_1_0_0_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\.idea\libraries\Maven__org_springframework_spring_aop_4_2_1_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\.idea\libraries\Maven__org_springframework_spring_beans_4_2_1_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\.idea\libraries\Maven__org_springframework_spring_context_4_2_1_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\.idea\libraries\Maven__org_springframework_spring_core_4_2_1_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\.idea\libraries\Maven__org_springframework_spring_expression_4_2_1_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\.idea\libraries\Maven__org_springframework_spring_jdbc_4_2_1_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\.idea\libraries\Maven__org_springframework_spring_orm_4_2_1_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\.idea\libraries\Maven__org_springframework_spring_tx_4_2_1_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\.idea\libraries\Maven__org_springframework_spring_web_4_2_1_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\.idea\libraries\Maven__org_springframework_spring_webmvc_4_2_1_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\.idea\libraries\Maven__xml_apis_xml_apis_1_0_b2.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\.idea\misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\.idea\modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\.idea\scopes\scope_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\.idea\uiDesigner.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\.idea\vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\.idea\workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\OSBBv.iml" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\META-INF\MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\classes\META-INF\persistence.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\classes\WEB-INF\pages\403_Error.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\classes\WEB-INF\pages\contact_add_page.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\classes\WEB-INF\pages\group_add_page.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\classes\WEB-INF\pages\index.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\classes\WEB-INF\pages\login.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\classes\WEB-INF\pages\signIN.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\classes\WEB-INF\pages\signup.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\classes\WEB-INF\pages\signup2Admin.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\classes\WEB-INF\pages\signup2User.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\classes\WEB-INF\pages\success.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\classes\WEB-INF\pages\userslist.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\classes\ua\kiev\prog\AppConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\classes\ua\kiev\prog\DAO\BuildDAO.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\classes\ua\kiev\prog\DAO\BuildDAOImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\classes\ua\kiev\prog\DAO\FlatDAO.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\classes\ua\kiev\prog\DAO\FlatDAOImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\classes\ua\kiev\prog\DAO\UserDAO.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\classes\ua\kiev\prog\DAO\UserDAOImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\classes\ua\kiev\prog\DAO\UserInfoDAO.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\classes\ua\kiev\prog\DAO\UserInfoDAOImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\classes\ua\kiev\prog\MyController.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\classes\ua\kiev\prog\WebInitializer.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\classes\ua\kiev\prog\entity\BuildsEntity.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\classes\ua\kiev\prog\entity\FlatsEntity.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\classes\ua\kiev\prog\entity\UserEntity.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\classes\ua\kiev\prog\entity\UserInfoEntity.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\classes\ua\kiev\prog\services\Services.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\lib\antlr-2.7.7.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\lib\aopalliance-1.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\lib\commons-fileupload-1.3.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\lib\commons-io-2.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\lib\commons-logging-1.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\lib\dom4j-1.6.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\lib\hibernate-commons-annotations-4.0.5.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\lib\hibernate-core-4.3.11.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\lib\hibernate-entitymanager-4.3.11.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\lib\hibernate-jpa-2.1-api-1.0.0.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\lib\jandex-1.1.0.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\lib\javassist-3.18.1-GA.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\lib\jboss-logging-3.1.3.GA.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\lib\jboss-logging-annotations-1.2.0.Beta1.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\lib\jboss-transaction-api_1.2_spec-1.0.0.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\lib\jstl-1.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\lib\mysql-connector-java-5.1.34.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\lib\spring-aop-4.2.1.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\lib\spring-beans-4.2.1.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\lib\spring-context-4.2.1.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\lib\spring-core-4.2.1.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\lib\spring-expression-4.2.1.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\lib\spring-jdbc-4.2.1.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\lib\spring-orm-4.2.1.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\lib\spring-tx-4.2.1.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\lib\spring-web-4.2.1.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\lib\spring-webmvc-4.2.1.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\lib\xml-apis-1.0.b2.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\pages\403_Error.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\pages\contact_add_page.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\pages\group_add_page.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\pages\index.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\pages\login.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\pages\signIN.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\pages\signup.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\pages\signup2Admin.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\pages\signup2User.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\pages\success.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\pages\userslist.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\src\main\java\ua\kiev\prog\AppConfig.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\src\main\java\ua\kiev\prog\DAO\BuildDAO.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\src\main\java\ua\kiev\prog\DAO\BuildDAOImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\src\main\java\ua\kiev\prog\DAO\FlatDAO.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\src\main\java\ua\kiev\prog\DAO\FlatDAOImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\src\main\java\ua\kiev\prog\DAO\UserDAO.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\src\main\java\ua\kiev\prog\DAO\UserDAOImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\src\main\java\ua\kiev\prog\DAO\UserInfoDAO.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\src\main\java\ua\kiev\prog\DAO\UserInfoDAOImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\src\main\java\ua\kiev\prog\MyController.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\src\main\java\ua\kiev\prog\WebInitializer.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\src\main\java\ua\kiev\prog\entity\BuildsEntity.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\src\main\java\ua\kiev\prog\entity\FlatsEntity.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\src\main\java\ua\kiev\prog\entity\UserEntity.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\src\main\java\ua\kiev\prog\entity\UserInfoEntity.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\src\main\java\ua\kiev\prog\services\Services.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\src\main\resources\META-INF\persistence.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\src\main\webapp\WEB-INF\pages\403_Error.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\src\main\webapp\WEB-INF\pages\contact_add_page.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\src\main\webapp\WEB-INF\pages\group_add_page.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\src\main\webapp\WEB-INF\pages\index.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\src\main\webapp\WEB-INF\pages\login.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\src\main\webapp\WEB-INF\pages\signIN.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\src\main\webapp\WEB-INF\pages\signup.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\src\main\webapp\WEB-INF\pages\signup2Admin.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\src\main\webapp\WEB-INF\pages\signup2User.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\src\main\webapp\WEB-INF\pages\success.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\src\main\webapp\WEB-INF\pages\userslist.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\target\MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\target\classes\META-INF\persistence.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\target\classes\WEB-INF\pages\403_Error.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\target\classes\WEB-INF\pages\contact_add_page.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\target\classes\WEB-INF\pages\group_add_page.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\target\classes\WEB-INF\pages\index.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\target\classes\WEB-INF\pages\login.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\target\classes\WEB-INF\pages\signIN.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\target\classes\WEB-INF\pages\signup.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\target\classes\WEB-INF\pages\signup2Admin.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\target\classes\WEB-INF\pages\signup2User.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\target\classes\WEB-INF\pages\success.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\target\classes\WEB-INF\pages\userslist.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\target\classes\ua\kiev\prog\AppConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\target\classes\ua\kiev\prog\DAO\BuildDAO.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\target\classes\ua\kiev\prog\DAO\BuildDAOImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\target\classes\ua\kiev\prog\DAO\FlatDAO.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\target\classes\ua\kiev\prog\DAO\FlatDAOImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\target\classes\ua\kiev\prog\DAO\UserDAO.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\target\classes\ua\kiev\prog\DAO\UserDAOImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\target\classes\ua\kiev\prog\DAO\UserInfoDAO.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\target\classes\ua\kiev\prog\DAO\UserInfoDAOImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\target\classes\ua\kiev\prog\MyController.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\target\classes\ua\kiev\prog\WebInitializer.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\target\classes\ua\kiev\prog\entity\BuildsEntity.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\target\classes\ua\kiev\prog\entity\FlatsEntity.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\target\classes\ua\kiev\prog\entity\UserEntity.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\target\classes\ua\kiev\prog\entity\UserInfoEntity.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\target\classes\ua\kiev\prog\services\Services.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/403_Error.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/403_Error.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ua/kiev/prog/entity/FlatsEntity.java" afterPath="$PROJECT_DIR$/src/main/java/ua/kiev/prog/entity/FlatsEntity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ua/kiev/prog/MyController.java" afterPath="$PROJECT_DIR$/src/main/java/ua/kiev/prog/MyController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ua/kiev/prog/DAO/UserDAOImpl.java" afterPath="$PROJECT_DIR$/src/main/java/ua/kiev/prog/DAO/UserDAOImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/signup2Admin.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/signup2Admin.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/success.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/success.jsp" />
+    </list>
     <ignored path="OSBBv.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -24,11 +199,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Services.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ua/kiev/prog/services/Services.java">
+      <file leaf-file-name="FlatsEntity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ua/kiev/prog/entity/FlatsEntity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="45" column="11" selection-start-line="45" selection-start-column="11" selection-end-line="45" selection-end-column="11" />
+              <caret line="27" column="37" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -36,36 +211,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyController.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MyController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/ua/kiev/prog/MyController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="42" column="35" selection-start-line="42" selection-start-column="35" selection-end-line="42" selection-end-column="35" />
+            <state vertical-scroll-proportion="2.7680922">
+              <caret line="114" column="0" selection-start-line="114" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FlatsEntity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ua/kiev/prog/entity/FlatsEntity.java">
+      <file leaf-file-name="signup2Admin.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/signup2Admin.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="-9.807693">
+              <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BuildsEntity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ua/kiev/prog/entity/BuildsEntity.java">
+      <file leaf-file-name="addFlat.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/addFlat.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
-              <folding>
-                <element signature="e#530#543#0" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="-15.692307">
+              <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -74,40 +245,50 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/ua/kiev/prog/DAO/BuildDAO.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserInfoEntity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ua/kiev/prog/entity/UserInfoEntity.java">
+      <file leaf-file-name="WebInitializer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ua/kiev/prog/WebInitializer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="111" column="0" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FlatDAOImpl.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="signIN.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/signIN.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-12.423077">
+              <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="signup2User.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/signup2User.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-15.038462">
+              <caret line="23" column="95" selection-start-line="23" selection-start-column="95" selection-end-line="23" selection-end-column="95" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FlatDAOImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ua/kiev/prog/DAO/FlatDAOImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.81085527">
-              <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="26" column="78" selection-start-line="26" selection-start-column="78" selection-end-line="26" selection-end-column="78" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserDAO.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ua/kiev/prog/DAO/UserDAO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="11" column="30" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="30" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -116,19 +297,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/ua/kiev/prog/DAO/FlatDAO.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BuildDAOImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ua/kiev/prog/DAO/BuildDAOImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -160,19 +329,22 @@
         <option value="$PROJECT_DIR$/src/main/java/ua/kiev/prog/DAO/UserInfoDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/ua/kiev/prog/DAO/UserInfoDAOImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/ua/kiev/prog/DAO/UserDAOImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/403_Error.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/success.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/kiev/prog/entity/UserInfoEntity.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/kiev/prog/DAO/BuildDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/ua/kiev/prog/DAO/BuildDAOImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/ua/kiev/prog/AppConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/ua/kiev/prog/DAO/FlatDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/kiev/prog/entity/FlatsEntity.java" />
         <option value="$PROJECT_DIR$/src/main/java/ua/kiev/prog/DAO/FlatDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/kiev/prog/DAO/FlatDAOImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/ua/kiev/prog/services/Services.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/signup2User.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/ua/kiev/prog/entity/BuildsEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/kiev/prog/DAO/FlatDAOImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/signIN.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/403_Error.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/signup2Admin.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/success.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/addFlat.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/signup2User.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/kiev/prog/entity/FlatsEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/kiev/prog/entity/UserInfoEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/kiev/prog/DAO/BuildDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/ua/kiev/prog/MyController.java" />
       </list>
     </option>
@@ -247,7 +419,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -426,9 +597,32 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OSBBv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OSBBv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -454,6 +648,11 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\JAVA_STUFF\OSBBworking\OSBBv\src\main\webapp\WEB-INF\pages" />
+    </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.Unnamed">
     <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
@@ -814,6 +1013,7 @@
       <workItem from="1448374515241" duration="19855000" />
       <workItem from="1448398665564" duration="5257000" />
       <workItem from="1448441158385" duration="3251000" />
+      <workItem from="1448447792158" duration="8833000" />
     </task>
     <task id="LOCAL-00001" summary="commit#5">
       <created>1448445366059</created>
@@ -837,11 +1037,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29590000" />
+    <option name="totallyTimeSpent" value="38423000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -849,15 +1049,15 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2423841" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24213837" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15401146" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3254717" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4481132" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23572475" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21229868" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -970,7 +1170,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="56" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="56" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1092,49 +1292,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.22545454">
-          <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/403_Error.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.5">
-          <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/success.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.5">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/userslist.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.461538">
-          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/signup2Admin.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3797251">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/signup.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32130584">
-          <caret line="11" column="69" selection-start-line="11" selection-start-column="69" selection-end-line="11" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ua/kiev/prog/DAO/UserDAOImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1157,25 +1314,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/kiev/prog/WebInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/contact_add_page.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-17.0">
           <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="28" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/kiev/prog/entity/UserEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
           <folding />
         </state>
       </provider>
@@ -1188,26 +1330,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/signup2User.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.653846">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ua/kiev/prog/AppConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="58" column="54" selection-start-line="58" selection-start-column="54" selection-end-line="58" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/kiev/prog/entity/UserInfoEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="111" column="0" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1222,13 +1348,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/kiev/prog/entity/FlatsEntity.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/kiev/prog/DAO/BuildDAOImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/kiev/prog/DAO/UserDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="30" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/userslist.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-19.461538">
+          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5151515">
+          <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/403_Error.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.5">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1242,55 +1398,448 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/kiev/prog/DAO/BuildDAO.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/kiev/prog/entity/UserEntity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/kiev/prog/DAO/BuildDAOImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/signup.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.230769">
+          <caret line="8" column="7" selection-start-line="3" selection-start-column="0" selection-end-line="8" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/success.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.038462">
+          <caret line="23" column="7" selection-start-line="15" selection-start-column="0" selection-end-line="23" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_60/src.zip!/java/math/BigDecimal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.4572369">
+          <caret line="2707" column="36" selection-start-line="2707" selection-start-column="36" selection-end-line="2707" selection-end-column="36" />
+          <folding>
+            <element signature="docComment;class#BigDecimal#0" expanded="false" />
+            <element signature="docComment;field#intVal#0;class#BigDecimal#0" expanded="false" />
+            <element signature="docComment;field#scale#0;class#BigDecimal#0" expanded="false" />
+            <element signature="docComment;field#precision#0;class#BigDecimal#0" expanded="false" />
+            <element signature="docComment;field#stringCache#0;class#BigDecimal#0" expanded="false" />
+            <element signature="docComment;field#INFLATED#0;class#BigDecimal#0" expanded="false" />
+            <element signature="docComment;field#intCompact#0;class#BigDecimal#0" expanded="false" />
+            <element signature="class#11956:12127" expanded="false" />
+            <element signature="docComment;field#ZERO#0;class#BigDecimal#0" expanded="false" />
+            <element signature="docComment;field#ONE#0;class#BigDecimal#0" expanded="false" />
+            <element signature="docComment;field#TEN#0;class#BigDecimal#0" expanded="false" />
+            <element signature="docComment;method#BigDecimal#0;class#BigDecimal#0" expanded="false" />
+            <element signature="method#BigDecimal#0;class#BigDecimal#0" expanded="false" />
+            <element signature="docComment;method#BigDecimal#1;class#BigDecimal#0" expanded="false" />
+            <element signature="docComment;method#BigDecimal#2;class#BigDecimal#0" expanded="false" />
+            <element signature="method#BigDecimal#2;class#BigDecimal#0" expanded="false" />
+            <element signature="e#17303#17363#0" expanded="false" />
+            <element signature="e#17903#17961#0" expanded="false" />
+            <element signature="e#18722#18786#0" expanded="false" />
+            <element signature="e#18929#18989#0" expanded="false" />
+            <element signature="e#19919#19930#0" expanded="false" />
+            <element signature="e#22601#22661#0" expanded="false" />
+            <element signature="method#adjustScale#0;class#BigDecimal#0" expanded="false" />
+            <element signature="method#parseExp#0;class#BigDecimal#0" expanded="false" />
+            <element signature="docComment;method#BigDecimal#3;class#BigDecimal#0" expanded="false" />
+            <element signature="docComment;method#BigDecimal#4;class#BigDecimal#0" expanded="false" />
+            <element signature="docComment;method#BigDecimal#5;class#BigDecimal#0" expanded="false" />
+            <element signature="docComment;method#BigDecimal#6;class#BigDecimal#0" expanded="false" />
+            <element signature="docComment;method#BigDecimal#7;class#BigDecimal#0" expanded="false" />
+            <element signature="docComment;method#BigDecimal#8;class#BigDecimal#0" expanded="false" />
+            <element signature="method#BigDecimal#8;class#BigDecimal#0" expanded="false" />
+            <element signature="e#38100#38170#0" expanded="false" />
+            <element signature="docComment;method#BigDecimal#9;class#BigDecimal#0" expanded="false" />
+            <element signature="method#BigDecimal#9;class#BigDecimal#0" expanded="false" />
+            <element signature="docComment;method#BigDecimal#10;class#BigDecimal#0" expanded="false" />
+            <element signature="docComment;method#BigDecimal#11;class#BigDecimal#0" expanded="false" />
+            <element signature="method#BigDecimal#11;class#BigDecimal#0" expanded="false" />
+            <element signature="docComment;method#BigDecimal#12;class#BigDecimal#0" expanded="false" />
+            <element signature="method#BigDecimal#12;class#BigDecimal#0" expanded="false" />
+            <element signature="docComment;method#BigDecimal#13;class#BigDecimal#0" expanded="false" />
+            <element signature="method#BigDecimal#13;class#BigDecimal#0" expanded="false" />
+            <element signature="docComment;method#BigDecimal#14;class#BigDecimal#0" expanded="false" />
+            <element signature="method#BigDecimal#14;class#BigDecimal#0" expanded="false" />
+            <element signature="docComment;method#BigDecimal#15;class#BigDecimal#0" expanded="false" />
+            <element signature="method#BigDecimal#15;class#BigDecimal#0" expanded="false" />
+            <element signature="docComment;method#BigDecimal#16;class#BigDecimal#0" expanded="false" />
+            <element signature="method#BigDecimal#16;class#BigDecimal#0" expanded="false" />
+            <element signature="docComment;method#valueOf#0;class#BigDecimal#0" expanded="false" />
+            <element signature="method#valueOf#0;class#BigDecimal#0" expanded="false" />
+            <element signature="docComment;method#valueOf#1;class#BigDecimal#0" expanded="false" />
+            <element signature="method#valueOf#1;class#BigDecimal#0" expanded="false" />
+            <element signature="method#valueOf#2;class#BigDecimal#0" expanded="false" />
+            <element signature="method#valueOf#3;class#BigDecimal#0" expanded="false" />
+            <element signature="method#zeroValueOf#0;class#BigDecimal#0" expanded="false" />
+            <element signature="docComment;method#valueOf#4;class#BigDecimal#0" expanded="false" />
+            <element signature="method#valueOf#4;class#BigDecimal#0" expanded="false" />
+            <element signature="e#52386#52449#0" expanded="false" />
+            <element signature="docComment;method#add#0;class#BigDecimal#0" expanded="false" />
+            <element signature="method#add#0;class#BigDecimal#0" expanded="false" />
+            <element signature="docComment;method#add#1;class#BigDecimal#0" expanded="false" />
+            <element signature="method#add#1;class#BigDecimal#0" expanded="false" />
+            <element signature="e#54403#54465#0" expanded="false" />
+            <element signature="docComment;method#preAlign#0;class#BigDecimal#0" expanded="false" />
+            <element signature="method#preAlign#0;class#BigDecimal#0" expanded="false" />
+            <element signature="e#58832#58889#0" expanded="false" />
+            <element signature="docComment;method#subtract#0;class#BigDecimal#0" expanded="false" />
+            <element signature="method#subtract#0;class#BigDecimal#0" expanded="false" />
+            <element signature="e#59790#59839#0" expanded="false" />
+            <element signature="docComment;method#subtract#1;class#BigDecimal#0" expanded="false" />
+            <element signature="method#subtract#1;class#BigDecimal#0" expanded="false" />
+            <element signature="docComment;method#multiply#0;class#BigDecimal#0" expanded="false" />
+            <element signature="method#multiply#0;class#BigDecimal#0" expanded="false" />
+            <element signature="docComment;method#multiply#1;class#BigDecimal#0" expanded="false" />
+            <element signature="method#multiply#1;class#BigDecimal#0" expanded="false" />
+            <element signature="docComment;method#divide#0;class#BigDecimal#0" expanded="false" />
+            <element signature="method#divide#0;class#BigDecimal#0" expanded="false" />
+            <element signature="docComment;method#divide#1;class#BigDecimal#0" expanded="false" />
+            <element signature="method#divide#1;class#BigDecimal#0" expanded="false" />
+            <element signature="docComment;method#divide#2;class#BigDecimal#0" expanded="false" />
+            <element signature="docComment;method#divide#3;class#BigDecimal#0" expanded="false" />
+            <element signature="method#divide#3;class#BigDecimal#0" expanded="false" />
+            <element signature="docComment;method#divide#4;class#BigDecimal#0" expanded="false" />
+            <element signature="method#divide#4;class#BigDecimal#0" expanded="false" />
+            <element signature="e#71133#71190#0" expanded="false" />
+            <element signature="docComment;method#divide#5;class#BigDecimal#0" expanded="false" />
+            <element signature="method#divide#5;class#BigDecimal#0" expanded="false" />
+            <element signature="e#72404#72453#0" expanded="false" />
+            <element signature="docComment;method#divideToIntegralValue#0;class#BigDecimal#0" expanded="false" />
+            <element signature="method#divideToIntegralValue#0;class#BigDecimal#0" expanded="false" />
+            <element signature="e#75179#75239#0" expanded="false" />
+            <element signature="docComment;method#divideToIntegralValue#1;class#BigDecimal#0" expanded="false" />
+            <element signature="method#divideToIntegralValue#1;class#BigDecimal#0" expanded="false" />
+            <element signature="e#78344#78389#0" expanded="false" />
+            <element signature="docComment;method#remainder#0;class#BigDecimal#0" expanded="false" />
+            <element signature="method#remainder#0;class#BigDecimal#0" expanded="false" />
+            <element signature="docComment;method#remainder#1;class#BigDecimal#0" expanded="false" />
+            <element signature="method#remainder#1;class#BigDecimal#0" expanded="false" />
+            <element signature="docComment;method#divideAndRemainder#0;class#BigDecimal#0" expanded="false" />
+            <element signature="method#divideAndRemainder#0;class#BigDecimal#0" expanded="false" />
+            <element signature="docComment;method#divideAndRemainder#1;class#BigDecimal#0" expanded="false" />
+            <element signature="method#divideAndRemainder#1;class#BigDecimal#0" expanded="false" />
+            <element signature="docComment;method#pow#0;class#BigDecimal#0" expanded="false" />
+            <element signature="method#pow#0;class#BigDecimal#0" expanded="false" />
+            <element signature="e#85494#85555#0" expanded="false" />
+            <element signature="docComment;method#pow#1;class#BigDecimal#0" expanded="false" />
+            <element signature="method#pow#1;class#BigDecimal#0" expanded="false" />
+            <element signature="docComment;method#abs#0;class#BigDecimal#0" expanded="false" />
+            <element signature="docComment;method#abs#1;class#BigDecimal#0" expanded="false" />
+            <element signature="docComment;method#negate#0;class#BigDecimal#0" expanded="false" />
+            <element signature="method#negate#0;class#BigDecimal#0" expanded="false" />
+            <element signature="docComment;method#negate#1;class#BigDecimal#0" expanded="false" />
+            <element signature="docComment;method#plus#0;class#BigDecimal#0" expanded="false" />
+            <element signature="docComment;method#plus#1;class#BigDecimal#0" expanded="false" />
+            <element signature="method#plus#1;class#BigDecimal#0" expanded="false" />
+            <element signature="docComment;method#signum#0;class#BigDecimal#0" expanded="false" />
+            <element signature="method#signum#0;class#BigDecimal#0" expanded="false" />
+            <element signature="docComment;method#scale#0;class#BigDecimal#0" expanded="false" />
+            <element signature="docComment;method#precision#0;class#BigDecimal#0" expanded="false" />
+            <element signature="method#precision#0;class#BigDecimal#0" expanded="false" />
+            <element signature="docComment;method#unscaledValue#0;class#BigDecimal#0" expanded="false" />
+            <element signature="docComment;field#ROUND_UP#0;class#BigDecimal#0" expanded="false" />
+            <element signature="docComment;field#ROUND_DOWN#0;class#BigDecimal#0" expanded="false" />
+            <element signature="docComment;field#ROUND_CEILING#0;class#BigDecimal#0" expanded="false" />
+            <element signature="docComment;field#ROUND_FLOOR#0;class#BigDecimal#0" expanded="false" />
+            <element signature="docComment;field#ROUND_HALF_UP#0;class#BigDecimal#0" expanded="false" />
+            <element signature="docComment;field#ROUND_HALF_DOWN#0;class#BigDecimal#0" expanded="false" />
+            <element signature="docComment;field#ROUND_HALF_EVEN#0;class#BigDecimal#0" expanded="false" />
+            <element signature="docComment;field#ROUND_UNNECESSARY#0;class#BigDecimal#0" expanded="false" />
+            <element signature="docComment;method#round#0;class#BigDecimal#0" expanded="false" />
+            <element signature="docComment;method#setScale#0;class#BigDecimal#0" expanded="false" />
+            <element signature="method#setScale#0;class#BigDecimal#0" expanded="false" />
+            <element signature="docComment;method#setScale#1;class#BigDecimal#0" expanded="false" />
+            <element signature="method#setScale#1;class#BigDecimal#0" expanded="false" />
+            <element signature="e#102915#102957#0" expanded="false" />
+            <element signature="e#103779#103821#0" expanded="false" />
+            <element signature="docComment;method#setScale#2;class#BigDecimal#0" expanded="false" />
+            <element signature="docComment;method#movePointLeft#0;class#BigDecimal#0" expanded="false" />
+            <element signature="method#movePointLeft#0;class#BigDecimal#0" expanded="false" />
+            <element signature="docComment;method#movePointRight#0;class#BigDecimal#0" expanded="false" />
+            <element signature="method#movePointRight#0;class#BigDecimal#0" expanded="false" />
+            <element signature="docComment;method#scaleByPowerOfTen#0;class#BigDecimal#0" expanded="false" />
+            <element signature="method#scaleByPowerOfTen#0;class#BigDecimal#0" expanded="false" />
+            <element signature="docComment;method#stripTrailingZeros#0;class#BigDecimal#0" expanded="false" />
+            <element signature="method#stripTrailingZeros#0;class#BigDecimal#0" expanded="false" />
+            <element signature="docComment;method#compareTo#0;class#BigDecimal#0" expanded="false" />
+            <element signature="method#compareTo#0;class#BigDecimal#0" expanded="false" />
+            <element signature="docComment;method#compareMagnitude#0;class#BigDecimal#0" expanded="false" />
+            <element signature="method#compareMagnitude#0;class#BigDecimal#0" expanded="false" />
+            <element signature="e#113133#113145#0" expanded="false" />
+            <element signature="docComment;method#equals#0;class#BigDecimal#0" expanded="false" />
+            <element signature="docComment;method#min#0;class#BigDecimal#0" expanded="false" />
+            <element signature="docComment;method#max#0;class#BigDecimal#0" expanded="false" />
+            <element signature="docComment;method#hashCode#0;class#BigDecimal#0" expanded="false" />
+            <element signature="method#hashCode#0;class#BigDecimal#0" expanded="false" />
+            <element signature="docComment;method#toString#0;class#BigDecimal#0" expanded="false" />
+            <element signature="method#toString#0;class#BigDecimal#0" expanded="false" />
+            <element signature="docComment;method#toEngineeringString#0;class#BigDecimal#0" expanded="false" />
+            <element signature="docComment;method#toPlainString#0;class#BigDecimal#0" expanded="false" />
+            <element signature="method#toPlainString#0;class#BigDecimal#0" expanded="false" />
+            <element signature="method#getValueString#0;class#BigDecimal#0" expanded="false" />
+            <element signature="docComment;method#toBigInteger#0;class#BigDecimal#0" expanded="false" />
+            <element signature="method#toBigInteger#0;class#BigDecimal#0" expanded="false" />
+            <element signature="docComment;method#toBigIntegerExact#0;class#BigDecimal#0" expanded="false" />
+            <element signature="method#toBigIntegerExact#0;class#BigDecimal#0" expanded="false" />
+            <element signature="docComment;method#longValue#0;class#BigDecimal#0" expanded="false" />
+            <element signature="method#longValue#0;class#BigDecimal#0" expanded="false" />
+            <element signature="docComment;method#longValueExact#0;class#BigDecimal#0" expanded="false" />
+            <element signature="method#longValueExact#0;class#BigDecimal#0" expanded="false" />
+            <element signature="e#130481#130544#0" expanded="false" />
+            <element signature="class#LongOverflow#0;class#BigDecimal#0" expanded="false" />
+            <element signature="docComment;field#LONGMIN#0;class#LongOverflow#0;class#BigDecimal#0" expanded="false" />
+            <element signature="docComment;field#LONGMAX#0;class#LongOverflow#0;class#BigDecimal#0" expanded="false" />
+            <element signature="method#check#0;class#LongOverflow#0;class#BigDecimal#0" expanded="false" />
+            <element signature="docComment;method#intValue#0;class#BigDecimal#0" expanded="false" />
+            <element signature="method#intValue#0;class#BigDecimal#0" expanded="false" />
+            <element signature="docComment;method#intValueExact#0;class#BigDecimal#0" expanded="false" />
+            <element signature="method#intValueExact#0;class#BigDecimal#0" expanded="false" />
+            <element signature="docComment;method#shortValueExact#0;class#BigDecimal#0" expanded="false" />
+            <element signature="method#shortValueExact#0;class#BigDecimal#0" expanded="false" />
+            <element signature="docComment;method#byteValueExact#0;class#BigDecimal#0" expanded="false" />
+            <element signature="method#byteValueExact#0;class#BigDecimal#0" expanded="false" />
+            <element signature="docComment;method#floatValue#0;class#BigDecimal#0" expanded="false" />
+            <element signature="method#floatValue#0;class#BigDecimal#0" expanded="false" />
+            <element signature="e#136138#136169#0" expanded="false" />
+            <element signature="docComment;method#doubleValue#0;class#BigDecimal#0" expanded="false" />
+            <element signature="method#doubleValue#0;class#BigDecimal#0" expanded="false" />
+            <element signature="e#138008#138039#0" expanded="false" />
+            <element signature="docComment;field#double10pow#0;class#BigDecimal#0" expanded="false" />
+            <element signature="docComment;field#float10pow#0;class#BigDecimal#0" expanded="false" />
+            <element signature="docComment;method#ulp#0;class#BigDecimal#0" expanded="false" />
+            <element signature="n#!!doc;n#StringBuilderHelper#0;n#BigDecimal#0" expanded="false" />
+            <element signature="class#StringBuilderHelper#0;class#BigDecimal#0" expanded="false" />
+            <element signature="method#StringBuilderHelper#0;class#StringBuilderHelper#0;class#BigDecimal#0" expanded="false" />
+            <element signature="method#getStringBuilder#0;class#StringBuilderHelper#0;class#BigDecimal#0" expanded="false" />
+            <element signature="docComment;method#putIntCompact#0;class#StringBuilderHelper#0;class#BigDecimal#0" expanded="false" />
+            <element signature="method#putIntCompact#0;class#StringBuilderHelper#0;class#BigDecimal#0" expanded="false" />
+            <element signature="e#141674#141743#0" expanded="false" />
+            <element signature="docComment;method#layoutChars#0;class#BigDecimal#0" expanded="false" />
+            <element signature="method#layoutChars#0;class#BigDecimal#0" expanded="false" />
+            <element signature="e#145665#145727#0" expanded="false" />
+            <element signature="docComment;method#bigTenToThe#0;class#BigDecimal#0" expanded="false" />
+            <element signature="method#bigTenToThe#0;class#BigDecimal#0" expanded="false" />
+            <element signature="docComment;method#expandBigIntegerTenPowers#0;class#BigDecimal#0" expanded="false" />
+            <element signature="method#expandBigIntegerTenPowers#0;class#BigDecimal#0" expanded="false" />
+            <element signature="e#150106#150173#0" expanded="false" />
+            <element signature="e#150581#150613#0" expanded="false" />
+            <element signature="docComment;method#longMultiplyPowerTen#0;class#BigDecimal#0" expanded="false" />
+            <element signature="method#longMultiplyPowerTen#0;class#BigDecimal#0" expanded="false" />
+            <element signature="docComment;method#bigMultiplyPowerTen#0;class#BigDecimal#0" expanded="false" />
+            <element signature="method#bigMultiplyPowerTen#0;class#BigDecimal#0" expanded="false" />
+            <element signature="docComment;method#inflated#0;class#BigDecimal#0" expanded="false" />
+            <element signature="method#inflated#0;class#BigDecimal#0" expanded="false" />
+            <element signature="docComment;method#matchScale#0;class#BigDecimal#0" expanded="false" />
+            <element signature="method#matchScale#0;class#BigDecimal#0" expanded="false" />
+            <element signature="class#UnsafeHolder#0;class#BigDecimal#0" expanded="false" />
+            <element signature="initializer##0;class#UnsafeHolder#0;class#BigDecimal#0" expanded="false" />
+            <element signature="method#setIntCompactVolatile#0;class#UnsafeHolder#0;class#BigDecimal#0" expanded="false" />
+            <element signature="method#setIntValVolatile#0;class#UnsafeHolder#0;class#BigDecimal#0" expanded="false" />
+            <element signature="docComment;method#readObject#0;class#BigDecimal#0" expanded="false" />
+            <element signature="method#readObject#0;class#BigDecimal#0" expanded="false" />
+            <element signature="docComment;method#writeObject#0;class#BigDecimal#0" expanded="false" />
+            <element signature="method#writeObject#0;class#BigDecimal#0" expanded="false" />
+            <element signature="docComment;method#longDigitLength#0;class#BigDecimal#0" expanded="false" />
+            <element signature="method#longDigitLength#0;class#BigDecimal#0" expanded="false" />
+            <element signature="docComment;method#bigDigitLength#0;class#BigDecimal#0" expanded="false" />
+            <element signature="method#bigDigitLength#0;class#BigDecimal#0" expanded="false" />
+            <element signature="docComment;method#checkScale#0;class#BigDecimal#0" expanded="false" />
+            <element signature="method#checkScale#0;class#BigDecimal#0" expanded="false" />
+            <element signature="docComment;method#compactValFor#0;class#BigDecimal#0" expanded="false" />
+            <element signature="method#compactValFor#0;class#BigDecimal#0" expanded="false" />
+            <element signature="method#longCompareMagnitude#0;class#BigDecimal#0" expanded="false" />
+            <element signature="method#saturateLong#0;class#BigDecimal#0" expanded="false" />
+            <element signature="method#print#0;class#BigDecimal#0" expanded="false" />
+            <element signature="docComment;method#audit#0;class#BigDecimal#0" expanded="false" />
+            <element signature="method#audit#0;class#BigDecimal#0" expanded="false" />
+            <element signature="method#checkScaleNonZero#0;class#BigDecimal#0" expanded="false" />
+            <element signature="method#checkScale#1;class#BigDecimal#0" expanded="false" />
+            <element signature="method#checkScale#2;class#BigDecimal#0" expanded="false" />
+            <element signature="docComment;method#doRound#0;class#BigDecimal#0" expanded="false" />
+            <element signature="method#doRound#0;class#BigDecimal#0" expanded="false" />
+            <element signature="method#doRound#1;class#BigDecimal#0" expanded="false" />
+            <element signature="method#doRound#2;class#BigDecimal#0" expanded="false" />
+            <element signature="method#divideAndRoundByTenPow#0;class#BigDecimal#0" expanded="false" />
+            <element signature="docComment;method#divideAndRound#0;class#BigDecimal#0" expanded="false" />
+            <element signature="method#divideAndRound#0;class#BigDecimal#0" expanded="false" />
+            <element signature="docComment;method#divideAndRound#1;class#BigDecimal#0" expanded="false" />
+            <element signature="method#divideAndRound#1;class#BigDecimal#0" expanded="false" />
+            <element signature="docComment;method#commonNeedIncrement#0;class#BigDecimal#0" expanded="false" />
+            <element signature="method#commonNeedIncrement#0;class#BigDecimal#0" expanded="false" />
+            <element signature="docComment;method#needIncrement#0;class#BigDecimal#0" expanded="false" />
+            <element signature="method#needIncrement#0;class#BigDecimal#0" expanded="false" />
+            <element signature="docComment;method#divideAndRound#2;class#BigDecimal#0" expanded="false" />
+            <element signature="method#divideAndRound#2;class#BigDecimal#0" expanded="false" />
+            <element signature="docComment;method#divideAndRound#3;class#BigDecimal#0" expanded="false" />
+            <element signature="method#divideAndRound#3;class#BigDecimal#0" expanded="false" />
+            <element signature="docComment;method#needIncrement#1;class#BigDecimal#0" expanded="false" />
+            <element signature="method#needIncrement#1;class#BigDecimal#0" expanded="false" />
+            <element signature="docComment;method#divideAndRound#4;class#BigDecimal#0" expanded="false" />
+            <element signature="method#divideAndRound#4;class#BigDecimal#0" expanded="false" />
+            <element signature="docComment;method#divideAndRound#5;class#BigDecimal#0" expanded="false" />
+            <element signature="method#divideAndRound#5;class#BigDecimal#0" expanded="false" />
+            <element signature="docComment;method#needIncrement#2;class#BigDecimal#0" expanded="false" />
+            <element signature="method#needIncrement#2;class#BigDecimal#0" expanded="false" />
+            <element signature="docComment;method#createAndStripZerosToMatchScale#0;class#BigDecimal#0" expanded="false" />
+            <element signature="method#createAndStripZerosToMatchScale#0;class#BigDecimal#0" expanded="false" />
+            <element signature="docComment;method#createAndStripZerosToMatchScale#1;class#BigDecimal#0" expanded="false" />
+            <element signature="method#createAndStripZerosToMatchScale#1;class#BigDecimal#0" expanded="false" />
+            <element signature="method#stripZerosToMatchScale#0;class#BigDecimal#0" expanded="false" />
+            <element signature="method#add#2;class#BigDecimal#0" expanded="false" />
+            <element signature="e#184149#184206#0" expanded="false" />
+            <element signature="method#add#3;class#BigDecimal#0" expanded="false" />
+            <element signature="method#add#4;class#BigDecimal#0" expanded="false" />
+            <element signature="method#add#5;class#BigDecimal#0" expanded="false" />
+            <element signature="method#add#6;class#BigDecimal#0" expanded="false" />
+            <element signature="method#bigMultiplyPowerTen#1;class#BigDecimal#0" expanded="false" />
+            <element signature="method#bigMultiplyPowerTen#2;class#BigDecimal#0" expanded="false" />
+            <element signature="docComment;method#divideSmallFastPath#0;class#BigDecimal#0" expanded="false" />
+            <element signature="method#divideSmallFastPath#0;class#BigDecimal#0" expanded="false" />
+            <element signature="e#191026#191052#0" expanded="false" />
+            <element signature="docComment;method#divide#6;class#BigDecimal#0" expanded="false" />
+            <element signature="method#divide#6;class#BigDecimal#0" expanded="false" />
+            <element signature="e#193126#193196#0" expanded="false" />
+            <element signature="docComment;method#divide#7;class#BigDecimal#0" expanded="false" />
+            <element signature="method#divide#7;class#BigDecimal#0" expanded="false" />
+            <element signature="e#195610#195680#0" expanded="false" />
+            <element signature="docComment;method#divide#8;class#BigDecimal#0" expanded="false" />
+            <element signature="method#divide#8;class#BigDecimal#0" expanded="false" />
+            <element signature="e#197769#197839#0" expanded="false" />
+            <element signature="docComment;method#divide#9;class#BigDecimal#0" expanded="false" />
+            <element signature="method#divide#9;class#BigDecimal#0" expanded="false" />
+            <element signature="e#199435#199505#0" expanded="false" />
+            <element signature="method#multiplyDivideAndRound#0;class#BigDecimal#0" expanded="false" />
+            <element signature="method#divideAndRound128#0;class#BigDecimal#0" expanded="false" />
+            <element signature="e#204019#204066#0" expanded="false" />
+            <element signature="method#roundedTenPower#0;class#BigDecimal#0" expanded="false" />
+            <element signature="method#scaledTenPow#0;class#BigDecimal#0" expanded="false" />
+            <element signature="docComment;method#divRemNegativeLong#0;class#BigDecimal#0" expanded="false" />
+            <element signature="method#divRemNegativeLong#0;class#BigDecimal#0" expanded="false" />
+            <element signature="method#mulsub#0;class#BigDecimal#0" expanded="false" />
+            <element signature="method#unsignedLongCompare#0;class#BigDecimal#0" expanded="false" />
+            <element signature="method#unsignedLongCompareEq#0;class#BigDecimal#0" expanded="false" />
+            <element signature="method#compareMagnitudeNormalized#0;class#BigDecimal#0" expanded="false" />
+            <element signature="method#compareMagnitudeNormalized#1;class#BigDecimal#0" expanded="false" />
+            <element signature="method#compareMagnitudeNormalized#2;class#BigDecimal#0" expanded="false" />
+            <element signature="method#multiply#2;class#BigDecimal#0" expanded="false" />
+            <element signature="method#multiply#3;class#BigDecimal#0" expanded="false" />
+            <element signature="method#multiply#4;class#BigDecimal#0" expanded="false" />
+            <element signature="method#multiply#5;class#BigDecimal#0" expanded="false" />
+            <element signature="docComment;method#multiplyAndRound#0;class#BigDecimal#0" expanded="false" />
+            <element signature="method#multiplyAndRound#0;class#BigDecimal#0" expanded="false" />
+            <element signature="method#multiplyAndRound#1;class#BigDecimal#0" expanded="false" />
+            <element signature="method#multiplyAndRound#2;class#BigDecimal#0" expanded="false" />
+            <element signature="docComment;method#doRound128#0;class#BigDecimal#0" expanded="false" />
+            <element signature="method#doRound128#0;class#BigDecimal#0" expanded="false" />
+            <element signature="method#precision#1;class#BigDecimal#0" expanded="false" />
+            <element signature="method#longLongCompareMagnitude#0;class#BigDecimal#0" expanded="false" />
+            <element signature="method#divide#10;class#BigDecimal#0" expanded="false" />
+            <element signature="method#divide#11;class#BigDecimal#0" expanded="false" />
+            <element signature="method#divide#12;class#BigDecimal#0" expanded="false" />
+            <element signature="method#divide#13;class#BigDecimal#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/kiev/prog/entity/UserInfoEntity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <caret line="131" column="1" selection-start-line="131" selection-start-column="1" selection-end-line="131" selection-end-column="1" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/signup2Admin.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.807693">
+          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/addFlat.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.692307">
+          <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/signIN.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.423077">
+          <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/signup2User.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.038462">
+          <caret line="23" column="95" selection-start-line="23" selection-start-column="95" selection-end-line="23" selection-end-column="95" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/kiev/prog/entity/FlatsEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="37" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ua/kiev/prog/DAO/FlatDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/kiev/prog/DAO/UserDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="30" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/kiev/prog/MyController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="42" column="35" selection-start-line="42" selection-start-column="35" selection-end-line="42" selection-end-column="35" />
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ua/kiev/prog/DAO/FlatDAOImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.81085527">
-          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="78" selection-start-line="26" selection-start-column="78" selection-end-line="26" selection-end-column="78" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/kiev/prog/DAO/BuildDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/kiev/prog/WebInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/kiev/prog/MyController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.7680922">
+          <caret line="114" column="0" selection-start-line="114" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
