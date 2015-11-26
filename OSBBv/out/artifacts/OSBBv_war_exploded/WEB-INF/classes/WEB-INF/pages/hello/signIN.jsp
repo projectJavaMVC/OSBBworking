@@ -45,12 +45,13 @@
         <div class="form-group">
             <div class="col-md-4"><input type="submit" class="btn btn-success" value="Войти"></div>
         </div>
-    </form>
-        <form role="form" enctype="multipart/form-data" class="form-horizontal" action="/signup" method="post">
         <div class="form-group">
-            <div class="col-md-4"><input type="submit" class="btn btn-success" value="Регистрация"></div>
+            <div class="col-md-4">
+            <input type="submit" class="btn btn-success" formmethod="post" formenctype="multipart/form-data" formaction="/signup" value="Регистрация">
+            </div>
         </div>
     </form>
+
 
     </div>
     </div>
