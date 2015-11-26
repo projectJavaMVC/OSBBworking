@@ -11,8 +11,11 @@ public class UserEntity {
     @Id
     @GeneratedValue
     private long id;
+
+    @Column(unique = true)
     private String login;
     private String pass;
+    @Column(unique = true)
     private String email;
     private Short type;
 
