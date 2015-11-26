@@ -56,7 +56,7 @@
 </div>
 <div id="section3" class="container-fluid">
 </div>
-<div id="section41" class="container-fluid">
+<div id="section41" class="container">
   <h1>Пригласите своих соседей!</h1>
   <p>Просто укажите email адрес:</p>
   <form role="form" enctype="multipart/form-data" class="form-horizontal" action="/inviteusers" method="post">
@@ -66,7 +66,7 @@
   </form>
 
 </div>
-<div id="section42" class="container-fluid">
+<div id="section42" class="container">
   <h1>Мои соседи</h1>
   <table class="table table-border">
     <thead>
