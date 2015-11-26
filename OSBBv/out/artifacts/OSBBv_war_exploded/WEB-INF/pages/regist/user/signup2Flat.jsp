@@ -35,18 +35,14 @@
   </div>
 </nav>
 
-<div id="section1" class="container-fluid">
-  <div class="container">
+<div id="section1" class="container">
   <form role="form" enctype="multipart/form-data" class="form-horizontal" action="/signup/addFlat" method="post">
     <h3>Введите данные</h3>
     <div class="form-group"><input type="text" class="form-control" name="area" placeholder="Площадь"></div>
     <div class="form-group"><input type="text" class="form-control" name="peopleCount" placeholder="Количество жильцов"></div>
     <div class="form-group"><input type="submit" class="btn btn-primary" value="Готово!"></div>
   </form>
-    </div>
 </div>
-
-
 
 
 </body>

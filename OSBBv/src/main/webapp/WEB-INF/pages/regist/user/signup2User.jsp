@@ -36,6 +36,7 @@
 
 
 <div class="container">
+  <div class="container">
   <form role="form" enctype="multipart/form-data" class="form-horizontal" action="/signup/addUser2" method="post">
     <div class="form-group"><h3>Укажите персональные данные</h3></div>
     <div class="form-group"><input type="text" class="form-control" name="name" placeholder="Имя"></div>
@@ -51,6 +52,7 @@
     <div class="form-group"><input type="submit" class="btn btn-primary" value="Готово!"></div>
   </form>
 </div>
+  </div>
 </div>
 
 <script>

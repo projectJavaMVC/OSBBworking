@@ -43,11 +43,8 @@
     <div class="form-group"><input type="text" class="form-control" name="peopleCount" placeholder="Количество жильцов"></div>
     <div class="form-group"><input type="submit" class="btn btn-primary" value="Готово!"></div>
   </form>
-    </div>
 </div>
-
-
-
+</div>
 
 </body>
 </html>

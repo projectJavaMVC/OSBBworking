@@ -35,13 +35,11 @@
   </div>
 </nav>
 
-<div id="section1" class="container-fluid">
-<div class="container">
+<div id="section1" class="container">
 <form role="form" enctype="multipart/form-data" class="form-horizontal" action="/signup/gotoFlat" method="post">
   <h3>Поздравляем! Регистрация прошла успешно! Нажмите кнопку чтобы заполнить информацию о квартире.</h3>
   <div class="form-group"><input type="submit" class="btn btn-primary" value="Регистрация квартиры"></div>
 </form>
-</div>
 </div>
 </body>
 </html>
