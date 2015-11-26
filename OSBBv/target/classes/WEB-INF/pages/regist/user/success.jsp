@@ -8,17 +8,40 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-  <title>OSBB</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <title>OSBB Главная страница. Ведение учета вашего ОСББ</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <style>
+    body {
+      position: relative;
+    }
+    #section1 {padding-top:50px;height:100%;color: #fff; background-color: #1E88E5;}
+  </style>
 </head>
-<body>
-<div class="container">
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">ОСББ</a>
+    </div>
+  </div>
+</nav>
+
+<div id="section1" class="container-fluid">
+  <div class="container">
 <form role="form" enctype="multipart/form-data" class="form-horizontal" action="/signup/gotoFlat" method="post">
   <h3>Поздравляем! Регистрация прошла успешно! Нажмите кнопку чтобы заполнить информацию о квартире.</h3>
   <div class="form-group"><input type="submit" class="btn btn-primary" value="Регистрация квартиры"></div>
 </form>
 </div>
+  </div>
 </body>
 </html>

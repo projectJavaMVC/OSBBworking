@@ -34,13 +34,18 @@
     <div class="container">
     <form role="form" enctype="multipart/form-data" class="form-horizontal" action="/signin" method="post">
         <h3>Войдите или зарегестрируйтесь</h3>
-        <div class="form-group"><input type="text" class="form-control" name="login" placeholder="Login"></div>
-        <div class="form-group"><input type="password" class="form-control" name="pass" placeholder="Password"></div>
+        <div class="col-xs-4"><input  type="text" class="form-control" name="login" placeholder="Login"></div>
+        <div class="col-xs-4"><input type="password" class="form-control" name="pass" placeholder="Password"></div>
+
+       <div class="row">
         <div class="form-group"><input type="submit" class="btn btn-primary" value="Войти"></div>
+       </div>
     </form>
-    <form role="form" enctype="multipart/form-data" class="form-horizontal" action="/signup" method="post">
+        <form role="form" enctype="multipart/form-data" class="form-horizontal" action="/signup" method="post">
         <div class="form-group"><input type="submit" class="btn btn-primary" value="Регистрация"></div>
     </form>
+
+       </div>
     </div>
 </div>
 </body>

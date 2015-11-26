@@ -56,7 +56,8 @@
 </div>
 <div id="section3" class="container-fluid">
 </div>
-<div id="section41" class="container">
+<div id="section41" class="container-fluid">
+  <div class="container">
   <h1>Пригласите своих соседей!</h1>
   <p>Просто укажите email адрес:</p>
   <form role="form" enctype="multipart/form-data" class="form-horizontal" action="/inviteusers" method="post">
@@ -64,9 +65,10 @@
     <p></p>
   <input type="submit" class="btn btn-primary" value="Пригласить!">
   </form>
-
 </div>
-<div id="section42" class="container">
+</div>
+<div id="section42" class="container-fluid">
+  <div class="container">
   <h1>Мои соседи</h1>
   <table class="table table-border">
     <thead>
@@ -92,6 +94,7 @@
       </tr>
     </c:forEach>
   </table>
+</div>
 </div>
 
 </body>
