@@ -38,10 +38,26 @@
 <div id="section1" class="container-fluid">
   <div class="container">
   <form role="form" enctype="multipart/form-data" class="form-horizontal" action="/signup/addFlat" method="post">
-    <h3>Введите данные</h3>
-    <div class="form-group"><input type="text" class="form-control" name="area" placeholder="Площадь"></div>
-    <div class="form-group"><input type="text" class="form-control" name="peopleCount" placeholder="Количество жильцов"></div>
-    <div class="form-group"><input type="submit" class="btn btn-primary" value="Готово!"></div>
+    <div class="form-group">
+      <div class="col-md-4">
+        <h3>Введите данные</h3>
+      </div>
+    </div>
+    <div class="form-group">
+      <div class="col-md-4">
+        <input type="text" class="form-control" name="area" placeholder="Площадь">
+      </div>
+    </div>
+    <div class="form-group">
+      <div class="col-md-4">
+        <input type="text" class="form-control" name="peopleCount" placeholder="Количество жильцов">
+      </div>
+    </div>
+    <div class="form-group">
+      <div class="col-md-4">
+        <input type="submit" class="btn btn-primary" value="Готово!">
+      </div>
+    </div>
   </form>
 </div>
 </div>

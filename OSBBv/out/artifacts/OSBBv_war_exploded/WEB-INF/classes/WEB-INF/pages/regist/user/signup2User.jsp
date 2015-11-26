@@ -38,18 +38,46 @@
 <div class="container">
   <div class="container">
   <form role="form" enctype="multipart/form-data" class="form-horizontal" action="/signup/addUser2" method="post">
-    <div class="form-group"><h3>Укажите персональные данные</h3></div>
-    <div class="form-group"><input type="text" class="form-control" name="name" placeholder="Имя"></div>
-    <div class="form-group"><input type="text" class="form-control" name="lastName" placeholder="Фамилия"></div>
-    <div class="form-group"><input type="text" class="form-control" name="secondName" placeholder="Отчество"></div>
-    <div class="form-group"><input type="text" class="form-control" name="phone" placeholder="Номер телефона"></div>
-
-    <select class="selectpicker form-control form-group" data-live-search="true" name="flatNum">
-      <c:forEach items="${listFlat}" var="flat">
-        <option value="${flat.id}">${flat.flatNumber}</option>
-      </c:forEach>
-    </select>
-    <div class="form-group"><input type="submit" class="btn btn-primary" value="Готово!"></div>
+    <div class="form-group">
+      <div class="col-md-4">
+        <h3>Укажите персональные данные</h3>
+      </div>
+    </div>
+    <div class="form-group">
+      <div class="col-md-4">
+        <input type="text" class="form-control" name="name" placeholder="Имя">
+      </div>
+    </div>
+    <div class="form-group">
+      <div class="col-md-4">
+        <input type="text" class="form-control" name="lastName" placeholder="Фамилия">
+      </div>
+    </div>
+    <div class="form-group">
+      <div class="col-md-4">
+        <input type="text" class="form-control" name="secondName" placeholder="Отчество">
+      </div>
+    </div>
+    <div class="form-group">
+      <div class="col-md-4">
+        <input type="text" class="form-control" name="phone" placeholder="Номер телефона">
+      </div>
+    </div>
+    <div class="form-group">
+      <div class="col-md-4">
+        <select class="selectpicker form-control" data-live-search="true" name="flatNum">
+          <c:forEach items="${listFlat}" var="flat">
+            <option value="${flat.id}">${flat.flatNumber}</option>
+          </c:forEach>
+        </select>
+      </div>
+    </div>
+    <div class="form-group">
+      <div class="col-md-4">
+        <input type="submit" class="btn btn-primary" value="Готово!">
+      </div>
+    </div>
+    <div class="form-group">
   </form>
 </div>
   </div>

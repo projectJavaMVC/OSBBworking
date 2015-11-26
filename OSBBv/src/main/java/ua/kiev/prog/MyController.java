@@ -149,7 +149,7 @@ public class MyController {
     public String inviteUsers (@RequestParam String email,Model model)
     {
 
-        new  Email().sendMail(email);
+       // new  Email().sendMail(email);
         return "main/mainuser";
     }
 

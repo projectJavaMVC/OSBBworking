@@ -33,15 +33,26 @@
 <div id="section1" class="container-fluid">
     <div class="container">
     <form role="form" enctype="multipart/form-data" class="form-horizontal" action="/signin" method="post">
-        <h3>Войдите или зарегестрируйтесь</h3>
-        <div class="col-xs-4"><input  type="text" class="form-control" name="login" placeholder="Login"></div>
-        <div class="col-xs-4"><input type="password" class="form-control" name="pass" placeholder="Password"></div>
-        <div class="form-group"><input type="submit" class="btn btn-primary" value="Войти"></div>
+        <div class="form-group">
+            <h3>Войдите или зарегестрируйтесь</h3>
+        </div>
+        <div class="form-group">
+            <div class="col-md-4"><input  type="text" class="form-control" name="login" placeholder="Login"></div>
+        </div>
+        <div class="form-group">
+            <div class="col-md-4"><input type="password" class="form-control" name="pass" placeholder="Password"></div>
+        </div>
+        <div class="form-group">
+            <div class="col-md-4"><input type="submit" class="btn btn-success" value="Войти"></div>
+        </div>
     </form>
         <form role="form" enctype="multipart/form-data" class="form-horizontal" action="/signup" method="post">
-        <div class="form-group"><input type="submit" class="btn btn-primary" value="Регистрация"></div>
+        <div class="form-group">
+            <div class="col-md-4"><input type="submit" class="btn btn-success" value="Регистрация"></div>
+        </div>
     </form>
-       </div>
+
+    </div>
     </div>
 </div>
 </body>
