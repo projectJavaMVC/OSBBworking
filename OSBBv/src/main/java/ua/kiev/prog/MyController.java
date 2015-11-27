@@ -45,6 +45,10 @@ public class MyController {
             if ((s == null) || (s.isEmpty()))
                 return "errors/403_Error";
         }
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/DevGod
         UserEntity user = null;
         if (group == USER_TYPE) {
             build = services.getBuildByKey(key);
@@ -106,7 +110,11 @@ public class MyController {
 
     @RequestMapping("/signup/gotoFlat")
     public String addFlat(Model model) {
+<<<<<<< HEAD
         return "regist/user/signup2Flat";
+=======
+        return "signup2Flat";
+>>>>>>> origin/DevGod
     }
 
 
@@ -124,6 +132,7 @@ public class MyController {
         flat.setPeopleCnt(peopleCount);
         flat.setArea(area);
         services.mergeFlat(flat);
+<<<<<<< HEAD
         return "main/mainuser";
     }
 
@@ -143,6 +152,9 @@ public class MyController {
             model.addAttribute("users", listUser);
             return "main/mainuser";
         } else return "hello/signIN";
+=======
+        return "endOfRegUser";
+>>>>>>> origin/DevGod
     }
 
     @RequestMapping("/inviteusers")

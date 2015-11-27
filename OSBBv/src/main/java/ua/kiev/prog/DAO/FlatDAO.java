@@ -15,5 +15,8 @@ public interface FlatDAO {
     List<FlatsEntity> listFlat(BuildsEntity buildsEntity);
     FlatsEntity getFlatByID (long id);
     FlatsEntity mergeFlat(FlatsEntity flat);
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/DevGod
 }

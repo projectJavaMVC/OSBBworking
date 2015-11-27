@@ -82,9 +82,12 @@ public class Services {
         return flatDAO.mergeFlat(flatsEntity);
 
     }
+<<<<<<< HEAD
     @Transactional
     public UserEntity mergeUser(UserEntity userEntity)
     {
         return userDAO.mergeUser(userEntity);
     }
+=======
+>>>>>>> origin/DevGod
 }
