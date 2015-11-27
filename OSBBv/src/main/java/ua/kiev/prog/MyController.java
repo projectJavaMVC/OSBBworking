@@ -31,7 +31,7 @@ public class MyController {
     /////--------------------Всеволод
     @RequestMapping("/")
     public String index(Model model) {
-        //services.tableFill();
+        services.tableFill();
         return "hello/signIN";
     }
 
