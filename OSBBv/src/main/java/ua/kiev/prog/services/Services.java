@@ -2,10 +2,7 @@ package ua.kiev.prog.services;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import ua.kiev.prog.DAO.BuildDAO;
-import ua.kiev.prog.DAO.FlatDAO;
-import ua.kiev.prog.DAO.UserDAO;
-import ua.kiev.prog.DAO.UserInfoDAO;
+import ua.kiev.prog.DAO.*;
 import ua.kiev.prog.entity.BuildsEntity;
 import ua.kiev.prog.entity.FlatsEntity;
 import ua.kiev.prog.entity.UserEntity;
@@ -21,6 +18,8 @@ import java.util.List;
 public class Services {
 
     @Autowired
+    private ServicesDAO servicesDAO;
+    @Autowired
     private BuildDAO buildDAO;
     @Autowired
     private UserDAO userDAO;
@@ -30,9 +29,18 @@ public class Services {
     private FlatDAO flatDAO;
 
     @Transactional
+    public void tableFill(){
+        servicesDAO.tableFill();
+    }
+
+    @Transactional
     public void addBuild (BuildsEntity build){
         buildDAO.addBuild(build);
+    }
 
+    @Transactional
+    public UserEntity getUserByLogin(String login){
+        return userDAO.getUserByLogin(login);
     }
 
     @Transactional
@@ -52,8 +60,8 @@ public class Services {
     }
 
     @Transactional
-    public List<UserEntity> list (BuildsEntity build){
-        return userDAO.list(build);
+    public List<UserEntity> listUsers (BuildsEntity build){
+        return userDAO.listUsers(build);
     }
     @Transactional
     public void mergeBuild (BuildsEntity build) {buildDAO.mergeBuild(build);}
@@ -68,5 +76,15 @@ public class Services {
     @Transactional
     public FlatsEntity getFlatById(long id){
         return flatDAO.getFlatByID(id);
+    }
+    @Transactional
+    public FlatsEntity mergeFlat(FlatsEntity flatsEntity){
+        return flatDAO.mergeFlat(flatsEntity);
+
+    }
+    @Transactional
+    public UserEntity mergeUser(UserEntity userEntity)
+    {
+        return userDAO.mergeUser(userEntity);
     }
 }

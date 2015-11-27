@@ -11,11 +11,13 @@ public class UserEntity {
     @Id
     @GeneratedValue
     private long id;
+
+    @Column(unique = true)
     private String login;
     private String pass;
+    @Column(unique = true)
     private String email;
     private Short type;
-
 
     @OneToOne(mappedBy = "userEntity")
     public UserInfoEntity userInfo;
@@ -81,5 +83,12 @@ public class UserEntity {
 
     public void setBuildsEntity(BuildsEntity buildsEntity) {
         this.buildsEntity = buildsEntity;
+    }
+
+    public UserInfoEntity getUserInfo() {
+        return userInfo;
+    }
+    public void setUserInfo(UserInfoEntity userInfo) {
+        this.userInfo = userInfo;
     }
 }

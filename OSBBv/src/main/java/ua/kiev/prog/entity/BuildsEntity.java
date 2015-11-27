@@ -13,6 +13,7 @@ public class BuildsEntity {
     @Id
     @GeneratedValue
     private long id;
+    @Column(unique = true)
     private String code;
     private Short flatCnt;
     private String city;

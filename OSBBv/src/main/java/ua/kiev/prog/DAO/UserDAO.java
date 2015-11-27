@@ -10,5 +10,7 @@ import java.util.List;
  */
 public interface UserDAO {
     void add(UserEntity user);
-    List<UserEntity> list(BuildsEntity build);
+    List<UserEntity> listUsers(BuildsEntity build);
+    UserEntity getUserByLogin (String login);
+    UserEntity mergeUser(UserEntity user);
 }

@@ -2,186 +2,94 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="78b783f5-a228-4430-bccc-cde53557e651" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/signup2Flat.jsp" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\.idea\.name" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\.idea\artifacts\OSBBv_war_exploded.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\.idea\compiler.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\.idea\copyright\profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\.idea\encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\.idea\libraries\Maven__antlr_antlr_2_7_7.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\.idea\libraries\Maven__aopalliance_aopalliance_1_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\.idea\libraries\Maven__commons_fileupload_commons_fileupload_1_3_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\.idea\libraries\Maven__commons_io_commons_io_2_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\.idea\libraries\Maven__commons_logging_commons_logging_1_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\.idea\libraries\Maven__dom4j_dom4j_1_6_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\.idea\libraries\Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\.idea\libraries\Maven__javax_servlet_jstl_1_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\.idea\libraries\Maven__mysql_mysql_connector_java_5_1_34.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\.idea\libraries\Maven__org_hibernate_common_hibernate_commons_annotations_4_0_5_Final.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\.idea\libraries\Maven__org_hibernate_hibernate_core_4_3_11_Final.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\.idea\libraries\Maven__org_hibernate_hibernate_entitymanager_4_3_11_Final.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\.idea\libraries\Maven__org_hibernate_javax_persistence_hibernate_jpa_2_1_api_1_0_0_Final.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\.idea\libraries\Maven__org_javassist_javassist_3_18_1_GA.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\.idea\libraries\Maven__org_jboss_jandex_1_1_0_Final.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\.idea\libraries\Maven__org_jboss_logging_jboss_logging_3_1_3_GA.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\.idea\libraries\Maven__org_jboss_logging_jboss_logging_annotations_1_2_0_Beta1.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\.idea\libraries\Maven__org_jboss_spec_javax_transaction_jboss_transaction_api_1_2_spec_1_0_0_Final.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\.idea\libraries\Maven__org_springframework_spring_aop_4_2_1_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\.idea\libraries\Maven__org_springframework_spring_beans_4_2_1_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\.idea\libraries\Maven__org_springframework_spring_context_4_2_1_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\.idea\libraries\Maven__org_springframework_spring_core_4_2_1_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\.idea\libraries\Maven__org_springframework_spring_expression_4_2_1_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\.idea\libraries\Maven__org_springframework_spring_jdbc_4_2_1_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\.idea\libraries\Maven__org_springframework_spring_orm_4_2_1_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\.idea\libraries\Maven__org_springframework_spring_tx_4_2_1_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\.idea\libraries\Maven__org_springframework_spring_web_4_2_1_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\.idea\libraries\Maven__org_springframework_spring_webmvc_4_2_1_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\.idea\libraries\Maven__xml_apis_xml_apis_1_0_b2.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\.idea\misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\.idea\modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\.idea\scopes\scope_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\.idea\uiDesigner.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\.idea\vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\.idea\workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\OSBBv.iml" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\META-INF\MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\classes\META-INF\persistence.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\classes\WEB-INF\pages\403_Error.jsp" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\classes\WEB-INF\pages\contact_add_page.jsp" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\classes\WEB-INF\pages\group_add_page.jsp" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\classes\WEB-INF\pages\index.jsp" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\classes\WEB-INF\pages\login.jsp" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\classes\WEB-INF\pages\signIN.jsp" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\classes\WEB-INF\pages\signup.jsp" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\classes\WEB-INF\pages\signup2Admin.jsp" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\classes\WEB-INF\pages\signup2User.jsp" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\classes\WEB-INF\pages\success.jsp" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\classes\WEB-INF\pages\userslist.jsp" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\classes\ua\kiev\prog\AppConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\classes\ua\kiev\prog\DAO\BuildDAO.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\classes\ua\kiev\prog\DAO\BuildDAOImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\classes\ua\kiev\prog\DAO\FlatDAO.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\classes\ua\kiev\prog\DAO\FlatDAOImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\classes\ua\kiev\prog\DAO\UserDAO.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\classes\ua\kiev\prog\DAO\UserDAOImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\classes\ua\kiev\prog\DAO\UserInfoDAO.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\classes\ua\kiev\prog\DAO\UserInfoDAOImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\classes\ua\kiev\prog\MyController.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\classes\ua\kiev\prog\WebInitializer.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\classes\ua\kiev\prog\entity\BuildsEntity.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\classes\ua\kiev\prog\entity\FlatsEntity.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\classes\ua\kiev\prog\entity\UserEntity.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\classes\ua\kiev\prog\entity\UserInfoEntity.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\classes\ua\kiev\prog\services\Services.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\lib\antlr-2.7.7.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\lib\aopalliance-1.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\lib\commons-fileupload-1.3.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\lib\commons-io-2.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\lib\commons-logging-1.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\lib\dom4j-1.6.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\lib\hibernate-commons-annotations-4.0.5.Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\lib\hibernate-core-4.3.11.Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\lib\hibernate-entitymanager-4.3.11.Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\lib\hibernate-jpa-2.1-api-1.0.0.Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\lib\jandex-1.1.0.Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\lib\javassist-3.18.1-GA.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\lib\jboss-logging-3.1.3.GA.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\lib\jboss-logging-annotations-1.2.0.Beta1.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\lib\jboss-transaction-api_1.2_spec-1.0.0.Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\lib\jstl-1.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\lib\mysql-connector-java-5.1.34.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\lib\spring-aop-4.2.1.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\lib\spring-beans-4.2.1.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\lib\spring-context-4.2.1.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\lib\spring-core-4.2.1.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\lib\spring-expression-4.2.1.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\lib\spring-jdbc-4.2.1.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\lib\spring-orm-4.2.1.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\lib\spring-tx-4.2.1.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\lib\spring-web-4.2.1.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\lib\spring-webmvc-4.2.1.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\lib\xml-apis-1.0.b2.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\pages\403_Error.jsp" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\pages\contact_add_page.jsp" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\pages\group_add_page.jsp" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\pages\index.jsp" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\pages\login.jsp" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\pages\signIN.jsp" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\pages\signup.jsp" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\pages\signup2Admin.jsp" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\pages\signup2User.jsp" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\pages\success.jsp" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\pages\userslist.jsp" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\src\main\java\ua\kiev\prog\AppConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\src\main\java\ua\kiev\prog\DAO\BuildDAO.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\src\main\java\ua\kiev\prog\DAO\BuildDAOImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\src\main\java\ua\kiev\prog\DAO\FlatDAO.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\src\main\java\ua\kiev\prog\DAO\FlatDAOImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\src\main\java\ua\kiev\prog\DAO\UserDAO.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\src\main\java\ua\kiev\prog\DAO\UserDAOImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\src\main\java\ua\kiev\prog\DAO\UserInfoDAO.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\src\main\java\ua\kiev\prog\DAO\UserInfoDAOImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\src\main\java\ua\kiev\prog\MyController.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\src\main\java\ua\kiev\prog\WebInitializer.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\src\main\java\ua\kiev\prog\entity\BuildsEntity.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\src\main\java\ua\kiev\prog\entity\FlatsEntity.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\src\main\java\ua\kiev\prog\entity\UserEntity.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\src\main\java\ua\kiev\prog\entity\UserInfoEntity.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\src\main\java\ua\kiev\prog\services\Services.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\src\main\resources\META-INF\persistence.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\src\main\webapp\WEB-INF\pages\403_Error.jsp" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\src\main\webapp\WEB-INF\pages\contact_add_page.jsp" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\src\main\webapp\WEB-INF\pages\group_add_page.jsp" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\src\main\webapp\WEB-INF\pages\index.jsp" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\src\main\webapp\WEB-INF\pages\login.jsp" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\src\main\webapp\WEB-INF\pages\signIN.jsp" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\src\main\webapp\WEB-INF\pages\signup.jsp" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\src\main\webapp\WEB-INF\pages\signup2Admin.jsp" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\src\main\webapp\WEB-INF\pages\signup2User.jsp" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\src\main\webapp\WEB-INF\pages\success.jsp" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\src\main\webapp\WEB-INF\pages\userslist.jsp" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\target\MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\target\classes\META-INF\persistence.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\target\classes\WEB-INF\pages\403_Error.jsp" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\target\classes\WEB-INF\pages\contact_add_page.jsp" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\target\classes\WEB-INF\pages\group_add_page.jsp" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\target\classes\WEB-INF\pages\index.jsp" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\target\classes\WEB-INF\pages\login.jsp" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\target\classes\WEB-INF\pages\signIN.jsp" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\target\classes\WEB-INF\pages\signup.jsp" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\target\classes\WEB-INF\pages\signup2Admin.jsp" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\target\classes\WEB-INF\pages\signup2User.jsp" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\target\classes\WEB-INF\pages\success.jsp" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\target\classes\WEB-INF\pages\userslist.jsp" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\target\classes\ua\kiev\prog\AppConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\target\classes\ua\kiev\prog\DAO\BuildDAO.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\target\classes\ua\kiev\prog\DAO\BuildDAOImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\target\classes\ua\kiev\prog\DAO\FlatDAO.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\target\classes\ua\kiev\prog\DAO\FlatDAOImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\target\classes\ua\kiev\prog\DAO\UserDAO.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\target\classes\ua\kiev\prog\DAO\UserDAOImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\target\classes\ua\kiev\prog\DAO\UserInfoDAO.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\target\classes\ua\kiev\prog\DAO\UserInfoDAOImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\target\classes\ua\kiev\prog\MyController.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\target\classes\ua\kiev\prog\WebInitializer.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\target\classes\ua\kiev\prog\entity\BuildsEntity.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\target\classes\ua\kiev\prog\entity\FlatsEntity.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\target\classes\ua\kiev\prog\entity\UserEntity.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\target\classes\ua\kiev\prog\entity\UserInfoEntity.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\JAVA_STUFF\OSBBworking\OSBBv\OSBBv\target\classes\ua\kiev\prog\services\Services.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/403_Error.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/403_Error.jsp" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\LatestOSBB\OSBBworking\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\classes\WEB-INF\pages\403_Error.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\LatestOSBB\OSBBworking\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\classes\WEB-INF\pages\contact_add_page.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\LatestOSBB\OSBBworking\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\classes\WEB-INF\pages\group_add_page.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\LatestOSBB\OSBBworking\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\classes\WEB-INF\pages\index.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\LatestOSBB\OSBBworking\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\classes\WEB-INF\pages\login.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\LatestOSBB\OSBBworking\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\classes\WEB-INF\pages\signIN.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\LatestOSBB\OSBBworking\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\classes\WEB-INF\pages\signup.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\LatestOSBB\OSBBworking\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\classes\WEB-INF\pages\signup2Admin.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\LatestOSBB\OSBBworking\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\classes\WEB-INF\pages\signup2User.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\LatestOSBB\OSBBworking\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\classes\WEB-INF\pages\signupadmin3.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\LatestOSBB\OSBBworking\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\classes\WEB-INF\pages\success.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\LatestOSBB\OSBBworking\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\classes\WEB-INF\pages\userslist.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\LatestOSBB\OSBBworking\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\pages\403_Error.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\LatestOSBB\OSBBworking\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\pages\contact_add_page.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\LatestOSBB\OSBBworking\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\pages\group_add_page.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\LatestOSBB\OSBBworking\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\pages\index.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\LatestOSBB\OSBBworking\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\pages\login.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\LatestOSBB\OSBBworking\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\pages\signIN.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\LatestOSBB\OSBBworking\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\pages\signup.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\LatestOSBB\OSBBworking\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\pages\signup2Admin.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\LatestOSBB\OSBBworking\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\pages\signup2User.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\LatestOSBB\OSBBworking\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\pages\signupadmin3.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\LatestOSBB\OSBBworking\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\pages\success.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\LatestOSBB\OSBBworking\OSBBv\out\artifacts\OSBBv_war_exploded\WEB-INF\pages\userslist.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\LatestOSBB\OSBBworking\OSBBv\src\main\webapp\WEB-INF\pages\403_Error.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\LatestOSBB\OSBBworking\OSBBv\src\main\webapp\WEB-INF\pages\contact_add_page.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\LatestOSBB\OSBBworking\OSBBv\src\main\webapp\WEB-INF\pages\group_add_page.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\LatestOSBB\OSBBworking\OSBBv\src\main\webapp\WEB-INF\pages\index.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\LatestOSBB\OSBBworking\OSBBv\src\main\webapp\WEB-INF\pages\login.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\LatestOSBB\OSBBworking\OSBBv\src\main\webapp\WEB-INF\pages\signIN.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\LatestOSBB\OSBBworking\OSBBv\src\main\webapp\WEB-INF\pages\signup.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\LatestOSBB\OSBBworking\OSBBv\src\main\webapp\WEB-INF\pages\signup2Admin.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\LatestOSBB\OSBBworking\OSBBv\src\main\webapp\WEB-INF\pages\signup2User.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\LatestOSBB\OSBBworking\OSBBv\src\main\webapp\WEB-INF\pages\signupadmin3.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\LatestOSBB\OSBBworking\OSBBv\src\main\webapp\WEB-INF\pages\success.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\LatestOSBB\OSBBworking\OSBBv\src\main\webapp\WEB-INF\pages\userslist.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\LatestOSBB\OSBBworking\OSBBv\target\classes\WEB-INF\pages\403_Error.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\LatestOSBB\OSBBworking\OSBBv\target\classes\WEB-INF\pages\contact_add_page.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\LatestOSBB\OSBBworking\OSBBv\target\classes\WEB-INF\pages\group_add_page.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\LatestOSBB\OSBBworking\OSBBv\target\classes\WEB-INF\pages\index.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\LatestOSBB\OSBBworking\OSBBv\target\classes\WEB-INF\pages\login.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\LatestOSBB\OSBBworking\OSBBv\target\classes\WEB-INF\pages\signIN.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\LatestOSBB\OSBBworking\OSBBv\target\classes\WEB-INF\pages\signup.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\LatestOSBB\OSBBworking\OSBBv\target\classes\WEB-INF\pages\signup2Admin.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\LatestOSBB\OSBBworking\OSBBv\target\classes\WEB-INF\pages\signup2User.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\LatestOSBB\OSBBworking\OSBBv\target\classes\WEB-INF\pages\signupadmin3.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\LatestOSBB\OSBBworking\OSBBv\target\classes\WEB-INF\pages\success.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:\JAVA_STUFF\LatestOSBB\OSBBworking\OSBBv\target\classes\WEB-INF\pages\userslist.jsp" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/OSBBv_war_exploded/WEB-INF/classes/ua/kiev/prog/AppConfig.class" afterPath="$PROJECT_DIR$/out/artifacts/OSBBv_war_exploded/WEB-INF/classes/ua/kiev/prog/AppConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ua/kiev/prog/AppConfig.class" afterPath="$PROJECT_DIR$/target/classes/ua/kiev/prog/AppConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/OSBBv_war_exploded/WEB-INF/classes/ua/kiev/prog/entity/BuildsEntity.class" afterPath="$PROJECT_DIR$/out/artifacts/OSBBv_war_exploded/WEB-INF/classes/ua/kiev/prog/entity/BuildsEntity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ua/kiev/prog/entity/BuildsEntity.class" afterPath="$PROJECT_DIR$/target/classes/ua/kiev/prog/entity/BuildsEntity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/OSBBv_war_exploded/WEB-INF/classes/ua/kiev/prog/DAO/FlatDAO.class" afterPath="$PROJECT_DIR$/out/artifacts/OSBBv_war_exploded/WEB-INF/classes/ua/kiev/prog/DAO/FlatDAO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ua/kiev/prog/DAO/FlatDAO.class" afterPath="$PROJECT_DIR$/target/classes/ua/kiev/prog/DAO/FlatDAO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/OSBBv_war_exploded/WEB-INF/classes/ua/kiev/prog/DAO/FlatDAOImpl.class" afterPath="$PROJECT_DIR$/out/artifacts/OSBBv_war_exploded/WEB-INF/classes/ua/kiev/prog/DAO/FlatDAOImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ua/kiev/prog/DAO/FlatDAOImpl.class" afterPath="$PROJECT_DIR$/target/classes/ua/kiev/prog/DAO/FlatDAOImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/OSBBv_war_exploded/WEB-INF/classes/ua/kiev/prog/MyController.class" afterPath="$PROJECT_DIR$/out/artifacts/OSBBv_war_exploded/WEB-INF/classes/ua/kiev/prog/MyController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ua/kiev/prog/MyController.class" afterPath="$PROJECT_DIR$/target/classes/ua/kiev/prog/MyController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/OSBBv_war_exploded/WEB-INF/classes/ua/kiev/prog/services/Services.class" afterPath="$PROJECT_DIR$/out/artifacts/OSBBv_war_exploded/WEB-INF/classes/ua/kiev/prog/services/Services.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ua/kiev/prog/services/Services.class" afterPath="$PROJECT_DIR$/target/classes/ua/kiev/prog/services/Services.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/OSBBv_war_exploded/WEB-INF/classes/ua/kiev/prog/DAO/UserDAO.class" afterPath="$PROJECT_DIR$/out/artifacts/OSBBv_war_exploded/WEB-INF/classes/ua/kiev/prog/DAO/UserDAO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ua/kiev/prog/DAO/UserDAO.class" afterPath="$PROJECT_DIR$/target/classes/ua/kiev/prog/DAO/UserDAO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/OSBBv_war_exploded/WEB-INF/classes/ua/kiev/prog/DAO/UserDAOImpl.class" afterPath="$PROJECT_DIR$/out/artifacts/OSBBv_war_exploded/WEB-INF/classes/ua/kiev/prog/DAO/UserDAOImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ua/kiev/prog/DAO/UserDAOImpl.class" afterPath="$PROJECT_DIR$/target/classes/ua/kiev/prog/DAO/UserDAOImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/OSBBv_war_exploded/WEB-INF/classes/ua/kiev/prog/entity/UserEntity.class" afterPath="$PROJECT_DIR$/out/artifacts/OSBBv_war_exploded/WEB-INF/classes/ua/kiev/prog/entity/UserEntity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ua/kiev/prog/entity/UserEntity.class" afterPath="$PROJECT_DIR$/target/classes/ua/kiev/prog/entity/UserEntity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/OSBBv_war_exploded/WEB-INF/classes/ua/kiev/prog/entity/UserInfoEntity.class" afterPath="$PROJECT_DIR$/out/artifacts/OSBBv_war_exploded/WEB-INF/classes/ua/kiev/prog/entity/UserInfoEntity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ua/kiev/prog/entity/UserInfoEntity.class" afterPath="$PROJECT_DIR$/target/classes/ua/kiev/prog/entity/UserInfoEntity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ua/kiev/prog/AppConfig.java" afterPath="$PROJECT_DIR$/src/main/java/ua/kiev/prog/AppConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ua/kiev/prog/DAO/BuildDAO.java" afterPath="$PROJECT_DIR$/src/main/java/ua/kiev/prog/DAO/BuildDAO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ua/kiev/prog/entity/BuildsEntity.java" afterPath="$PROJECT_DIR$/src/main/java/ua/kiev/prog/entity/BuildsEntity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ua/kiev/prog/DAO/FlatDAO.java" afterPath="$PROJECT_DIR$/src/main/java/ua/kiev/prog/DAO/FlatDAO.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ua/kiev/prog/DAO/FlatDAOImpl.java" afterPath="$PROJECT_DIR$/src/main/java/ua/kiev/prog/DAO/FlatDAOImpl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ua/kiev/prog/entity/FlatsEntity.java" afterPath="$PROJECT_DIR$/src/main/java/ua/kiev/prog/entity/FlatsEntity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/MANIFEST.MF" afterPath="$PROJECT_DIR$/target/MANIFEST.MF" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ua/kiev/prog/MyController.java" afterPath="$PROJECT_DIR$/src/main/java/ua/kiev/prog/MyController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OSBBv.iml" afterPath="$PROJECT_DIR$/OSBBv.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ua/kiev/prog/services/Services.java" afterPath="$PROJECT_DIR$/src/main/java/ua/kiev/prog/services/Services.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ua/kiev/prog/DAO/UserDAO.java" afterPath="$PROJECT_DIR$/src/main/java/ua/kiev/prog/DAO/UserDAO.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ua/kiev/prog/DAO/UserDAOImpl.java" afterPath="$PROJECT_DIR$/src/main/java/ua/kiev/prog/DAO/UserDAOImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ua/kiev/prog/entity/UserEntity.java" afterPath="$PROJECT_DIR$/src/main/java/ua/kiev/prog/entity/UserEntity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ua/kiev/prog/DAO/UserInfoDAO.java" afterPath="$PROJECT_DIR$/src/main/java/ua/kiev/prog/DAO/UserInfoDAO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ua/kiev/prog/DAO/UserInfoDAOImpl.java" afterPath="$PROJECT_DIR$/src/main/java/ua/kiev/prog/DAO/UserInfoDAOImpl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ua/kiev/prog/entity/UserInfoEntity.java" afterPath="$PROJECT_DIR$/src/main/java/ua/kiev/prog/entity/UserInfoEntity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/signup2Admin.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/signup2Admin.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/success.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/success.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="OSBBv.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -205,91 +113,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MyController.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MyController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/ua/kiev/prog/MyController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="107" column="41" selection-start-line="107" selection-start-column="41" selection-end-line="107" selection-end-column="41" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FlatsEntity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ua/kiev/prog/entity/FlatsEntity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#964#965#0" expanded="true" />
-                <element signature="e#989#990#0" expanded="true" />
-                <element signature="e#1023#1024#0" expanded="true" />
-                <element signature="e#1051#1052#0" expanded="true" />
-                <element signature="e#1089#1090#0" expanded="true" />
-                <element signature="e#1122#1123#0" expanded="true" />
-                <element signature="e#1175#1176#0" expanded="true" />
-                <element signature="e#1219#1220#0" expanded="true" />
-                <element signature="e#1256#1257#0" expanded="true" />
-                <element signature="e#1288#1289#0" expanded="true" />
-                <element signature="e#1339#1340#0" expanded="true" />
-                <element signature="e#1381#1382#0" expanded="true" />
-                <element signature="e#1416#1417#0" expanded="true" />
-                <element signature="e#1443#1444#0" expanded="true" />
-                <element signature="e#1487#1488#0" expanded="true" />
-                <element signature="e#1519#1520#0" expanded="true" />
-                <element signature="e#1564#1565#0" expanded="true" />
-                <element signature="e#1599#1600#0" expanded="true" />
-                <element signature="e#1661#1662#0" expanded="true" />
-                <element signature="e#1709#1710#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Services.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ua/kiev/prog/services/Services.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="50" column="21" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1168#1169#0" expanded="true" />
-                <element signature="e#1207#1208#0" expanded="true" />
-                <element signature="e#1741#1742#0" expanded="true" />
-                <element signature="e#1787#1788#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="signup2Flat.jsp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/signup2Flat.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.65656567">
-              <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.36266667">
+              <caret line="47" column="31" selection-start-line="47" selection-start-column="31" selection-end-line="47" selection-end-column="31" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserInfoDAO.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ua/kiev/prog/DAO/UserInfoDAO.java">
+      <file leaf-file-name="AppConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ua/kiev/prog/AppConfig.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+              <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserInfoDAOImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ua/kiev/prog/DAO/UserInfoDAOImpl.java">
+      <file leaf-file-name="UserDAO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ua/kiev/prog/DAO/UserDAO.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+              <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -299,43 +147,76 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/ua/kiev/prog/DAO/UserDAOImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-              <folding>
-                <element signature="e#816#817#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="signup2User.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/signup2User.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.769231">
-              <caret line="18" column="70" selection-start-line="18" selection-start-column="63" selection-end-line="18" selection-end-column="70" />
+              <caret line="38" column="25" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FlatDAOImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ua/kiev/prog/DAO/FlatDAOImpl.java">
+      <file leaf-file-name="UserInfoDAO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ua/kiev/prog/DAO/UserInfoDAO.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="22" column="78" selection-start-line="22" selection-start-column="78" selection-end-line="22" selection-end-column="78" />
+              <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserInfoDAOImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ua/kiev/prog/DAO/UserInfoDAOImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
               <folding>
-                <element signature="e#811#812#0" expanded="true" />
-                <element signature="e#854#855#0" expanded="true" />
+                <element signature="e#446#447#0" expanded="true" />
+                <element signature="e#491#492#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FlatDAO.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ua/kiev/prog/DAO/FlatDAO.java">
+      <file leaf-file-name="BuildsEntity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ua/kiev/prog/entity/BuildsEntity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+              <caret line="40" column="33" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="33" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserInfoEntity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ua/kiev/prog/entity/UserInfoEntity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="95" column="0" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WebInitializer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ua/kiev/prog/WebInitializer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserEntity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ua/kiev/prog/entity/UserEntity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <folding>
+                <element signature="e#1756#1757#0" expanded="true" />
+                <element signature="e#1787#1788#0" expanded="true" />
+                <element signature="e#1842#1843#0" expanded="true" />
+                <element signature="e#1882#1883#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -351,7 +232,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -361,29 +242,46 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/kiev/prog/entity/UserEntity.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/kiev/prog/DAO/UserDAOImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/kiev/prog/DAO/BuildDAOImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/kiev/prog/AppConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/kiev/prog/DAO/FlatDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/kiev/prog/entity/BuildsEntity.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/signIN.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/403_Error.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/signup2Admin.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/addFlat.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/signup2User.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/kiev/prog/DAO/BuildDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/endOfRegUser.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/success.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/signup2Flat.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/kiev/prog/entity/UserInfoEntity.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/kiev/prog/DAO/UserInfoDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/ua/kiev/prog/DAO/UserInfoDAOImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/kiev/prog/DAO/FlatDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/kiev/prog/entity/FlatsEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/403_Error.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/success.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/kiev/prog/DAO/BuildDAOImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/kiev/prog/entity/BuildsEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/kiev/prog/DAO/FlatDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/ua/kiev/prog/DAO/FlatDAOImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/signup2User.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/EncodingPostProcessor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/kiev/prog/EncodingPostProcessor.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/SignIN.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/signup2Admin.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/signupadmin3.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/signup.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/signIN.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/kiev/prog/entity/UserInfoEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/main/mainUser.jsp" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/kiev/prog/entity/FlatsEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/test.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/main/mainuser.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/kiev/prog/utils/Email.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/regist/user/success.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/regist/user/signup2Flat.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/regist/admin/signup2Admin.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/regist/admin/signup3Admin.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/kiev/prog/DAO/ServicesDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/kiev/prog/entity/ServicesEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/kiev/prog/DAO/FlatDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/kiev/prog/DAO/BuildDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/hello/signIN.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/kiev/prog/DAO/ServicesDAOImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/regist/signup.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/regist/user/signup2User.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/kiev/prog/DAO/UserDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/kiev/prog/DAO/UserDAOImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/ua/kiev/prog/services/Services.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/kiev/prog/AppConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/kiev/prog/DAO/UserInfoDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/kiev/prog/entity/UserEntity.java" />
         <option value="$PROJECT_DIR$/src/main/java/ua/kiev/prog/MyController.java" />
       </list>
     </option>
@@ -429,6 +327,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
@@ -457,9 +356,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -501,6 +398,134 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OSBBv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OSBBv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="regist" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OSBBv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OSBBv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="regist" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="user" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OSBBv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OSBBv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="regist" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OSBBv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OSBBv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hello" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -640,6 +665,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -651,7 +678,7 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="reference.settings.project.maven.runner" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -660,16 +687,11 @@
     <property name="project.structure.side.proportion" value="0.18181819" />
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Confirmation" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\JAVA_STUFF\OSBBworking\OSBBv\src\main\java\ua\kiev\prog\entity" />
-      <recent name="D:\JAVA_STUFF\OSBBworking\OSBBv\src\main\webapp\WEB-INF\pages" />
-    </key>
+    <property name="FullScreen" value="false" />
   </component>
   <component name="RunManager" selected="Tomcat Server.Unnamed">
     <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
@@ -885,12 +907,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <envs />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -928,13 +944,7 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
-      <method />
-    </configuration>
-    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
-      <method />
-    </configuration>
-    <configuration default="false" name="Unnamed" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.281" ALTERNATIVE_JRE_ENABLED="false" ALTERNATIVE_JRE_PATH="">
+    <configuration default="false" name="Unnamed" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.28" ALTERNATIVE_JRE_ENABLED="false" ALTERNATIVE_JRE_PATH="">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="OSBBv:war exploded">
@@ -1029,53 +1039,37 @@
       <workItem from="1448373279444" duration="835000" />
       <workItem from="1448374515241" duration="19855000" />
       <workItem from="1448398665564" duration="5257000" />
-      <workItem from="1448441158385" duration="3251000" />
-      <workItem from="1448447792158" duration="8833000" />
-      <workItem from="1448461594151" duration="6459000" />
+      <workItem from="1448435593546" duration="19944000" />
+      <workItem from="1448521359168" duration="20548000" />
+      <workItem from="1448560176591" duration="5755000" />
+      <workItem from="1448571177167" duration="5911000" />
+      <workItem from="1448609760189" duration="18998000" />
+      <workItem from="1448632059127" duration="280000" />
     </task>
-    <task id="LOCAL-00001" summary="commit#5">
-      <created>1448445366059</created>
-      <option name="number" value="00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1448445366059</updated>
-    </task>
-    <task id="LOCAL-00002" summary="commit#5">
-      <created>1448445434562</created>
-      <option name="number" value="00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1448445434562</updated>
-    </task>
-    <task id="LOCAL-00003" summary="commit#6">
-      <created>1448445773607</created>
-      <option name="number" value="00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1448445773607</updated>
-    </task>
-    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44882000" />
+    <option name="totallyTimeSpent" value="97775000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="0" width="1382" height="744" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980132" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24213837" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3663522" sideWeight="0.50292826" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2423841" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15401146" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4481132" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3663522" sideWeight="0.49707174" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21229868" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20424597" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1105,14 +1099,9 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="commit#5" />
-    <MESSAGE value="commit#6" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit#6" />
-  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1121,56 +1110,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/kiev/prog/AppConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="53" column="9" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/kiev/prog/MyController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="51" column="40" selection-start-line="51" selection-start-column="32" selection-end-line="51" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/signup2User.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/kiev/prog/DAO/FlatDAOImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="49" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
-          <folding>
-            <element signature="e#811#812#0" expanded="true" />
-            <element signature="e#854#855#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ua/kiev/prog/DAO/FlatDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="56" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="56" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1178,7 +1121,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="15" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1186,7 +1128,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="30" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1194,6 +1135,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1201,6 +1143,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/kiev/prog/entity/UserInfoEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="82" column="0" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1216,9 +1165,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1226,7 +1173,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="8" column="38" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1234,15 +1180,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/signup2User.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="77" selection-start-line="17" selection-start-column="77" selection-end-line="17" selection-end-column="77" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1270,187 +1207,187 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/errors/403_Error.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/main/userslist.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="27" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/regist/endOfRegUser.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/hello/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="7.8461537">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/main/mainuser.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="34" column="9" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/group_add_page.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/kiev/prog/utils/Email.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="51" column="13" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/index.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/old/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="102" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/kiev/prog/AppConfig.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/regist/user/success.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="58" column="54" selection-start-line="58" selection-start-column="54" selection-end-line="58" selection-end-column="54" />
-          <folding />
+          <caret line="52" column="67" selection-start-line="52" selection-start-column="67" selection-end-line="52" selection-end-column="67" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/userslist.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-19.461538">
-          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5151515">
-          <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_60/src.zip!/java/math/BigDecimal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.4572369">
-          <caret line="2707" column="36" selection-start-line="2707" selection-start-column="36" selection-end-line="2707" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/signIN.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/regist/user/signup2Flat.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
-          <folding />
+          <caret line="59" column="10" selection-start-line="59" selection-start-column="10" selection-end-line="59" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/kiev/prog/WebInitializer.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/test.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/endOfRegUser.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.056604">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/signup.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.8461537">
-          <caret line="12" column="54" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/kiev/prog/entity/UserInfoEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/kiev/prog/entity/UserEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/kiev/prog/entity/BuildsEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#530#543#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/403_Error.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.730769">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/contact_add_page.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.538462">
-          <caret line="24" column="14" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/signup2Admin.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.807693">
-          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/success.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.384615">
-          <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/kiev/prog/DAO/UserDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="30" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="30" />
-          <folding />
+        <state vertical-scroll-proportion="-11.115385">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ua/kiev/prog/DAO/BuildDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding />
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ua/kiev/prog/DAO/BuildDAOImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/signup2User.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.769231">
-          <caret line="18" column="70" selection-start-line="18" selection-start-column="63" selection-end-line="18" selection-end-column="70" />
-          <folding />
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="15" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ua/kiev/prog/DAO/FlatDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/kiev/prog/DAO/FlatDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/regist/admin/signup3Admin.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/kiev/prog/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/kiev/prog/DAO/ServicesDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/hello/signIN.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.8461537">
+          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/regist/signup.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.769231">
+          <caret line="18" column="52" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/regist/user/signup2User.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.4905663">
+          <caret line="53" column="10" selection-start-line="53" selection-start-column="10" selection-end-line="53" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/regist/admin/signup2Admin.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-40.53846">
+          <caret line="62" column="28" selection-start-line="62" selection-start-column="28" selection-end-line="62" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/kiev/prog/DAO/ServicesDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="73" column="67" selection-start-line="73" selection-start-column="67" selection-end-line="73" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-entitymanager/4.3.11.Final/hibernate-entitymanager-4.3.11.Final.jar!/org/hibernate/jpa/spi/AbstractEntityManagerImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21264368">
+          <caret line="856" column="16" selection-start-line="856" selection-start-column="16" selection-end-line="856" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar!/javax/persistence/EntityManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3591954">
+          <caret line="40" column="9" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/kiev/prog/entity/ServicesEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.36266667">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1458,62 +1395,46 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/ua/kiev/prog/entity/FlatsEntity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#964#965#0" expanded="true" />
-            <element signature="e#989#990#0" expanded="true" />
-            <element signature="e#1023#1024#0" expanded="true" />
-            <element signature="e#1051#1052#0" expanded="true" />
-            <element signature="e#1089#1090#0" expanded="true" />
-            <element signature="e#1122#1123#0" expanded="true" />
-            <element signature="e#1175#1176#0" expanded="true" />
-            <element signature="e#1219#1220#0" expanded="true" />
-            <element signature="e#1256#1257#0" expanded="true" />
-            <element signature="e#1288#1289#0" expanded="true" />
-            <element signature="e#1339#1340#0" expanded="true" />
-            <element signature="e#1381#1382#0" expanded="true" />
-            <element signature="e#1416#1417#0" expanded="true" />
-            <element signature="e#1443#1444#0" expanded="true" />
-            <element signature="e#1487#1488#0" expanded="true" />
-            <element signature="e#1519#1520#0" expanded="true" />
-            <element signature="e#1564#1565#0" expanded="true" />
-            <element signature="e#1599#1600#0" expanded="true" />
-            <element signature="e#1661#1662#0" expanded="true" />
-            <element signature="e#1709#1710#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/kiev/prog/DAO/FlatDAOImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="78" selection-start-line="22" selection-start-column="78" selection-end-line="22" selection-end-column="78" />
-          <folding>
-            <element signature="e#811#812#0" expanded="true" />
-            <element signature="e#854#855#0" expanded="true" />
-          </folding>
+          <caret line="33" column="33" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ua/kiev/prog/services/Services.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="50" column="21" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1168#1169#0" expanded="true" />
-            <element signature="e#1207#1208#0" expanded="true" />
-            <element signature="e#1741#1742#0" expanded="true" />
-            <element signature="e#1787#1788#0" expanded="true" />
-          </folding>
+          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/kiev/prog/DAO/UserInfoDAO.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/kiev/prog/entity/UserInfoEntity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+          <caret line="95" column="0" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/kiev/prog/WebInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/kiev/prog/AppConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/kiev/prog/DAO/UserDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
           <folding />
         </state>
       </provider>
@@ -1521,35 +1442,55 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/ua/kiev/prog/DAO/UserDAOImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding>
-            <element signature="e#816#817#0" expanded="true" />
-          </folding>
+          <caret line="38" column="25" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/kiev/prog/DAO/UserInfoDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ua/kiev/prog/DAO/UserInfoDAOImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+          <folding>
+            <element signature="e#446#447#0" expanded="true" />
+            <element signature="e#491#492#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/kiev/prog/entity/BuildsEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="40" column="33" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="33" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/kiev/prog/entity/UserEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="e#1756#1757#0" expanded="true" />
+            <element signature="e#1787#1788#0" expanded="true" />
+            <element signature="e#1842#1843#0" expanded="true" />
+            <element signature="e#1882#1883#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ua/kiev/prog/MyController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="107" column="41" selection-start-line="107" selection-start-column="41" selection-end-line="107" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/signup2Flat.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.65656567">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.36266667">
+          <caret line="47" column="31" selection-start-line="47" selection-start-column="31" selection-end-line="47" selection-end-column="31" />
           <folding />
         </state>
       </provider>
@@ -1609,12 +1550,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>OSBBv</last-edited>
+          <last-edited>JPA|OSBBv</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.18181819" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
