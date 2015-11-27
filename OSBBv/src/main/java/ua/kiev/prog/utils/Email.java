@@ -1,25 +1,21 @@
 
 package ua.kiev.prog.utils;
 
+import com.sun.net.httpserver.Authenticator;
+import org.hibernate.Session;
+
+import java.net.PasswordAuthentication;
 import java.util.Properties;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import javax.mail.Authenticator;
-import javax.mail.Message;
-import javax.mail.MessagingException;
-import javax.mail.PasswordAuthentication;
-import javax.mail.Session;
-import javax.mail.Transport;
-import javax.mail.internet.AddressException;
-import javax.mail.internet.InternetAddress;
-import javax.mail.internet.MimeMessage;
+
 
 /**
  *
  * @author m.bratyuk
  */
 public class Email {
-    public boolean sendMail( String to) {
+   /* public boolean sendMail( String to) {
         String host = "smtp.gmail.com";
         String port = "443";
         String msg = "Приглашение на сайт ОСББ";
@@ -53,7 +49,7 @@ public class Email {
             for (int i = 0; i < toAddress.length; i++) {
                 miMsg.addRecipient(Message.RecipientType.TO, toAddress[i]);
                 
-            }*/
+            }
             miMsg.setSubject(subject);
             miMsg.setText(msg);
            // miMsg.setFileName("C:\\test.txt");
@@ -72,5 +68,5 @@ public class Email {
                 return false;
     
     }
-    
+    */
 }

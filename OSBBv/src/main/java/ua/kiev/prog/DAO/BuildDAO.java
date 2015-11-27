@@ -9,4 +9,5 @@ public interface BuildDAO {
     void addBuild(BuildsEntity build);
     BuildsEntity getIDByKey (String key);
     void mergeBuild (BuildsEntity build);
+
 }

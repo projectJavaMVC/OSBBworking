@@ -31,6 +31,7 @@ public class MyController {
     /////--------------------Всеволод
     @RequestMapping("/")
     public String index(Model model) {
+        //services.tableFill();
         return "hello/signIN";
     }
 
@@ -149,7 +150,7 @@ public class MyController {
     public String inviteUsers (@RequestParam String email,Model model)
     {
 
-        new  Email().sendMail(email);
+       // new  Email().sendMail(email);
         return "main/mainuser";
     }
 
@@ -159,7 +160,7 @@ public class MyController {
 
         model.addAttribute("test","");
         model.addAttribute("test2","");
-        return "test";
+        return "regist/admin/signup3Admin";
     }
 
 

@@ -38,8 +38,25 @@
 <div id="section1" class="container-fluid">
   <div class="container">
 <form role="form" enctype="multipart/form-data" class="form-horizontal" action="/signup/gotoFlat" method="post">
-  <h3>Поздравляем! Регистрация прошла успешно! Нажмите кнопку чтобы заполнить информацию о квартире.</h3>
-  <div class="form-group"><input type="submit" class="btn btn-primary" value="Регистрация квартиры"></div>
+  <div class="form-group">
+    <div class="col-md-4">
+      <h1>Поздравляем!</h1>
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="col-md-4">
+      <h2>Регистрация прошла успешно! </h2>
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="col-md-4">
+      <h3>Нажмите кнопку чтобы заполнить информацию о квартире.</h3>
+    </div>
+  </div><div class="form-group">
+  <div class="col-md-4">
+    <input type="submit" class="btn btn-primary" value="Регистрация квартиры">
+  </div>
+</div>
 </form>
 </div>
   </div>

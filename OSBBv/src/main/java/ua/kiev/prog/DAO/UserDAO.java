@@ -13,4 +13,5 @@ public interface UserDAO {
     List<UserEntity> listUsers(BuildsEntity build);
     UserEntity getUserByLogin (String login);
     UserEntity mergeUser(UserEntity user);
+
 }
