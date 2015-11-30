@@ -3,10 +3,7 @@ package ua.kiev.prog.services;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import ua.kiev.prog.DAO.*;
-import ua.kiev.prog.entity.BuildsEntity;
-import ua.kiev.prog.entity.FlatsEntity;
-import ua.kiev.prog.entity.UserEntity;
-import ua.kiev.prog.entity.UserInfoEntity;
+import ua.kiev.prog.entity.*;
 
 import javax.transaction.Transactional;
 import java.util.List;
@@ -27,6 +24,11 @@ public class Services {
     private UserInfoDAO userInfoDAO;
     @Autowired
     private FlatDAO flatDAO;
+
+    @Transactional
+    public List<ServicesEntity> getSerivcesList(){
+        return servicesDAO.listServices();
+    }
 
     @Transactional
     public void tableFill(){

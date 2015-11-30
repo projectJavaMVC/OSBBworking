@@ -16,6 +16,13 @@ import java.util.List;
 public class ServicesDAOImpl implements ServicesDAO {
     @PersistenceContext
     private EntityManager entityManager;
+
+    @Override
+    public List<ServicesEntity> listServices() {
+        return (List<ServicesEntity>) entityManager.createQuery("Select s from ServicesEntity s",ServicesEntity.class).getResultList();
+
+    }
+
     @Override
     public void tableFill() {
         Query query =entityManager.createQuery("SELECT s from ServicesEntity s where id=1",ServicesEntity.class);
@@ -32,7 +39,7 @@ public class ServicesDAOImpl implements ServicesDAO {
         }
         //query = entityManager.createQuery("SELECT b from BuildsEntity b where id=1", BuildsEntity.class);
         //list =   query.getResultList();
-        if (list.isEmpty()) {
+       /* if (list.isEmpty()) {
             BuildsEntity buildsEntity1 = new BuildsEntity("", (short) 5,"Kiev","Sttrr","12");
             BuildsEntity buildsEntity2 = new BuildsEntity("", (short) 15,"Odess","Sttr2r","12");
             BuildsEntity buildsEntity3 = new BuildsEntity("", (short) 25,"Kiev","Sttrr","12");
@@ -89,7 +96,7 @@ public class ServicesDAOImpl implements ServicesDAO {
             //UserInfoEntity userInf1 = new UserInfoEntity("Name1","lastName1","SecondName1","0932323155",user1,);
 
 
-        }
+        }*/
 
 
     }
