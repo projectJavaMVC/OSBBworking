@@ -162,16 +162,17 @@ public class MyController {
         model.addAttribute("test2","");
         model.addAttribute("services",services.getSerivcesList());
         return "regist/admin/signup3Admin";
+        //return "test";
     }
     @RequestMapping("/test2")
-    public String inviteUsers22 (@RequestParam String data[] , Model model)
+    public String inviteUsers22 (@RequestParam  String  str, Model model)
     {
-        StringBuilder sb = new StringBuilder();
+        //StringBuilder sb = new StringBuilder();
 
          /*for(String s: fields){
              sb.append(s);
          }*/
-        model.addAttribute("test",data);
+        model.addAttribute("test",str);
         return "test2";
     }
 
