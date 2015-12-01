@@ -1,91 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="78b783f5-a228-4430-bccc-cde53557e651" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Users\m.bratyuk\Documents\GitHub\OSBBworking\OSBBv\.idea\libraries\Maven__org_springframework_security_spring_security_acl_3_2_0_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\m.bratyuk\Documents\GitHub\OSBBworking\OSBBv\.idea\libraries\Maven__org_springframework_security_spring_security_config_3_2_0_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\m.bratyuk\Documents\GitHub\OSBBworking\OSBBv\.idea\libraries\Maven__org_springframework_security_spring_security_core_3_2_0_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\m.bratyuk\Documents\GitHub\OSBBworking\OSBBv\.idea\libraries\Maven__org_springframework_security_spring_security_taglibs_3_2_0_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\m.bratyuk\Documents\GitHub\OSBBworking\OSBBv\.idea\libraries\Maven__org_springframework_security_spring_security_web_3_2_0_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\m.bratyuk\Documents\GitHub\OSBBworking\OSBBv\.idea\libraries\Maven__org_springframework_spring_aop_3_2_6_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\m.bratyuk\Documents\GitHub\OSBBworking\OSBBv\.idea\libraries\Maven__org_springframework_spring_beans_3_2_6_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\m.bratyuk\Documents\GitHub\OSBBworking\OSBBv\.idea\libraries\Maven__org_springframework_spring_expression_3_2_6_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\m.bratyuk\Documents\GitHub\OSBBworking\OSBBv\.idea\libraries\Maven__org_springframework_spring_web_3_2_6_RELEASE.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/OSBBv_war_exploded/WEB-INF/classes/ua/kiev/prog/AppConfig.class" afterPath="$PROJECT_DIR$/out/artifacts/OSBBv_war_exploded/WEB-INF/classes/ua/kiev/prog/AppConfig.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ua/kiev/prog/AppConfig.class" afterPath="$PROJECT_DIR$/target/classes/ua/kiev/prog/AppConfig.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/OSBBv_war_exploded/WEB-INF/classes/ua/kiev/prog/utils/Email.class" afterPath="$PROJECT_DIR$/out/artifacts/OSBBv_war_exploded/WEB-INF/classes/ua/kiev/prog/utils/Email.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ua/kiev/prog/utils/Email.class" afterPath="$PROJECT_DIR$/target/classes/ua/kiev/prog/utils/Email.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/OSBBv_war_exploded/WEB-INF/classes/ua/kiev/prog/MyController.class" afterPath="$PROJECT_DIR$/out/artifacts/OSBBv_war_exploded/WEB-INF/classes/ua/kiev/prog/MyController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ua/kiev/prog/MyController.class" afterPath="$PROJECT_DIR$/target/classes/ua/kiev/prog/MyController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/OSBBv_war_exploded/WEB-INF/classes/ua/kiev/prog/services/Services.class" afterPath="$PROJECT_DIR$/out/artifacts/OSBBv_war_exploded/WEB-INF/classes/ua/kiev/prog/services/Services.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ua/kiev/prog/services/Services.class" afterPath="$PROJECT_DIR$/target/classes/ua/kiev/prog/services/Services.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/OSBBv_war_exploded/WEB-INF/classes/ua/kiev/prog/DAO/ServicesDAO.class" afterPath="$PROJECT_DIR$/out/artifacts/OSBBv_war_exploded/WEB-INF/classes/ua/kiev/prog/DAO/ServicesDAO.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ua/kiev/prog/DAO/ServicesDAO.class" afterPath="$PROJECT_DIR$/target/classes/ua/kiev/prog/DAO/ServicesDAO.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/OSBBv_war_exploded/WEB-INF/classes/ua/kiev/prog/DAO/ServicesDAOImpl.class" afterPath="$PROJECT_DIR$/out/artifacts/OSBBv_war_exploded/WEB-INF/classes/ua/kiev/prog/DAO/ServicesDAOImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ua/kiev/prog/DAO/ServicesDAOImpl.class" afterPath="$PROJECT_DIR$/target/classes/ua/kiev/prog/DAO/ServicesDAOImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/OSBBv_war_exploded/WEB-INF/classes/ua/kiev/prog/DAO/UserDAOImpl.class" afterPath="$PROJECT_DIR$/out/artifacts/OSBBv_war_exploded/WEB-INF/classes/ua/kiev/prog/DAO/UserDAOImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ua/kiev/prog/DAO/UserDAOImpl.class" afterPath="$PROJECT_DIR$/target/classes/ua/kiev/prog/DAO/UserDAOImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/OSBBv_war_exploded/WEB-INF/classes/ua/kiev/prog/entity/UserEntity.class" afterPath="$PROJECT_DIR$/out/artifacts/OSBBv_war_exploded/WEB-INF/classes/ua/kiev/prog/entity/UserEntity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ua/kiev/prog/entity/UserEntity.class" afterPath="$PROJECT_DIR$/target/classes/ua/kiev/prog/entity/UserEntity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/OSBBv_war_exploded/WEB-INF/classes/ua/kiev/prog/WebInitializer.class" afterPath="$PROJECT_DIR$/out/artifacts/OSBBv_war_exploded/WEB-INF/classes/ua/kiev/prog/WebInitializer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ua/kiev/prog/WebInitializer.class" afterPath="$PROJECT_DIR$/target/classes/ua/kiev/prog/WebInitializer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/OSBBv_war_exploded/WEB-INF/classes/WEB-INF/pages/errors/403_Error.jsp" afterPath="$PROJECT_DIR$/out/artifacts/OSBBv_war_exploded/WEB-INF/classes/WEB-INF/pages/errors/403_Error.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/OSBBv_war_exploded/WEB-INF/pages/errors/403_Error.jsp" afterPath="$PROJECT_DIR$/out/artifacts/OSBBv_war_exploded/WEB-INF/pages/errors/403_Error.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/errors/403_Error.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/errors/403_Error.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/WEB-INF/pages/errors/403_Error.jsp" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/pages/errors/403_Error.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ua/kiev/prog/AppConfig.java" afterPath="$PROJECT_DIR$/src/main/java/ua/kiev/prog/AppConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ua/kiev/prog/utils/Email.java" afterPath="$PROJECT_DIR$/src/main/java/ua/kiev/prog/utils/Email.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ua/kiev/prog/DAO/FlatDAO.java" afterPath="$PROJECT_DIR$/src/main/java/ua/kiev/prog/DAO/FlatDAO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ua/kiev/prog/MyController.java" afterPath="$PROJECT_DIR$/src/main/java/ua/kiev/prog/MyController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/OSBBv_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/OSBBv_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ua/kiev/prog/services/Services.java" afterPath="$PROJECT_DIR$/src/main/java/ua/kiev/prog/services/Services.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ua/kiev/prog/DAO/ServicesDAO.java" afterPath="$PROJECT_DIR$/src/main/java/ua/kiev/prog/DAO/ServicesDAO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ua/kiev/prog/DAO/ServicesDAOImpl.java" afterPath="$PROJECT_DIR$/src/main/java/ua/kiev/prog/DAO/ServicesDAOImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ua/kiev/prog/DAO/UserDAO.java" afterPath="$PROJECT_DIR$/src/main/java/ua/kiev/prog/DAO/UserDAO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ua/kiev/prog/DAO/UserDAOImpl.java" afterPath="$PROJECT_DIR$/src/main/java/ua/kiev/prog/DAO/UserDAOImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ua/kiev/prog/entity/UserEntity.java" afterPath="$PROJECT_DIR$/src/main/java/ua/kiev/prog/entity/UserEntity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ua/kiev/prog/DAO/UserInfoDAO.java" afterPath="$PROJECT_DIR$/src/main/java/ua/kiev/prog/DAO/UserInfoDAO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ua/kiev/prog/DAO/UserInfoDAOImpl.java" afterPath="$PROJECT_DIR$/src/main/java/ua/kiev/prog/DAO/UserInfoDAOImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ua/kiev/prog/WebInitializer.java" afterPath="$PROJECT_DIR$/src/main/java/ua/kiev/prog/WebInitializer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/OSBBv_war_exploded/WEB-INF/classes/WEB-INF/pages/old/contact_add_page.jsp" afterPath="$PROJECT_DIR$/out/artifacts/OSBBv_war_exploded/WEB-INF/classes/WEB-INF/pages/old/contact_add_page.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/OSBBv_war_exploded/WEB-INF/pages/old/contact_add_page.jsp" afterPath="$PROJECT_DIR$/out/artifacts/OSBBv_war_exploded/WEB-INF/pages/old/contact_add_page.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/old/contact_add_page.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/old/contact_add_page.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/WEB-INF/pages/old/contact_add_page.jsp" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/pages/old/contact_add_page.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/OSBBv_war_exploded/WEB-INF/classes/WEB-INF/pages/regist/endOfRegUser.jsp" afterPath="$PROJECT_DIR$/out/artifacts/OSBBv_war_exploded/WEB-INF/classes/WEB-INF/pages/regist/endOfRegUser.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/OSBBv_war_exploded/WEB-INF/pages/regist/endOfRegUser.jsp" afterPath="$PROJECT_DIR$/out/artifacts/OSBBv_war_exploded/WEB-INF/pages/regist/endOfRegUser.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/regist/endOfRegUser.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/regist/endOfRegUser.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/WEB-INF/pages/regist/endOfRegUser.jsp" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/pages/regist/endOfRegUser.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/OSBBv_war_exploded/WEB-INF/classes/WEB-INF/pages/old/index.jsp" afterPath="$PROJECT_DIR$/out/artifacts/OSBBv_war_exploded/WEB-INF/classes/WEB-INF/pages/old/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/OSBBv_war_exploded/WEB-INF/pages/old/index.jsp" afterPath="$PROJECT_DIR$/out/artifacts/OSBBv_war_exploded/WEB-INF/pages/old/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/old/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/old/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/WEB-INF/pages/old/index.jsp" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/pages/old/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/OSBBv_war_exploded/WEB-INF/classes/WEB-INF/pages/hello/login.jsp" afterPath="$PROJECT_DIR$/out/artifacts/OSBBv_war_exploded/WEB-INF/classes/WEB-INF/pages/hello/login.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/OSBBv_war_exploded/WEB-INF/pages/hello/login.jsp" afterPath="$PROJECT_DIR$/out/artifacts/OSBBv_war_exploded/WEB-INF/pages/hello/login.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/hello/login.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/hello/login.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/WEB-INF/pages/hello/login.jsp" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/pages/hello/login.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/OSBBv_war_exploded/WEB-INF/classes/WEB-INF/pages/hello/signIN.jsp" afterPath="$PROJECT_DIR$/out/artifacts/OSBBv_war_exploded/WEB-INF/classes/WEB-INF/pages/hello/signIN.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/OSBBv_war_exploded/WEB-INF/pages/hello/signIN.jsp" afterPath="$PROJECT_DIR$/out/artifacts/OSBBv_war_exploded/WEB-INF/pages/hello/signIN.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/hello/signIN.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/hello/signIN.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/WEB-INF/pages/hello/signIN.jsp" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/pages/hello/signIN.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/OSBBv_war_exploded/WEB-INF/classes/WEB-INF/pages/regist/signup.jsp" afterPath="$PROJECT_DIR$/out/artifacts/OSBBv_war_exploded/WEB-INF/classes/WEB-INF/pages/regist/signup.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/OSBBv_war_exploded/WEB-INF/pages/regist/signup.jsp" afterPath="$PROJECT_DIR$/out/artifacts/OSBBv_war_exploded/WEB-INF/pages/regist/signup.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/regist/signup.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/regist/signup.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/WEB-INF/pages/regist/signup.jsp" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/pages/regist/signup.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/OSBBv_war_exploded/WEB-INF/classes/WEB-INF/pages/regist/user/signup2User.jsp" afterPath="$PROJECT_DIR$/out/artifacts/OSBBv_war_exploded/WEB-INF/classes/WEB-INF/pages/regist/user/signup2User.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/OSBBv_war_exploded/WEB-INF/pages/regist/user/signup2User.jsp" afterPath="$PROJECT_DIR$/out/artifacts/OSBBv_war_exploded/WEB-INF/pages/regist/user/signup2User.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/regist/user/signup2User.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/regist/user/signup2User.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/WEB-INF/pages/regist/user/signup2User.jsp" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/pages/regist/user/signup2User.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/OSBBv_war_exploded/WEB-INF/classes/WEB-INF/pages/regist/admin/signup3Admin.jsp" afterPath="$PROJECT_DIR$/out/artifacts/OSBBv_war_exploded/WEB-INF/classes/WEB-INF/pages/regist/admin/signup3Admin.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/OSBBv_war_exploded/WEB-INF/pages/regist/admin/signup3Admin.jsp" afterPath="$PROJECT_DIR$/out/artifacts/OSBBv_war_exploded/WEB-INF/pages/regist/admin/signup3Admin.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/regist/admin/signup3Admin.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/regist/admin/signup3Admin.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/WEB-INF/pages/regist/admin/signup3Admin.jsp" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/pages/regist/admin/signup3Admin.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/OSBBv_war_exploded/WEB-INF/classes/WEB-INF/pages/main/userslist.jsp" afterPath="$PROJECT_DIR$/out/artifacts/OSBBv_war_exploded/WEB-INF/classes/WEB-INF/pages/main/userslist.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/OSBBv_war_exploded/WEB-INF/pages/main/userslist.jsp" afterPath="$PROJECT_DIR$/out/artifacts/OSBBv_war_exploded/WEB-INF/pages/main/userslist.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/main/userslist.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/main/userslist.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/WEB-INF/pages/main/userslist.jsp" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/pages/main/userslist.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="78b783f5-a228-4430-bccc-cde53557e651" name="Default" comment="" />
     <ignored path="OSBBv.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -114,8 +30,8 @@
       <file leaf-file-name="MyController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/ua/kiev/prog/MyController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.13204952" vertical-offset="2221" max-vertical-offset="3077">
-              <caret line="125" column="29" selection-start-line="125" selection-start-column="21" selection-end-line="125" selection-end-column="29" />
+            <state vertical-scroll-proportion="0.26547456" vertical-offset="2221" max-vertical-offset="3077">
+              <caret line="142" column="49" selection-start-line="142" selection-start-column="49" selection-end-line="142" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1168#1169#0" expanded="true" />
@@ -423,6 +339,126 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="prog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OSBBv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OSBBv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utils" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OSBBv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OSBBv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="services" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OSBBv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OSBBv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="entity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OSBBv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OSBBv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DAO" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -810,16 +846,16 @@
       <workItem from="1448521359168" duration="20548000" />
       <workItem from="1448560176591" duration="5755000" />
       <workItem from="1448571177167" duration="5911000" />
-      <workItem from="1448636280121" duration="17710000" />
+      <workItem from="1448636280121" duration="18304000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96207000" />
+    <option name="totallyTimeSpent" value="96801000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="886" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1456" height="886" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -843,7 +879,7 @@
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20415473" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21489972" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -1410,8 +1446,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ua/kiev/prog/MyController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.13204952" vertical-offset="2221" max-vertical-offset="3077">
-          <caret line="125" column="29" selection-start-line="125" selection-start-column="21" selection-end-line="125" selection-end-column="29" />
+        <state vertical-scroll-proportion="0.26547456" vertical-offset="2221" max-vertical-offset="3077">
+          <caret line="142" column="49" selection-start-line="142" selection-start-column="49" selection-end-line="142" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1168#1169#0" expanded="true" />
