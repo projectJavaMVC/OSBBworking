@@ -110,4 +110,9 @@ public class ServicesDAOImpl implements ServicesDAO {
     public List<ServicesEntity> listServices() {
         return entityManager.createQuery("SELECT s from ServicesEntity s",ServicesEntity.class).getResultList();
     }
+
+    @Override
+    public ServicesEntity getServiceById(long id) {
+        return entityManager.createQuery("select s from ServicesEntity s where id=:id",ServicesEntity.class).setParameter("id",id).getSingleResult();
+    }
 }

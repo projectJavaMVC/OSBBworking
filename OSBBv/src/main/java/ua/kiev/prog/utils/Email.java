@@ -20,10 +20,10 @@ import javax.mail.internet.MimeMessage;
  * @author m.bratyuk
  */
 public class Email {
-    public boolean sendMail( String[] to) {
+    public boolean sendMail( String[] to,String code) {
         String host = "smtp.gmail.com";
         String port = "465";
-        String msg = "Приглашение на сайт ОСББ";
+        String msg = "Приглашение на сайт ОСББ. Код для регистрации: "+code;
         String subject = "Приглашение на сайт ОСББ";
         Properties props = System.getProperties();
         props.put("mail.smtp.from", "projectjavamvc@gmail.com");
@@ -73,11 +73,11 @@ public class Email {
                 return false;
     
     }
-    public boolean sendMail( String to) {
+    public boolean sendMail( String to,String code) {
         String host = "smtp.gmail.com";
         String port = "465";
         String msg = "Приглашение на сайт ОСББ";
-        String subject = "Приглашение на сайт ОСББ";
+        String subject = "Приглашение на сайт ОСББ. Код для регистрации: "+code;
         Properties props = System.getProperties();
         props.put("mail.smtp.from", "projectjavamvc@gmail.com");
         props.put("mail.smtp.host", host);

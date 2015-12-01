@@ -38,6 +38,14 @@ public class UserEntity {
         this.buildsEntity = buildsEntity;
     }
 
+    public UserInfoEntity getUserInfo() {
+        return userInfo;
+    }
+
+    public void setUserInfo(UserInfoEntity userInfo) {
+        this.userInfo = userInfo;
+    }
+
     public long getId() {
         return id;
     }
