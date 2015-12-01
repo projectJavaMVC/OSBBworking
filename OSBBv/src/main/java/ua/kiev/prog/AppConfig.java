@@ -79,5 +79,4 @@ public class AppConfig {
         return new CommonsMultipartResolver();
     }
 
-
 }

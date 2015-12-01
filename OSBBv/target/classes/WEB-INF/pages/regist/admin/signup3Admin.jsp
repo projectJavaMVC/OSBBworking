@@ -77,7 +77,7 @@
 
     var str = $("form").serialize();
     $("#results").text(str);
-    $.post("/test2/",text(str));
+    $.post("/test2/",str);
   });
 
 

@@ -26,11 +26,6 @@ public class Services {
     private FlatDAO flatDAO;
 
     @Transactional
-    public List<ServicesEntity> getSerivcesList(){
-        return servicesDAO.listServices();
-    }
-
-    @Transactional
     public void tableFill(){
         servicesDAO.tableFill();
     }
@@ -39,6 +34,10 @@ public class Services {
     public void addBuild (BuildsEntity build){
         buildDAO.addBuild(build);
 
+    }
+    @Transactional
+    public List<ServicesEntity> listServices(){
+        return servicesDAO.listServices();
     }
 
     @Transactional

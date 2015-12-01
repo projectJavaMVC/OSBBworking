@@ -16,17 +16,10 @@ import java.util.List;
 public class ServicesDAOImpl implements ServicesDAO {
     @PersistenceContext
     private EntityManager entityManager;
-
-    @Override
-    public List<ServicesEntity> listServices() {
-        return (List<ServicesEntity>) entityManager.createQuery("Select s from ServicesEntity s",ServicesEntity.class).getResultList();
-
-    }
-
     @Override
     public void tableFill() {
         Query query =entityManager.createQuery("SELECT s from ServicesEntity s where id=1",ServicesEntity.class);
-         List list =   query.getResultList();
+        List list =   query.getResultList();
 
         if (list.isEmpty()){
             entityManager.persist(new ServicesEntity("ГИОЦ"));
@@ -39,20 +32,20 @@ public class ServicesDAOImpl implements ServicesDAO {
         }
         //query = entityManager.createQuery("SELECT b from BuildsEntity b where id=1", BuildsEntity.class);
         //list =   query.getResultList();
-       /* if (list.isEmpty()) {
-            BuildsEntity buildsEntity1 = new BuildsEntity("", (short) 5,"Kiev","Sttrr","12");
-            BuildsEntity buildsEntity2 = new BuildsEntity("", (short) 15,"Odess","Sttr2r","12");
-            BuildsEntity buildsEntity3 = new BuildsEntity("", (short) 25,"Kiev","Sttrr","12");
+        if (list.isEmpty()) {
+            BuildsEntity buildsEntity1 = new BuildsEntity("", (short) 5,"Kiev","Sttrr","1223");
+            BuildsEntity buildsEntity2 = new BuildsEntity("", (short) 15,"Odess","Sttr2r","123412");
+            BuildsEntity buildsEntity3 = new BuildsEntity("", (short) 25,"Kiev","Sttrr23","2132412");
             entityManager.persist(buildsEntity1);
             entityManager.persist(buildsEntity2);
             entityManager.persist(buildsEntity3);
-            UserEntity user1 = new UserEntity("admin","admin","mail@mail", (short) 1,buildsEntity1);
-            UserEntity user2 = new UserEntity("admin2","admin","mail@mail", (short) 1,buildsEntity2);
-            UserEntity user3 = new UserEntity("admin3","admin","mail@mail", (short) 1,buildsEntity3);
-            UserEntity user4 = new UserEntity("user","11","userl@mail", (short) 1,buildsEntity1);
-            UserEntity user5 = new UserEntity("user2","11","userl@mail", (short) 1,buildsEntity1);
-            UserEntity user6 = new UserEntity("user3","11","userl@mail", (short) 1,buildsEntity2);
-            UserEntity user7 = new UserEntity("user4","11","userl@mail", (short) 1,buildsEntity3);
+            UserEntity user1 = new UserEntity("admin","admin","mail1@mail", (short) 1,buildsEntity1);
+            UserEntity user2 = new UserEntity("admin2","admin","mail2@mail", (short) 1,buildsEntity2);
+            UserEntity user3 = new UserEntity("admin3","admin","mail3@mail", (short) 1,buildsEntity3);
+            UserEntity user4 = new UserEntity("user","11","userl1@mail", (short) 0,buildsEntity1);
+            UserEntity user5 = new UserEntity("user2","11","userl2@mail", (short) 0,buildsEntity1);
+            UserEntity user6 = new UserEntity("user3","11","userl3@mail", (short) 0,buildsEntity2);
+            UserEntity user7 = new UserEntity("user4","11","userl4@mail", (short) 0,buildsEntity3);
             entityManager.persist(user1);
             entityManager.persist(user2);
             entityManager.persist(user3);
@@ -66,9 +59,7 @@ public class ServicesDAOImpl implements ServicesDAO {
             entityManager.merge(user4);
             entityManager.merge(user5);
             entityManager.merge(user6);
-
-
-
+            entityManager.merge(user7);
             for (int i = 1; i <=buildsEntity1.getFlatCnt(); i++) {
                 FlatsEntity flat = new FlatsEntity() ;
                 flat.setFlatNumber(i);
@@ -93,11 +84,30 @@ public class ServicesDAOImpl implements ServicesDAO {
                 flat.setPeopleCnt(i>5?i-2:i+1);
                 entityManager.persist(flat);
             }
-            //UserInfoEntity userInf1 = new UserInfoEntity("Name1","lastName1","SecondName1","0932323155",user1,);
+            query = entityManager.createQuery("Select f from FlatsEntity f where buildsEntity=:buildsEntity",FlatsEntity.class).setParameter("buildsEntity",buildsEntity1);
+            list = query.getResultList();
 
 
-        }*/
+            UserInfoEntity userInf4 = new UserInfoEntity("Name1","lastName1","SecondName1","0932323195",user4,(FlatsEntity)list.get(1));
+            entityManager.persist(userInf4);
+            UserInfoEntity userInf5 = new UserInfoEntity("Name21","lastName2","SecondName2","0232323155",user5,(FlatsEntity)list.get(2));
+            entityManager.persist(userInf5);
+            query = entityManager.createQuery("Select f from FlatsEntity f where buildsEntity=:buildsEntity",FlatsEntity.class).setParameter("buildsEntity",buildsEntity2);
+            list = query.getResultList();
+
+            UserInfoEntity userInf6 = new UserInfoEntity("Name31","lastName3","SecondName3","0932324355",user6,(FlatsEntity)list.get(3));
+            entityManager.persist(userInf6);
+            query = entityManager.createQuery("Select f from FlatsEntity f where buildsEntity=:buildsEntity",FlatsEntity.class).setParameter("buildsEntity",buildsEntity3);
+            list = query.getResultList();
+            UserInfoEntity userInf7 = new UserInfoEntity("Name41","lastName41","SecondName41","0742324355",user1,(FlatsEntity)list.get(1));
+            entityManager.persist(userInf7);
+        }
 
 
+    }
+
+    @Override
+    public List<ServicesEntity> listServices() {
+        return entityManager.createQuery("SELECT s from ServicesEntity s",ServicesEntity.class).getResultList();
     }
 }
