@@ -17,6 +17,7 @@
     #section1 {padding-top:50px;height:100%;color: #fff; background-color: #1E88E5;}
   </style>
 
+
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
 <nav class="navbar navbar-inverse navbar-fixed-top">
@@ -35,51 +36,54 @@
 <div id="section1" class="container-fluid">
   <div class="container">
 
-    <div class="container">
+
+
       <div class="row">
         <div class="control-group" id="fields">
           <div class="controls">
-            <form role="form" autocomplete="off">
+            <form role="form"     enctype="multipart/form-data" class="form-horizontal" action="/test2" method="post">
+              <c:forEach items="${services}" var="service">
+
+
               <div class="entry input-group col-xs-3">
-                <input class="form-control" name="fields[]" type="text" placeholder="Type something" />
+                  <input class="form-control"  name="service_ID_${service.id}"  type="text" placeholder="${service.name}"/>
+
                     	<span class="input-group-btn">
-                            <button class="btn btn-success btn-add" type="button">
-                              <span class="glyphicon glyphicon-plus"></span>
+                            <button class="btn btn-success btn-remove btn-danger" type="button">
+                              <span class="glyphicon glyphicon-minus"></span>
                             </button>
                         </span>
               </div>
-              <div class="col-md-4">
-                <input type="submit" class="btn btn-success" formmethod="post" formenctype="multipart/form-data" formaction="/test2" value="отправить">
-              </div>
+              </c:forEach>
             </form>
-            <br>
-            <small>Press <span class="glyphicon glyphicon-plus gs"></span> to add another form field :)</small>
+            <div class="form-group">
+              <div class="col-md-4">
+                <input type="button"  id = "clicfucckkk"  class="btn btn-success"  value="Регистрация">
+                <p><tt id="results"></tt></p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
+
+
 
 
   </div>
 </div>
 
 <script>
+  $('#clicfucckkk').click(function(){
+
+    var str = $("form").serialize();
+    $("#results").text(str);
+    $.post("/test2/",text(str));
+  });
+
+
   $(function()
   {
-    $(document).on('click', '.btn-add', function(e)
-    {
-      e.preventDefault();
-
-      var controlForm = $('.controls form:first'),
-              currentEntry = $(this).parents('.entry:first'),
-              newEntry = $(currentEntry.clone()).appendTo(controlForm);
-
-      newEntry.find('input').val('');
-      controlForm.find('.entry:not(:last) .btn-add')
-              .removeClass('btn-add').addClass('btn-remove')
-              .removeClass('btn-success').addClass('btn-danger')
-              .html('<span class="glyphicon glyphicon-minus"></span>');
-    }).on('click', '.btn-remove', function(e)
+    $(document).on('click', '.btn-remove', function(e)
     {
       $(this).parents('.entry:first').remove();
 
@@ -87,6 +91,10 @@
       return false;
     });
   });
+
+
+
+
 </script>
 </body>
 </html>

@@ -38,15 +38,15 @@
 
 
 
-    <div class="row">
-      <div class="control-group" id="fields">
-        <div class="controls">
-          <form role="form"     enctype="multipart/form-data" class="form-horizontal" action="/test2" method="post">
-            <c:forEach items="${services}" var="service">
+      <div class="row">
+        <div class="control-group" id="fields">
+          <div class="controls">
+            <form role="form"     enctype="multipart/form-data" class="form-horizontal" action="/test2" method="post">
+              <c:forEach items="${services}" var="service">
 
 
               <div class="entry input-group col-xs-3">
-                <input class="form-control"  name="service_ID_${service.id}"  type="text" placeholder="${service.name}"/>
+                  <input class="form-control"  name="service_ID_${service.id}"  type="text" placeholder="${service.name}"/>
 
                     	<span class="input-group-btn">
                             <button class="btn btn-success btn-remove btn-danger" type="button">
@@ -54,17 +54,17 @@
                             </button>
                         </span>
               </div>
-            </c:forEach>
-          </form>
-          <div class="form-group">
-            <div class="col-md-4">
-              <input type="button"  id = "clicfucckkk"  class="btn btn-success"  value="Регистрация">
-              <p><tt id="results"></tt></p>
+              </c:forEach>
+            </form>
+            <div class="form-group">
+              <div class="col-md-4">
+                <input type="button"  id = "clicfucckkk"  class="btn btn-success"  value="Регистрация">
+                <p><tt id="results"></tt></p>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
 
 
 
@@ -74,19 +74,27 @@
 
 <script>
   $('#clicfucckkk').click(function(){
+
     var str = $("form").serialize();
     $("#results").text(str);
     $.post("/test2/",str);
   });
+
+
   $(function()
   {
     $(document).on('click', '.btn-remove', function(e)
     {
       $(this).parents('.entry:first').remove();
+
       e.preventDefault();
       return false;
     });
   });
+
+
+
+
 </script>
 </body>
 </html>
