@@ -79,11 +79,4 @@ public class AppConfig {
         return new CommonsMultipartResolver();
     }
 
-    @Bean
-    public CharacterEncodingFilter characterEncodingFilter(){
-        CharacterEncodingFilter cef = new CharacterEncodingFilter();
-        cef.setEncoding("UTF-8");
-        //cef.setForceEncoding(true);
-        return cef;
-    }
 }

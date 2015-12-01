@@ -19,7 +19,7 @@ public class ServicesDAOImpl implements ServicesDAO {
     @Override
     public void tableFill() {
         Query query =entityManager.createQuery("SELECT s from ServicesEntity s where id=1",ServicesEntity.class);
-         List list =   query.getResultList();
+        List list =   query.getResultList();
 
         if (list.isEmpty()){
             entityManager.persist(new ServicesEntity("ГИОЦ"));
@@ -88,7 +88,7 @@ public class ServicesDAOImpl implements ServicesDAO {
             list = query.getResultList();
 
 
-           UserInfoEntity userInf4 = new UserInfoEntity("Name1","lastName1","SecondName1","0932323195",user4,(FlatsEntity)list.get(1));
+            UserInfoEntity userInf4 = new UserInfoEntity("Name1","lastName1","SecondName1","0932323195",user4,(FlatsEntity)list.get(1));
             entityManager.persist(userInf4);
             UserInfoEntity userInf5 = new UserInfoEntity("Name21","lastName2","SecondName2","0232323155",user5,(FlatsEntity)list.get(2));
             entityManager.persist(userInf5);
@@ -104,5 +104,10 @@ public class ServicesDAOImpl implements ServicesDAO {
         }
 
 
+    }
+
+    @Override
+    public List<ServicesEntity> listServices() {
+        return entityManager.createQuery("SELECT s from ServicesEntity s",ServicesEntity.class).getResultList();
     }
 }

@@ -48,6 +48,9 @@
                             </button>
                         </span>
               </div>
+              <div class="col-md-4">
+                <input type="submit" class="btn btn-success" formmethod="post" formenctype="multipart/form-data" formaction="/test2" value="отправить">
+              </div>
             </form>
             <br>
             <small>Press <span class="glyphicon glyphicon-plus gs"></span> to add another form field :)</small>
@@ -61,29 +64,29 @@
 </div>
 
 <script>
-$(function()
-{
-$(document).on('click', '.btn-add', function(e)
-{
-e.preventDefault();
+  $(function()
+  {
+    $(document).on('click', '.btn-add', function(e)
+    {
+      e.preventDefault();
 
-var controlForm = $('.controls form:first'),
-currentEntry = $(this).parents('.entry:first'),
-newEntry = $(currentEntry.clone()).appendTo(controlForm);
+      var controlForm = $('.controls form:first'),
+              currentEntry = $(this).parents('.entry:first'),
+              newEntry = $(currentEntry.clone()).appendTo(controlForm);
 
-newEntry.find('input').val('');
-controlForm.find('.entry:not(:last) .btn-add')
-.removeClass('btn-add').addClass('btn-remove')
-.removeClass('btn-success').addClass('btn-danger')
-.html('<span class="glyphicon glyphicon-minus"></span>');
-}).on('click', '.btn-remove', function(e)
-{
-$(this).parents('.entry:first').remove();
+      newEntry.find('input').val('');
+      controlForm.find('.entry:not(:last) .btn-add')
+              .removeClass('btn-add').addClass('btn-remove')
+              .removeClass('btn-success').addClass('btn-danger')
+              .html('<span class="glyphicon glyphicon-minus"></span>');
+    }).on('click', '.btn-remove', function(e)
+    {
+      $(this).parents('.entry:first').remove();
 
-e.preventDefault();
-return false;
-});
-});
+      e.preventDefault();
+      return false;
+    });
+  });
 </script>
 </body>
 </html>

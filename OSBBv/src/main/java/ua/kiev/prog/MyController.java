@@ -18,7 +18,7 @@ import java.util.List;
 
 @Controller
 @RequestMapping("/")
-@SessionAttributes(names = {"build", "user", "userIE"}, types = {BuildsEntity.class, UserEntity.class, UserInfoEntity.class})
+@SessionAttributes(names = {"build", "user"}, types = {BuildsEntity.class, UserEntity.class})
 public class MyController {
 
     static final int USER_TYPE = 0;
@@ -31,7 +31,7 @@ public class MyController {
     /////--------------------Всеволод
     @RequestMapping("/")
     public String index(Model model) {
-        services.tableFill();
+         services.tableFill();
         return "hello/signIN";
     }
 
@@ -85,7 +85,7 @@ public class MyController {
         }
 
         model.addAttribute("users", services.listUsers(null));
-        return "main/userslist";
+            return "main/userslist";
     }
 
     @RequestMapping("/signup/addUser2")
@@ -149,19 +149,27 @@ public class MyController {
     @RequestMapping("/inviteusers")
     public String inviteUsers (@RequestParam String email,Model model)
     {
-
-       // new  Email().sendMail(email);
-        return "main/mainuser";
+            new Email().sendMail(email);
+           return "main/mainuser";
     }
 
     @RequestMapping("/test")
     public String inviteUsers (Model model)
     {
 
-        model.addAttribute("test","");
-        model.addAttribute("test2","");
+        services.listServices();
+        model.addAttribute("services", services.listServices());
         return "regist/admin/signup3Admin";
     }
 
+
+    @RequestMapping("/test2")
+    public String inviteUsers2(Model model)
+    {
+
+        services.listServices();
+        model.addAttribute("services", services.listServices());
+        return "dsf";
+    }
 
 }

@@ -3,10 +3,7 @@ package ua.kiev.prog.services;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import ua.kiev.prog.DAO.*;
-import ua.kiev.prog.entity.BuildsEntity;
-import ua.kiev.prog.entity.FlatsEntity;
-import ua.kiev.prog.entity.UserEntity;
-import ua.kiev.prog.entity.UserInfoEntity;
+import ua.kiev.prog.entity.*;
 
 import javax.transaction.Transactional;
 import java.util.List;
@@ -37,6 +34,10 @@ public class Services {
     public void addBuild (BuildsEntity build){
         buildDAO.addBuild(build);
 
+    }
+    @Transactional
+    public List<ServicesEntity> listServices(){
+        return servicesDAO.listServices();
     }
 
     @Transactional
