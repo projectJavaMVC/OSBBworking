@@ -149,7 +149,7 @@ public class MyController {
             }
             model.addAttribute("user",user);
             model.addAttribute("users",listUser);
-            return user.getType()==USER_TYPE ? "main/user/mainuser" : "main/user/mainadmin";
+            return user.getType()==USER_TYPE ? "main/user/mainuser" : "main/admin/mainadmin";
         }
         else return "hello/signIN";
     }
@@ -159,7 +159,7 @@ public class MyController {
     {
         String code = user.getBuildsEntity().getCode();
             new Email().sendMail(email,code);
-           return user.getType()== USER_TYPE ? "main/user/mainuser" : "main/user/mainadmin";
+           return user.getType()== USER_TYPE ? "main/user/mainuser" : "main/admin/mainadmin";
     }
 
     @RequestMapping("/test")
