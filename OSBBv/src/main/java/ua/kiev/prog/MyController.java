@@ -130,7 +130,7 @@ public class MyController {
         flat.setPeopleCnt(peopleCount);
         flat.setArea(area);
         services.mergeFlat(flat);
-        return "main/mainuser";
+        return "main/user/mainuser";
     }
 
 
@@ -149,7 +149,7 @@ public class MyController {
             }
             model.addAttribute("user",user);
             model.addAttribute("users",listUser);
-            return "main/mainuser";
+            return user.getType()==USER_TYPE ? "main/user/mainuser" : "main/user/mainadmin";
         }
         else return "hello/signIN";
     }
@@ -159,7 +159,7 @@ public class MyController {
     {
         String code = user.getBuildsEntity().getCode();
             new Email().sendMail(email,code);
-           return "main/mainuser";
+           return user.getType()== USER_TYPE ? "main/user/mainuser" : "main/user/mainadmin";
     }
 
     @RequestMapping("/test")
@@ -180,7 +180,7 @@ public class MyController {
         buildServ.setServicesEntity(services.geterviceById(1));
         services.addBuildServices(buildServ);
         user = services.mergeUser(user);
-        return "main/mainuser";
+        return "main/admin/mainadmin";
     }
 
 
