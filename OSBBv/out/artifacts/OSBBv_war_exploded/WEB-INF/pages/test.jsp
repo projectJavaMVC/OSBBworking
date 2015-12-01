@@ -11,7 +11,20 @@
     <title></title>
 </head>
 <body>
-<p>${test}</p>
-<p>${test2}</p>
+<form>
+  <input type="text" name="a" value="1" id="a" />
+  <textarea name="b" rows="8" cols="40">2</textarea>
+  <input type="button" onclick="add()" class="btn btn-success" formmethod="post" formenctype="multipart/form-data" formaction="/test" value="Регистрация">
+</form>
+
+<script>
+
+   function add(){
+     var s = $('this').serialize();
+     alert(s);add()}
+    ;
+
+
+</script>
 </body>
 </html>
