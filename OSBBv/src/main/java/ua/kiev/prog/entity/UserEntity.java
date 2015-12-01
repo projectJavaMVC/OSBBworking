@@ -19,6 +19,7 @@ public class UserEntity {
     private String email;
     private Short type;
 
+
     @OneToOne(mappedBy = "userEntity")
     public UserInfoEntity userInfo;
 
@@ -88,7 +89,9 @@ public class UserEntity {
     public UserInfoEntity getUserInfo() {
         return userInfo;
     }
+
     public void setUserInfo(UserInfoEntity userInfo) {
         this.userInfo = userInfo;
     }
+
 }

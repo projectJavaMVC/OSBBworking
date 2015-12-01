@@ -1,7 +1,5 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-
-
 <html>
 <head>
 
@@ -17,8 +15,9 @@
     }
     #section1 {padding-top:50px;height:100%;color: #fff; background-color: #1E88E5;}
   </style>
+
 </head>
-<div data-spy="scroll" data-target=".navbar" data-offset="50">
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
 <nav class="navbar navbar-inverse navbar-fixed-top">
   <div class="container-fluid">
     <div class="navbar-header">
@@ -33,6 +32,8 @@
 </nav>
 
 <div id="section1" class="container-fluid">
+
+
 
 <div class="container">
   <div class="container">
@@ -82,7 +83,6 @@
   </div>
 </div>
 
-
 <script>
   $('.selectpicker').selectpicker();
   $('#basic2').selectpicker({
@@ -90,5 +90,5 @@
     maxOptions: 1
   });
 </script>
-</div>
+</body>
 </html>

@@ -34,7 +34,7 @@
     <div class="container">
     <form role="form" enctype="multipart/form-data" class="form-horizontal" action="/signin" method="post">
         <div class="form-group">
-            <div class="col-md-4"><h3>Войдите или зарегестрируйтесь</h3></div>
+            <h3>Войдите или зарегестрируйтесь</h3>
         </div>
         <div class="form-group">
             <div class="col-md-4"><input  type="text" class="form-control" name="login" placeholder="Login"></div>

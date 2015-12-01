@@ -22,7 +22,6 @@ public class MyController {
     @Autowired
     private Services services;
 
-
     /////--------------------Всеволод
     @RequestMapping("/")
     public String index(Model model) {
@@ -36,19 +35,16 @@ public class MyController {
     }
 
 
-    @RequestMapping("/signup/add")
+    @RequestMapping("/signup/add")                                              /*(value ="/signup/add", method = RequestMethod.POST, produces = "application/json;charset=utf-8")*/
     public String addUser(@RequestParam String login, @RequestParam String pass, @RequestParam String email,
-                          @RequestParam Short group, @RequestParam String key, Model model) {
+                          @RequestParam Short group, @RequestParam String key, Model model){
+        
         BuildsEntity build;
         String[] list = {login, pass, email};
         for (String s : list) {
             if ((s == null) || (s.isEmpty()))
                 return "errors/403_Error";
         }
-<<<<<<< HEAD
-=======
-
->>>>>>> origin/DevGod
         UserEntity user = null;
         if (group == USER_TYPE) {
             build = services.getBuildByKey(key);
@@ -110,11 +106,7 @@ public class MyController {
 
     @RequestMapping("/signup/gotoFlat")
     public String addFlat(Model model) {
-<<<<<<< HEAD
         return "regist/user/signup2Flat";
-=======
-        return "signup2Flat";
->>>>>>> origin/DevGod
     }
 
 
@@ -124,7 +116,7 @@ public class MyController {
             return "errors/403_Error";
 
         UserInfoEntity userIE = user.getUserInfo();
-        if(userIE == null)
+        if (userIE == null)
             return "errors/403_Error";
 
         FlatsEntity flat = userIE.getFlatsEntity();
@@ -132,7 +124,6 @@ public class MyController {
         flat.setPeopleCnt(peopleCount);
         flat.setArea(area);
         services.mergeFlat(flat);
-<<<<<<< HEAD
         return "main/mainuser";
     }
 
@@ -152,9 +143,6 @@ public class MyController {
             model.addAttribute("users", listUser);
             return "main/mainuser";
         } else return "hello/signIN";
-=======
-        return "endOfRegUser";
->>>>>>> origin/DevGod
     }
 
     @RequestMapping("/inviteusers")
@@ -170,6 +158,4 @@ public class MyController {
         model.addAttribute("test2", "");
         return "regist/admin/signup3Admin";
     }
-
-
 }

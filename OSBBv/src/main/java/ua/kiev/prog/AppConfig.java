@@ -17,6 +17,7 @@ import org.springframework.web.servlet.view.JstlView;
 import org.springframework.web.servlet.view.UrlBasedViewResolver;
 
 import javax.persistence.EntityManagerFactory;
+import javax.servlet.annotation.WebFilter;
 import javax.sql.DataSource;
 
 @Configuration
@@ -57,7 +58,7 @@ public class AppConfig {
     {
         DriverManagerDataSource ds = new DriverManagerDataSource();
         ds.setDriverClassName("com.mysql.jdbc.Driver");
-        ds.setUrl("jdbc:mysql://localhost:3306/prog");
+        ds.setUrl("jdbc:mysql://localhost:3306/prog"); /*?characterEncoding=UTF-8*/
         ds.setUsername("root");
         ds.setPassword("GFDert567");
 
@@ -79,11 +80,4 @@ public class AppConfig {
         return new CommonsMultipartResolver();
     }
 
-    @Bean
-    public CharacterEncodingFilter characterEncodingFilter(){
-        CharacterEncodingFilter encodingFilter = new CharacterEncodingFilter();
-        encodingFilter.setEncoding("UTF-8");
-        encodingFilter.setForceEncoding(true);
-        return encodingFilter;
-    }
 }

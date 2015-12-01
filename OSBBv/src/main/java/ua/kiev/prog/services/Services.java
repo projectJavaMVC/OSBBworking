@@ -3,10 +3,7 @@ package ua.kiev.prog.services;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import ua.kiev.prog.DAO.*;
-import ua.kiev.prog.entity.BuildsEntity;
-import ua.kiev.prog.entity.FlatsEntity;
-import ua.kiev.prog.entity.UserEntity;
-import ua.kiev.prog.entity.UserInfoEntity;
+import ua.kiev.prog.entity.*;
 
 import javax.transaction.Transactional;
 import java.util.List;
@@ -32,12 +29,14 @@ public class Services {
     public void tableFill(){
         servicesDAO.tableFill();
     }
-
+    @Transactional
+    public List<ServicesEntity> listServices(){
+        return servicesDAO.listServices();
+    }
     @Transactional
     public void addBuild (BuildsEntity build){
         buildDAO.addBuild(build);
     }
-
     @Transactional
     public UserEntity getUserByLogin(String login){
         return userDAO.getUserByLogin(login);
@@ -47,7 +46,6 @@ public class Services {
     public BuildsEntity getBuildByKey(String key){
         return buildDAO.getIDByKey(key);
     }
-
 
     @Transactional
     public void addUser (UserEntity user){
@@ -82,12 +80,9 @@ public class Services {
         return flatDAO.mergeFlat(flatsEntity);
 
     }
-<<<<<<< HEAD
     @Transactional
     public UserEntity mergeUser(UserEntity userEntity)
     {
         return userDAO.mergeUser(userEntity);
     }
-=======
->>>>>>> origin/DevGod
 }
