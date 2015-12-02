@@ -55,6 +55,12 @@
                         </span>
               </div>
               </c:forEach>
+              <div class="form-group">
+                <div class="col-md-4">
+                  <input type="submit"    class="btn btn-success"  value="Регистрация">
+                  <p><tt id="results"></tt></p>
+                </div>
+              </div>
             </form>
             <div class="form-group">
               <div class="col-md-4">
