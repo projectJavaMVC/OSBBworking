@@ -46,7 +46,7 @@
 
 
               <div class="entry input-group col-xs-3">
-                  <input class="form-control" co  name="serviceID${service.id}"  type="text" placeholder="${service.name}"/>
+                  <input class="form-control" co  name="${service.id}"  type="text" placeholder="${service.name}"/>
 
                     	<span class="input-group-btn">
                             <button class="btn btn-success btn-remove btn-danger" type="button">

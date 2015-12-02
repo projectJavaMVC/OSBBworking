@@ -41,4 +41,10 @@ public class ServicesEntity {
     public void setName(String name) {
         this.name = name;
     }
+    @Override
+    public String toString() {
+        StringBuilder sb = new StringBuilder();
+        sb.append(this.id).append(" ").append(this.name);
+        return sb.toString();
+    }
 }

@@ -44,7 +44,6 @@
             <form role="form"     enctype="multipart/form-data" class="form-horizontal" action="/test2" method="post">
               <c:forEach items="${services}" var="service">
 
-
               <div class="entry input-group col-xs-3">
                   <input class="form-control" co  name="service_ID_${service.id}"  type="text" placeholder="${service.name}"/>
 
@@ -58,14 +57,12 @@
               <div class="form-group">
                 <div class="col-md-4">
                   <input type="submit"    class="btn btn-success"  value="Регистрация">
-                  <p><tt id="results"></tt></p>
-                </div>
+                 </div>
               </div>
             </form>
             <div class="form-group">
               <div class="col-md-4">
-                <input type="submit"    class="btn btn-success"  value="Регистрация">
-                <p><tt id="results"></tt></p>
+                <input type="button"  id="click"  class="btn btn-success"  value="test">
               </div>
             </div>
           </div>
@@ -79,11 +76,17 @@
 </div>
 
 <script>
+  var services = [];
   $('#clicfucckkk').click(function(){
 
     var str = $("form").serialize();
     $("#results").text(str);
     $.post("/test2/",str);
+  });
+
+  $('#click').click(function(){
+
+    console.log(services)
   });
 
 

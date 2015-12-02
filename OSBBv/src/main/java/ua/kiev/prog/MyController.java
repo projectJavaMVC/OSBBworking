@@ -16,6 +16,7 @@ import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 @Controller
 @RequestMapping("/")
@@ -62,7 +63,7 @@ public class MyController {
             build = new BuildsEntity(null);
             services.addBuild(build);
             user = new UserEntity(login, pass, email, group, build);
-            model.addAttribute("build", build);
+                model.addAttribute("build", build);
         }
         services.addUser(user);
         user = services.mergeUser(user);
@@ -104,6 +105,7 @@ public class MyController {
             return "errors/403_Error";
 
         userIE = new UserInfoEntity(lastName,name,  secondName, phone,user, flat);
+        user.setUserInfo(userIE);
         model.addAttribute("userIE", userIE);
         services.addUserInfo(userIE);
         return "regist/user/success";
@@ -162,32 +164,40 @@ public class MyController {
            return user.getType()== USER_TYPE ? "main/user/mainuser" : "main/admin/mainadmin";
     }
 
+
+    @RequestMapping("/admin/add/service")
+    public String addService (@RequestParam Map<String,String> allRequestParams,@ModelAttribute("user") UserEntity user,Model model)
+    {
+        BuildsEntity build = user.getBuildsEntity();
+        for (Map.Entry<String, String> entry : allRequestParams.entrySet())
+        {
+            BuildServices buildServ = new BuildServices();
+            buildServ.setRate(Integer.parseInt(entry.getValue()));
+            buildServ.setBuildsEntity(build);
+            buildServ.setServicesEntity(services.geterviceById(Integer.parseInt(entry.getKey())));
+            services.addBuildServices(buildServ);
+        }
+        user = services.mergeUser(user);
+        return "main/admin/mainadmin";
+    }
+
+
     @RequestMapping("/test")
     public String inviteUsers (Model model)
     {
 
         services.listServices();
         model.addAttribute("services", services.listServices());
-        return "regist/admin/signup3Admin";
+        return "regist/admin/signup3AdminBACKUP";
     }
-    @RequestMapping("/admin/add/service")
-    public String addService (@RequestParam String serviceID1,@ModelAttribute("user") UserEntity user,Model model)
-    {
-
-        BuildServices buildServ = new BuildServices();
-        buildServ.setRate(Integer.parseInt(serviceID1));
-        buildServ.setBuildsEntity(user.getBuildsEntity());
-        buildServ.setServicesEntity(services.geterviceById(1));
-        services.addBuildServices(buildServ);
-        user = services.mergeUser(user);
-        return "main/admin/mainadmin";
-    }
-
 
     @RequestMapping("/test2")
-    public String inviteUsers2(Model model)
+    public String inviteUsers2(@RequestParam Map<String,String> allRequestParams,Model model)
     {
-
+        for (Map.Entry<String, String> entry : allRequestParams.entrySet())
+        {
+            System.out.println(entry.getKey() + "/" + entry.getValue());
+        }
         services.listServices();
         model.addAttribute("services", services.listServices());
         return "dsf";
