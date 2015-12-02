@@ -1,6 +1,8 @@
 package ua.kiev.prog.entity;
 
 import javax.persistence.*;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Created by mbro8_000 on 26.11.2015.
@@ -12,6 +14,9 @@ public class ServicesEntity {
     @GeneratedValue
     private long id;
     private String name;
+
+    @OneToMany(mappedBy = "servicesEntity", targetEntity = BuildServices.class)
+    private List<BuildServices> buildservices = new ArrayList<BuildServices>();
 
     public ServicesEntity(String name) {
         this.name = name;

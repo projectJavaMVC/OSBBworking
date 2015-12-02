@@ -20,6 +20,17 @@ public class BuildsEntity {
     private String street;
     private String buildNum;
 
+    public List<BuildServices> getServices() {
+        return buildservices;
+    }
+
+    public void setServices(List<BuildServices> services) {
+        this.buildservices = services;
+    }
+
+    @OneToMany(mappedBy = "buildsEntity", targetEntity = BuildServices.class)
+    private List<BuildServices> buildservices = new ArrayList<BuildServices>();
+
     @OneToMany(mappedBy = "buildsEntity", targetEntity = FlatsEntity.class)
     private List<FlatsEntity> flats = new ArrayList<FlatsEntity>();
 

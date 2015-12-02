@@ -10,4 +10,5 @@ import java.util.List;
 public interface ServicesDAO  {
     void tableFill();
     List<ServicesEntity> listServices();
+    ServicesEntity getServiceById (long id);
 }

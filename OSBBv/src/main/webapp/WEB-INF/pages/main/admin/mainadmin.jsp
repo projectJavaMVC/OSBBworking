@@ -35,10 +35,10 @@
     <div>
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav">
-          <li><a href="#section1">Выставленные Счета</a></li>
+          <li><a href="#section1">Выставить Счета</a></li>
           <li><a href="#section2">Оплаты</a></li>
           <li><a href="#section3">Мои данные</a></li>
-          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Соседи<span class="caret"></span></a>
+          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Жильцы<span class="caret"></span></a>
             <ul class="dropdown-menu">
               <li><a href="#section41">Пригласить</a></li>
               <li><a href="#section42">Посмотреть</a></li>
@@ -69,7 +69,7 @@
 </div>
 <div id="section42" class="container-fluid">
   <div class="container">
-  <h1>Мои соседи</h1>
+  <h1>Мои Жильцы</h1>
   <table class="table table-border">
     <thead>
     <tr>

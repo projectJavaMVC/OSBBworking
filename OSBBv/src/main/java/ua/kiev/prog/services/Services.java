@@ -15,6 +15,8 @@ import java.util.List;
 public class Services {
 
     @Autowired
+    private BuildServiceDAOImpl buildServiceDAO;
+    @Autowired
     private ServicesDAO servicesDAO;
     @Autowired
     private BuildDAO buildDAO;
@@ -28,6 +30,10 @@ public class Services {
     @Transactional
     public void tableFill(){
         servicesDAO.tableFill();
+    }
+    @Transactional
+    public void addBuildServices(BuildServices buildServices){
+        buildServiceDAO.addBuildService(buildServices);
     }
 
     @Transactional
@@ -89,4 +95,12 @@ public class Services {
     {
         return userDAO.mergeUser(userEntity);
     }
+
+    @Transactional
+    public ServicesEntity geterviceById(long id)
+    {
+        return servicesDAO.getServiceById(id);
+    }
+
+
 }

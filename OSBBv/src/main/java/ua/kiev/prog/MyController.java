@@ -14,6 +14,7 @@ import ua.kiev.prog.utils.Email;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 
 @Controller
@@ -56,7 +57,6 @@ public class MyController {
         if (group == USER_TYPE) {
             build = services.getBuildByKey(key);
             user = new UserEntity(login, pass, email, group, build);
-            model.addAttribute("user", user);
             model.addAttribute("listFlat",services.listFlat(build));
         } else if (group == ADMIN_TYPE) {
             build = new BuildsEntity(null);
@@ -64,8 +64,9 @@ public class MyController {
             user = new UserEntity(login, pass, email, group, build);
             model.addAttribute("build", build);
         }
-
         services.addUser(user);
+        user = services.mergeUser(user);
+        model.addAttribute("user", user);
         return group == USER_TYPE ? "regist/user/signup2User" : "regist/admin/signup2Admin";
     }
 
@@ -85,7 +86,8 @@ public class MyController {
         }
 
         model.addAttribute("users", services.listUsers(null));
-            return "main/userslist";
+        model.addAttribute("services", services.listServices());
+            return "regist/admin/addService";
     }
 
     @RequestMapping("/signup/addUser2")
@@ -113,17 +115,22 @@ public class MyController {
     }
 
 
+
     @RequestMapping("/signup/addFlat")
-    public String addFlat(@RequestParam int peopleCount, @RequestParam BigDecimal area, @ModelAttribute("user") UserEntity user,
-                          @ModelAttribute("userIE") UserInfoEntity userIE, Model model) {
-        if(peopleCount == 0)
+    public String addFlat(@RequestParam int peopleCount, @RequestParam BigDecimal area, @ModelAttribute("user") UserEntity user, Model model) {
+        if (peopleCount == 0)
             return "errors/403_Error";
+
+        UserInfoEntity userIE = user.getUserInfo();
+        if (userIE == null)
+            return "errors/403_Error";
+
         FlatsEntity flat = userIE.getFlatsEntity();
         flat.setBuildsEntity(user.getBuildsEntity());
         flat.setPeopleCnt(peopleCount);
         flat.setArea(area);
         services.mergeFlat(flat);
-        return "main/mainuser";
+        return "main/user/mainuser";
     }
 
 
@@ -140,17 +147,19 @@ public class MyController {
                 User us = new User(u);
                 listUser.add(us);
             }
+            model.addAttribute("user",user);
             model.addAttribute("users",listUser);
-            return "main/mainuser";
+            return user.getType()==USER_TYPE ? "main/user/mainuser" : "main/admin/mainadmin";
         }
         else return "hello/signIN";
     }
 
     @RequestMapping("/inviteusers")
-    public String inviteUsers (@RequestParam String email,Model model)
+    public String inviteUsers (@RequestParam String email,@ModelAttribute("user") UserEntity user,Model model)
     {
-            new Email().sendMail(email);
-           return "main/mainuser";
+        String code = user.getBuildsEntity().getCode();
+            new Email().sendMail(email,code);
+           return user.getType()== USER_TYPE ? "main/user/mainuser" : "main/admin/mainadmin";
     }
 
     @RequestMapping("/test")
@@ -160,6 +169,18 @@ public class MyController {
         services.listServices();
         model.addAttribute("services", services.listServices());
         return "regist/admin/signup3Admin";
+    }
+    @RequestMapping("/admin/add/service")
+    public String addService (@RequestParam String serviceID1,@ModelAttribute("user") UserEntity user,Model model)
+    {
+
+        BuildServices buildServ = new BuildServices();
+        buildServ.setRate(Integer.parseInt(serviceID1));
+        buildServ.setBuildsEntity(user.getBuildsEntity());
+        buildServ.setServicesEntity(services.geterviceById(1));
+        services.addBuildServices(buildServ);
+        user = services.mergeUser(user);
+        return "main/admin/mainadmin";
     }
 
 
