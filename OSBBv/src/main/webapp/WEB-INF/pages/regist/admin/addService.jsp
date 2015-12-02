@@ -35,53 +35,48 @@
 
 <div id="section1" class="container-fluid">
   <div class="container">
-
-
-
       <div class="row">
         <div class="control-group" id="fields">
           <div class="controls">
             <form role="form"     enctype="multipart/form-data" class="form-horizontal" action="/admin/add/service" method="post">
-              <c:forEach items="${services}" var="service">
-
-
-              <div class="entry input-group col-xs-3">
-                  <input class="form-control" co  name="${service.id}"  type="text" placeholder="${service.name}"/>
-
-                    	<span class="input-group-btn">
-                            <button class="btn btn-success btn-remove btn-danger" type="button">
-                              <span class="glyphicon glyphicon-minus"></span>
-                            </button>
-                        </span>
+              <div class="form-group">
+                <div class="row">
+                 <div class="col-md-8">
+                  <h3>Выберите сервисы, которые буду учитываться в вашем доме.</h3>
+                 </div>
+                </div>
               </div>
+              <c:forEach items="${services}" var="service">
+                <div class="form-group">
+                 <div class="row">
+                  <div class="col-md-4">
+                   <input class="form-control" name="${service.id}"  type="number" placeholder="${service.name}"/>
+                  </div>
+                  <div class="col-md-4">
+                     <span class="input-group-btn">
+                     <button class="btn btn-success btn-remove btn-danger" type="button">
+                     <span class="glyphicon glyphicon-minus"></span>
+                     </button>
+                     </span>
+                  </div>
+                 </div>
+                </div>
               </c:forEach>
               <div class="form-group">
-                <div class="col-md-4">
-                  <input type="submit"    class="btn btn-success"  value="Регистрация">
-
+                <div class="row">
+                  <div class="col-md-4">
+                    <input type="submit"    class="btn btn-success"  value="Готово!">
+                  </div>
                 </div>
               </div>
             </form>
-
           </div>
         </div>
       </div>
-
-
-
-
   </div>
 </div>
 
 <script>
-  $('#clicfucckkk').click(function(){
-
-    var str = $("form").serialize();
-    $("#results").text(str);
-    $.post("/test2/",str);
-  });
-
-
   $(function()
   {
     $(document).on('click', '.btn-remove', function(e)
@@ -92,10 +87,6 @@
       return false;
     });
   });
-
-
-
-
 </script>
 </body>
 </html>
