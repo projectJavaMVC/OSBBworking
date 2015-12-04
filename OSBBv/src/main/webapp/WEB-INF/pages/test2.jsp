@@ -11,6 +11,7 @@
     <title></title>
 </head>
 <body>
-<p>${test}</p>
+<p>${admin.login}</p>
+<p>${admin.pass}</p>
 </body>
 </html>

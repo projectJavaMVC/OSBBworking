@@ -26,6 +26,15 @@ public class ServicesEntity {
 
     }
 
+
+    public List<BuildServices> getBuildservices() {
+        return buildservices;
+    }
+
+    public void setBuildservices(List<BuildServices> buildservices) {
+        this.buildservices = buildservices;
+    }
+
     public long getId() {
         return id;
     }

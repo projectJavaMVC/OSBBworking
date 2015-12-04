@@ -2,105 +2,114 @@ package ua.kiev.prog.services;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import ua.kiev.prog.DAO.*;
+
 import ua.kiev.prog.entity.*;
+import ua.kiev.prog.repositories.*;
 
 import javax.transaction.Transactional;
 import java.util.List;
 
-/**
- * Created by mbro8_000 on 23.11.2015.
- */
 @Service
 public class Services {
 
+
     @Autowired
-    private BuildServiceDAOImpl buildServiceDAO;
+    private BuildsEntityRepository buildsEntityRepository;
     @Autowired
-    private ServicesDAO servicesDAO;
+    private UserEntityRepository userEntityRepository;
     @Autowired
-    private BuildDAO buildDAO;
+    private UserInfoEntityRepository userIERepository;
     @Autowired
-    private UserDAO userDAO;
+    private FlatsEntityRepository flatsRepository;
     @Autowired
-    private UserInfoDAO userInfoDAO;
+    private ServicesEntityRepository SERepository;
     @Autowired
-    private FlatDAO flatDAO;
-
-    @Transactional
-    public void tableFill(){
-        servicesDAO.tableFill();
-    }
-    @Transactional
-    public void addBuildServices(BuildServices buildServices){
-        buildServiceDAO.addBuildService(buildServices);
-    }
-
-    @Transactional
-    public void addBuild (BuildsEntity build){
-        buildDAO.addBuild(build);
-
-    }
-    @Transactional
-    public List<ServicesEntity> listServices(){
-        return servicesDAO.listServices();
-    }
-
-    @Transactional
-    public UserEntity getUserByLogin(String login){
-        return userDAO.getUserByLogin(login);
-    }
-
-    @Transactional
-    public BuildsEntity getBuildByKey(String key){
-        return buildDAO.getIDByKey(key);
-    }
+    private BuildsServicesRepository buildServicesRepository;
 
 
     @Transactional
-    public void addUser (UserEntity user){
-        userDAO.add(user);
+    public void addUser(UserEntity userEntity) {
+        userEntityRepository.saveAndFlush(userEntity);
     }
 
     @Transactional
-    public void addUserInfo (UserInfoEntity userIE){
-        userInfoDAO.add(userIE);
+    public UserEntity mergeUser(UserEntity user) {
+        return userEntityRepository.save(user);
     }
 
     @Transactional
-    public List<UserEntity> listUsers (BuildsEntity build){
-        return userDAO.listUsers(build);
-    }
-    @Transactional
-    public void mergeBuild (BuildsEntity build) {buildDAO.mergeBuild(build);}
-    @Transactional
-    public void addFlat(FlatsEntity flat){
-       flatDAO.addFlat(flat);
-    }
-    @Transactional
-    public List<FlatsEntity> listFlat(BuildsEntity buildsEntity){
-        return (List<FlatsEntity>) flatDAO.listFlat(buildsEntity);
-    }
-    @Transactional
-    public FlatsEntity getFlatById(long id){
-        return flatDAO.getFlatByID(id);
-    }
-    @Transactional
-    public FlatsEntity mergeFlat(FlatsEntity flatsEntity){
-        return flatDAO.mergeFlat(flatsEntity);
-
-    }
-    @Transactional
-    public UserEntity mergeUser(UserEntity userEntity)
-    {
-        return userDAO.mergeUser(userEntity);
+    public List<UserEntity> findAllUsersByBuild(BuildsEntity buildsEntity) {
+        return (List<UserEntity>) userEntityRepository.findAllByBuildsEntity(buildsEntity);
     }
 
     @Transactional
-    public ServicesEntity geterviceById(long id)
-    {
-        return servicesDAO.getServiceById(id);
+    public UserEntity findOneUserByBuild(BuildsEntity buildsEntity) {
+        return userEntityRepository.findOneByBuildsEntity(buildsEntity);
     }
 
+    @Transactional
+    public UserEntity findOneUserByLogin(String login) {
+        return userEntityRepository.findOneByLogin(login);
+    }
 
+    @Transactional
+    public BuildsEntity findBuildById(Long id) {
+        return buildsEntityRepository.findOne(id);
+    }
+
+    @Transactional
+    public BuildsEntity findBuildByKey(String key) {
+        return buildsEntityRepository.findOneByKey(key);
+    }
+
+    @Transactional
+    public BuildsEntity mergeBuild(BuildsEntity build) {
+        return buildsEntityRepository.save(build);
+    }
+
+    @Transactional
+    public void addBuild(BuildsEntity build) {
+        buildsEntityRepository.saveAndFlush(build);
+    }
+
+    @Transactional
+    public List<FlatsEntity> findAllByBuildsEntity(BuildsEntity build) {
+        return flatsRepository.findAllByBuildsEntity(build);
+    }
+
+    @Transactional
+    public void addFlat(FlatsEntity flat) {
+        flatsRepository.saveAndFlush(flat);
+    }
+
+    @Transactional
+    public FlatsEntity mergeFlat(FlatsEntity flat) {
+        return flatsRepository.save(flat);
+    }
+
+    @Transactional
+    public FlatsEntity getFlatById(long id) {
+        return flatsRepository.findOne(id);
+    }
+
+    @Transactional
+    public void addUserInfo(UserInfoEntity userIE) {
+        userIERepository.saveAndFlush(userIE);
+    }
+
+    @Transactional
+    public List<ServicesEntity> listServices() {
+        return SERepository.findAll();
+    }
+
+    @Transactional
+    public ServicesEntity getServiceById(long id) {
+        return SERepository.findOne(id);
+    }
+
+    @Transactional
+    public void addBuildService(BuildServices buildServices) {
+        buildServicesRepository.saveAndFlush(buildServices);
+    }
 }
+

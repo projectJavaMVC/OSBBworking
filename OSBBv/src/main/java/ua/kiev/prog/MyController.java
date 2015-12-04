@@ -1,6 +1,5 @@
 package ua.kiev.prog;
 
-import com.sun.javafx.sg.prism.NGShape;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -14,13 +13,12 @@ import ua.kiev.prog.utils.Email;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
 @Controller
 @RequestMapping("/")
-@SessionAttributes(names = {"build", "user"}, types = {BuildsEntity.class, UserEntity.class})
+@SessionAttributes(value = {"build", "user"}, types = {BuildsEntity.class, UserEntity.class})
 public class MyController {
 
     static final int USER_TYPE = 0;
@@ -29,178 +27,177 @@ public class MyController {
     @Autowired
     private Services services;
 
-
-    /////--------------------Всеволод
     @RequestMapping("/")
     public String index(Model model) {
-         services.tableFill();
-        return "hello/signIN";
+        return "all/hello/signIN";
+    }
+    @RequestMapping("/signin")
+    public String signIn(Model model) {
+        return "all/hello/signIN";
     }
 
-    @RequestMapping("/signup")
+    @RequestMapping("/errors/403_Error")
+    public String error(Model model) {
+        return "all/errors/403_Error";
+    }
+
+    @RequestMapping("/all/reg/signup")
     public String signup(Model model) {
-        return "regist/signup";
+        return "all/regist/signup";
     }
 
 
-    @RequestMapping("/signup/add")
+
+    @RequestMapping("/all/reg/add/user")
     public String addUser(@RequestParam String login, @RequestParam String pass, @RequestParam String email,
                           @RequestParam Short group, @RequestParam String key, Model model) {
         BuildsEntity build;
 
         String[] list = {login, pass, email};
         for (String s : list) {
-            if((s == null)||(s.isEmpty()))
-                return "errors/403_Error";
+            if ((s == null) || (s.isEmpty()))
+                return "all/errors/403_Error";
         }
-
         UserEntity user = null;
         if (group == USER_TYPE) {
-            build = services.getBuildByKey(key);
+            build = services.findBuildByKey(key);
             user = new UserEntity(login, pass, email, group, build);
-            model.addAttribute("listFlat",services.listFlat(build));
+            model.addAttribute("listFlat", services.findAllByBuildsEntity(build));
         } else if (group == ADMIN_TYPE) {
             build = new BuildsEntity(null);
             services.addBuild(build);
             user = new UserEntity(login, pass, email, group, build);
-                model.addAttribute("build", build);
+            model.addAttribute("build", build);
         }
         services.addUser(user);
         user = services.mergeUser(user);
         model.addAttribute("user", user);
-        return group == USER_TYPE ? "regist/user/signup2User" : "regist/admin/signup2Admin";
+        return group == USER_TYPE ? "all/regist/user/signup2User" : "all/regist/admin/signup2Admin";
     }
 
 
-    @RequestMapping("/signup/addAdmin2")
+    @RequestMapping("/all/reg/admin/buildInfo")
     public String addBuild(@RequestParam Short flatCnt, @RequestParam String city, @RequestParam String street,
                            @RequestParam String buildNum, @ModelAttribute("build") BuildsEntity build, Model model) {
         build.setBuildNum(buildNum);
         services.mergeBuild(build);
-        if ( build.getId()!=0 ){
+        if (build.getId() != 0) {
             for (int i = 1; i <= build.getFlatCnt(); i++) {
-               FlatsEntity flat = new FlatsEntity() ;
+                FlatsEntity flat = new FlatsEntity();
                 flat.setFlatNumber(i);
                 flat.setBuildsEntity(build);
                 services.addFlat(flat);
             }
         }
 
-        model.addAttribute("users", services.listUsers(null));
+        model.addAttribute("users", services.findAllUsersByBuild(null));
         model.addAttribute("services", services.listServices());
-            return "regist/admin/addService";
+        return "all/regist/admin/addService";
     }
 
-    @RequestMapping("/signup/addUser2")
+    @RequestMapping("/all/reg/add/userInfo")
     public String addUserInfo(@RequestParam String name, @RequestParam String lastName, @RequestParam String secondName,
                               @RequestParam String phone, @RequestParam long flatNum, @ModelAttribute("user") UserEntity user, Model model) {
         UserInfoEntity userIE;
-        FlatsEntity  flat = services.getFlatById(flatNum);
+        FlatsEntity flat = services.getFlatById(flatNum);
         String[] list = {name, lastName, secondName, phone};
         for (String s : list) {
-            if((s == null)||(s.isEmpty()))
-                return "errors/403_Error";
+            if ((s == null) || (s.isEmpty()))
+                return "all/errors/403_Error";
         }
-        if(flat == null)
-            return "errors/403_Error";
+        if (flat == null)
+            return "all/errors/403_Error";
 
-        userIE = new UserInfoEntity(lastName,name,  secondName, phone,user, flat);
+        userIE = new UserInfoEntity(lastName, name, secondName, phone, user, flat);
         user.setUserInfo(userIE);
         model.addAttribute("userIE", userIE);
         services.addUserInfo(userIE);
-        return "regist/user/success";
+        return "all/regist/user/success";
     }
 
-    @RequestMapping("/signup/gotoFlat")
+    @RequestMapping("all/signup/add/goToFlat")
     public String addFlat(Model model) {
-        return "regist/user/signup2Flat";
+        return "all/regist/user/signup2Flat";
     }
 
 
-
-    @RequestMapping("/signup/addFlat")
+    @RequestMapping("/all/reg/add/user/flat")
     public String addFlat(@RequestParam int peopleCount, @RequestParam BigDecimal area, @ModelAttribute("user") UserEntity user, Model model) {
         if (peopleCount == 0)
-            return "errors/403_Error";
+            return "all/errors/403_Error";
 
         UserInfoEntity userIE = user.getUserInfo();
         if (userIE == null)
-            return "errors/403_Error";
+            return "all/errors/403_Error";
 
         FlatsEntity flat = userIE.getFlatsEntity();
         flat.setBuildsEntity(user.getBuildsEntity());
         flat.setPeopleCnt(peopleCount);
         flat.setArea(area);
         services.mergeFlat(flat);
-        return "main/user/mainuser";
+        return "user/main/mainuser";
     }
 
 
     //войти
-    @RequestMapping ("/signin")
-    public String signin (@RequestParam String login,@RequestParam String pass,Model model)
-    {
-        UserEntity user = services.getUserByLogin(login);
-         if (user.getPass().equals(pass)){
-            model.addAttribute("user",user);
-            List<UserEntity> listUsers = services.listUsers(user.getBuildsEntity());
-            List<User> listUser = new ArrayList<>();
-             for(UserEntity u : listUsers){
+    @RequestMapping("/sec/signIN")
+    public String signin(@RequestParam String login, @RequestParam String pass, Model model) {
+        UserEntity user = services.findOneUserByLogin(login);
+        if (user.getPass().equals(pass)) {
+            model.addAttribute("user", user);
+            List<UserEntity> listUsers = services.findAllUsersByBuild(user.getBuildsEntity());
+            List<User> listUser = new ArrayList<User>();
+            for (UserEntity u : listUsers) {
                 User us = new User(u);
                 listUser.add(us);
             }
-            model.addAttribute("user",user);
-            model.addAttribute("users",listUser);
-            return user.getType()==USER_TYPE ? "main/user/mainuser" : "main/admin/mainadmin";
-        }
-        else return "hello/signIN";
+            model.addAttribute("user", user);
+            model.addAttribute("users", listUser);
+            return user.getType() == USER_TYPE ? "user/main/mainuser" : "admin/main/mainadmin";
+        } else return "all/hello/signIN";
     }
 
     @RequestMapping("/inviteusers")
-    public String inviteUsers (@RequestParam String email,@ModelAttribute("user") UserEntity user,Model model)
-    {
+    public String inviteUsers(@RequestParam String email, @ModelAttribute("user") UserEntity user, Model model) {
         String code = user.getBuildsEntity().getCode();
-            new Email().sendMail(email,code);
-           return user.getType()== USER_TYPE ? "main/user/mainuser" : "main/admin/mainadmin";
+        new Email().sendMail(email, code);
+        return user.getType() == USER_TYPE ? "user/main/mainuser" : "admin/main/mainadmin";
     }
 
 
-    @RequestMapping("/admin/add/service")
-    public String addService (@RequestParam Map<String,String> allRequestParams,@ModelAttribute("user") UserEntity user,Model model)
-    {
+    @RequestMapping("/all/reg/add/admin/service")
+    public String addService(@RequestParam Map<String, String> allRequestParams, @ModelAttribute("user") UserEntity user, Model model) {
         BuildsEntity build = user.getBuildsEntity();
-        for (Map.Entry<String, String> entry : allRequestParams.entrySet())
-        {
+        for (Map.Entry<String, String> entry : allRequestParams.entrySet()) {
             BuildServices buildServ = new BuildServices();
             buildServ.setRate(Integer.parseInt(entry.getValue()));
             buildServ.setBuildsEntity(build);
-            buildServ.setServicesEntity(services.geterviceById(Integer.parseInt(entry.getKey())));
-            services.addBuildServices(buildServ);
+            buildServ.setServicesEntity(services.getServiceById(Integer.parseInt(entry.getKey())));
+            services.addBuildService(buildServ);
         }
         user = services.mergeUser(user);
-        return "main/admin/mainadmin";
+        return "admin/main/mainadmin";
     }
 
-
     @RequestMapping("/test")
-    public String inviteUsers (Model model)
-    {
+    public String inviteUsers(Model model) {
 
-        services.listServices();
-        model.addAttribute("services", services.listServices());
-        return "regist/admin/signup3AdminBACKUP";
+        // services.findOneUserByLogin("admin");
+        model.addAttribute("admin", services.findOneUserByLogin("admin"));
+        return "test2";
+    }
+
+    @RequestMapping("/hello/signINincorrect")
+    public String incorrectLogin(Model model) {
+        return "all/hello/signINincorrect";
     }
 
     @RequestMapping("/test2")
-    public String inviteUsers2(@RequestParam Map<String,String> allRequestParams,Model model)
-    {
-        for (Map.Entry<String, String> entry : allRequestParams.entrySet())
-        {
-            System.out.println(entry.getKey() + "/" + entry.getValue());
-        }
-        services.listServices();
-        model.addAttribute("services", services.listServices());
-        return "dsf";
+    public String inviteUsers2(Model model) {
+        BuildsEntity build = services.findBuildById((long) 1);
+        UserEntity user = services.findOneUserByBuild(build);
+        //services.listServices();
+        model.addAttribute("user", user);
+        return "testdata";
     }
-
 }
