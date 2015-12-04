@@ -47,7 +47,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .antMatchers("/resources/**", "/**").permitAll()
                 .anyRequest().permitAll()
                 .and();
-
+       // http.sessionManagement().invalidSessionUrl()
       /*  http.authorizeRequests()
                 .antMatchers("/*").access("hasRole('ROLE_ADMIN')")
                 //.antMatchers("/confidential/**").access("hasRole('ROLE_SUPERADMIN')")

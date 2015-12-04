@@ -28,7 +28,7 @@ import javax.sql.DataSource;
 @ComponentScan("ua.kiev.prog")
 @EnableTransactionManagement
 @EnableWebMvc
-@EnableJpaRepositories
+    @EnableJpaRepositories
 public class AppConfig {
 
 

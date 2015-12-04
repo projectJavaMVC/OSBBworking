@@ -101,7 +101,7 @@ public class MyController {
             return "regist/admin/addService";
     }
 
-    @RequestMapping("/signup/addUser2")
+        @RequestMapping("/signup/addUser2")
     public String addUserInfo(@RequestParam String name, @RequestParam String lastName, @RequestParam String secondName,
                               @RequestParam String phone, @RequestParam long flatNum, @ModelAttribute("user") UserEntity user, Model model) {
         UserInfoEntity userIE;
