@@ -32,15 +32,18 @@
 
 <div id="section1" class="container-fluid">
     <div class="container">
-    <form role="form" enctype="multipart/form-data" class="form-horizontal" action="/signin" method="post">
+    <c:url value="/j_spring_security_check" var="loginUrl" />
+    <form action="${loginUrl}" class="form-horizontal" method="post">
         <div class="form-group">
+            <div class="col-md-4">
             <h3>Войдите или зарегестрируйтесь</h3>
         </div>
-        <div class="form-group">
-            <div class="col-md-4"><input  type="text" class="form-control" name="login" placeholder="Login"></div>
         </div>
         <div class="form-group">
-            <div class="col-md-4"><input type="password" class="form-control" name="pass" placeholder="Password"></div>
+            <div class="col-md-4"><input  type="text" class="form-control" name="j_username" placeholder="Enter your Login"></div>
+        </div>
+        <div class="form-group">
+            <div class="col-md-4"><input type="password" class="form-control" name="j_password" placeholder="Enter your Password"></div>
         </div>
         <div class="form-group">
             <div class="col-md-4"><input type="submit" class="btn btn-success" value="Войти"></div>
@@ -52,8 +55,7 @@
         </div>
     </form>
 
-
-    </div>
+           </div>
     </div>
 </div>
 </body>

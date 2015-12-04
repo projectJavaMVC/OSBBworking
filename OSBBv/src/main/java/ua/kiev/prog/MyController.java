@@ -20,7 +20,7 @@ import java.util.Map;
 
 @Controller
 @RequestMapping("/")
-@SessionAttributes(names = {"build", "user"}, types = {BuildsEntity.class, UserEntity.class})
+@SessionAttributes( value = {"build", "user"},types = {BuildsEntity.class, UserEntity.class})
 public class MyController {
 
     static final int USER_TYPE = 0;
@@ -33,11 +33,21 @@ public class MyController {
     /////--------------------Всеволод
     @RequestMapping("/")
     public String index(Model model) {
-         services.tableFill();
+         //services.addUser(new UserEntity());
         return "hello/signIN";
     }
 
     @RequestMapping("/signup")
+    public String loginSecur(Model model) {
+        return "hello/signIN";
+    }
+
+    @RequestMapping("/errors/403_Error")
+    public String error(Model model) {
+        return "errors/403_Error";
+    }
+
+    /*@RequestMapping("/signup")
     public String signup(Model model) {
         return "regist/signup";
     }
@@ -179,28 +189,32 @@ public class MyController {
         }
         user = services.mergeUser(user);
         return "main/admin/mainadmin";
-    }
+    }*/
 
 
     @RequestMapping("/test")
     public String inviteUsers (Model model)
     {
 
-        services.listServices();
-        model.addAttribute("services", services.listServices());
-        return "regist/admin/signup3AdminBACKUP";
+       // services.findOneUserByLogin("admin");
+         model.addAttribute("admin",services.findOneUserByLogin("admin"));
+        return "test2";
+    }
+
+    @RequestMapping("/hello/signINincorrect")
+    public String incorrectLogin (Model model)
+    {
+        return "/hello/signINincorrect";
     }
 
     @RequestMapping("/test2")
-    public String inviteUsers2(@RequestParam Map<String,String> allRequestParams,Model model)
+    public String inviteUsers2(Model model)
     {
-        for (Map.Entry<String, String> entry : allRequestParams.entrySet())
-        {
-            System.out.println(entry.getKey() + "/" + entry.getValue());
-        }
-        services.listServices();
-        model.addAttribute("services", services.listServices());
-        return "dsf";
+       BuildsEntity build =  services.findBuildByID((long) 1);
+       UserEntity user = services.findOneUsersByBuild(build);
+        //services.listServices();
+         model.addAttribute("user", user);
+        return "testdata";
     }
 
 }

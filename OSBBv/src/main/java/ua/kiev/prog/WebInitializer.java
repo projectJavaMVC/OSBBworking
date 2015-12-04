@@ -1,8 +1,10 @@
 package ua.kiev.prog;
 
 import org.springframework.web.WebApplicationInitializer;
+import org.springframework.web.context.ContextLoaderListener;
 import org.springframework.web.context.support.AnnotationConfigWebApplicationContext;
 import org.springframework.web.filter.CharacterEncodingFilter;
+import org.springframework.web.filter.DelegatingFilterProxy;
 import org.springframework.web.servlet.DispatcherServlet;
 
 import javax.servlet.FilterRegistration;
@@ -21,11 +23,19 @@ public class WebInitializer implements WebApplicationInitializer{
 
         AnnotationConfigWebApplicationContext ctx = new AnnotationConfigWebApplicationContext();
         ctx.register(AppConfig.class);
+        ctx.register(SecurityConfig.class);
+        servletContext.addListener(new ContextLoaderListener(ctx));
         ctx.setServletContext(servletContext);
         ctx.refresh();
 
         ServletRegistration.Dynamic servlet = servletContext.addServlet("dispatcher", new DispatcherServlet(ctx));
         servlet.addMapping("/");
         servlet.setLoadOnStartup(1);
+
+        /* servletContext
+                .addFilter("securityFilter",
+                        new DelegatingFilterProxy("springSecurityFilterChain")).
+                addMappingForUrlPatterns(null, false, "/*");*/
+
     }
 }
