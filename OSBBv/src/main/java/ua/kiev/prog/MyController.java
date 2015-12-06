@@ -1,6 +1,10 @@
 package ua.kiev.prog;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpRequest;
+import org.springframework.security.config.annotation.web.builders.HttpSecurity;
+import org.springframework.security.core.context.SecurityContext;
+import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.ModelAttribute;
@@ -116,7 +120,7 @@ public class MyController {
     }
 
     @RequestMapping("all/signup/add/goToFlat")
-    public String addFlat(Model model) {
+    public String gotoFlat(Model model) {
         return "all/regist/user/signup2Flat";
     }
 
@@ -140,11 +144,11 @@ public class MyController {
 
 
     //войти
-    @RequestMapping("/sec/signIN")
-    public String signin(@RequestParam String login, @RequestParam String pass, Model model) {
-        UserEntity user = services.findOneUserByLogin(login);
-        if (user.getPass().equals(pass)) {
-            model.addAttribute("user", user);
+    /* @RequestMapping("/sec/signIN")
+    public String signin(  Model model) {
+        String login  = SecurityContextHolder.getContext().getAuthentication().getName();
+         UserEntity user = services.findOneUserByLogin(login);
+             //model.addAttribute("user", user);
             List<UserEntity> listUsers = services.findAllUsersByBuild(user.getBuildsEntity());
             List<User> listUser = new ArrayList<User>();
             for (UserEntity u : listUsers) {
@@ -154,8 +158,10 @@ public class MyController {
             model.addAttribute("user", user);
             model.addAttribute("users", listUser);
             return user.getType() == USER_TYPE ? "user/main/mainuser" : "admin/main/mainadmin";
-        } else return "all/hello/signIN";
-    }
+
+    }*/
+
+
 
     @RequestMapping("/inviteusers")
     public String inviteUsers(@RequestParam String email, @ModelAttribute("user") UserEntity user, Model model) {

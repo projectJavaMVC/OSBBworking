@@ -12,6 +12,7 @@
 </head>
 <body>
 <form>
+    <p>${name}</p>
   <input type="text" name="a" value="1" id="a" />
   <textarea name="b" rows="8" cols="40">2</textarea>
   <input type="button" onclick="add()" class="btn btn-success" formmethod="post" formenctype="multipart/form-data" formaction="/test" value="Регистрация">

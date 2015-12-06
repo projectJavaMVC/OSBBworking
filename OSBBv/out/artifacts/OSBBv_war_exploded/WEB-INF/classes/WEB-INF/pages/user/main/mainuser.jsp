@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
   <style>
     body {
       position: relative;
@@ -36,7 +37,7 @@
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav">
           <li><a href="#section1">Выставленные Счета</a></li>
-          <li><a href="#section2">Оплаты</a></li>
+          <li><a href="#section2">Текущие счета</a></li>
           <li><a href="#section3">Мои данные</a></li>
           <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Соседи<span class="caret"></span></a>
             <ul class="dropdown-menu">
@@ -53,6 +54,27 @@
 <div id="section1" class="container-fluid">
 </div>
 <div id="section2" class="container-fluid">
+  <table class="table table-border" style="width: auto">
+    <thead>
+    <tr>
+      <td><b>Сервис</b></td>
+      <td><b></b></td>
+    </tr>
+    </thead>
+    <c:forEach items="${servicesList}" var="service">
+      <tr>
+        <td>${service.name}</td>
+        <td>
+          <input id="${service.id}" type="button" class="btn btn-primary launch-modal"  value="Внести показания">
+        </td>
+      </tr>
+    </c:forEach>
+  </table>
+
+
+
+
+
 </div>
 <div id="section3" class="container-fluid">
 </div>
@@ -96,6 +118,79 @@
   </table>
 </div>
 </div>
+
+
+
+
+
+
+<div id="addPerfCounters" class="modal fade">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title">Подтверждение</h4>
+      </div>
+      <div class="modal-body">
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<button type="button" class="btn btn-default btn-sm" data-toggle="modal" data-target="#myModal">
+  Заказать обратный звонок
+</button>
+<!-- Modal -->
+<div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+
+      <div class="modal-body">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+
+        <!-- Form itself -->
+        <form name="sentMessage" class="form form-register1" id="contactForm"  novalidate>
+
+          <div class="control-group">
+            <div class="controls">
+              <input type="text" class="form-control" onblur='if(this.value=="") this.placeholder="Ваше имя"' onfocus='if(this.value=="Ваше имя") this.value=""' placeholder="Ваше имя" id="name" required data-validation-required-message="Пожалуйста укажите ваше имя" />
+              <p class="help-block"></p>
+            </div>
+          </div>
+          <div class="control-group">
+            <div class="controls">
+              <input type="text" class="form-control" onblur='if(this.value=="") this.placeholder="Телефон"' onfocus='if(this.value=="Телефон") this.value=""' placeholder="Телефон" id="phone" required data-validation-required-message="Пожалуйста, укажите номер телефона" />
+            </div>
+          </div>
+
+
+          <div id="success"> </div> <!-- For success/fail messages -->
+          <button type="submit" class="btn btn-lg btn-3d pull-right">Отправить</button><br />
+
+        </form>
+
+      </div><!-- End of Modal body -->
+    </div><!-- End of Modal content -->
+  </div><!-- End of Modal dialog -->
+</div><!-- End of Modal -->
+
+
+<script type="text/javascript">
+  $(document).ready(function(){
+    $('.launch-modal').click(function(){
+      $('#addPerfCounters').modal({
+        backdrop: 'static',
+        keyboard: true
+      });
+    });
+  });
+</script>
 
 </body>
 </html>

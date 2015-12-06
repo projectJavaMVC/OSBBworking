@@ -44,6 +44,7 @@
               <li><a href="#section42">Посмотреть</a></li>
             </ul>
           </li>
+          <li><a href="<c:url value="j_spring_security_logout" />" > Logout</a></li>>
         </ul>
       </div>
     </div>

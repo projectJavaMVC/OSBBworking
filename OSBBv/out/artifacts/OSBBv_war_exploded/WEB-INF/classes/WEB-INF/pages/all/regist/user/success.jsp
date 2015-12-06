@@ -37,7 +37,7 @@
 
 <div id="section1" class="container-fluid">
   <div class="container">
-<form role="form" enctype="multipart/form-data" class="form-horizontal" action="all/signup/add/goToFlat" method="post">
+<form role="form" enctype="multipart/form-data" class="form-horizontal" action="/all/signup/add/goToFlat" method="post">
   <div class="form-group">
     <div class="col-md-4">
       <h1>Поздравляем!</h1>
