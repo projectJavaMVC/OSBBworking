@@ -65,7 +65,7 @@
       <tr>
         <td>${service.name}</td>
         <td>
-          <input id="${service.id}" type="button" class="btn btn-primary launch-modal"  value="Внести показания">
+          <input id="ghjgjgjhg" type="button" class="btn btn-primary launch-modal" onclick="launchModal('${service.id}')" value="Внести показания">
         </td>
       </tr>
     </c:forEach>
@@ -129,67 +129,68 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-        <h4 class="modal-title">Подтверждение</h4>
+        <h4 class="modal-title">Внесите показатели:</h4>
       </div>
       <div class="modal-body">
+
+        <form id="current-value-add" role="form" enctype="multipart/form-data" class="form-horizontal" method="post">
+          <table class="table table-border">
+            <thead>
+            <tr>
+              <td><b>Предыдущие</b></td>
+              <td><b>Текущие</b></td>
+              <td><b>Разница</b></td>
+              <td><b>Тариф</b></td>
+              <td><b>К оплате</b></td>
+             </tr>
+            </thead>
+            <tr>
+              <td><input id="previous-value" type="number" class="form-control" name="previousvalue" placeholder="Предыдущие"></td>
+              <td><input id="current-value"type="number" onkeyup="calc()" class="form-control" name="currentvalue" placeholder="Текущие"></td>
+              <td><input id="diff" type="number" class="form-control" name="diff" placeholder="Разница"></td>
+              <td><input id="rate" type="number" class="form-control" name="rate" placeholder="Тариф"></td>
+              <td><input id="invoice" type="number" class="form-control" name="invoice" placeholder="К оплате"></td>
+            </tr>
+          </table>
+        </form>
+
 
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+        <button type="submit" class="btn btn-primary">Save changes</button>
       </div>
     </div>
   </div>
 </div>
 
-<button type="button" class="btn btn-default btn-sm" data-toggle="modal" data-target="#myModal">
-  Заказать обратный звонок
-</button>
-<!-- Modal -->
-<div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-
-
-      <div class="modal-body">
-        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-
-        <!-- Form itself -->
-        <form name="sentMessage" class="form form-register1" id="contactForm"  novalidate>
-
-          <div class="control-group">
-            <div class="controls">
-              <input type="text" class="form-control" onblur='if(this.value=="") this.placeholder="Ваше имя"' onfocus='if(this.value=="Ваше имя") this.value=""' placeholder="Ваше имя" id="name" required data-validation-required-message="Пожалуйста укажите ваше имя" />
-              <p class="help-block"></p>
-            </div>
-          </div>
-          <div class="control-group">
-            <div class="controls">
-              <input type="text" class="form-control" onblur='if(this.value=="") this.placeholder="Телефон"' onfocus='if(this.value=="Телефон") this.value=""' placeholder="Телефон" id="phone" required data-validation-required-message="Пожалуйста, укажите номер телефона" />
-            </div>
-          </div>
-
-
-          <div id="success"> </div> <!-- For success/fail messages -->
-          <button type="submit" class="btn btn-lg btn-3d pull-right">Отправить</button><br />
-
-        </form>
-
-      </div><!-- End of Modal body -->
-    </div><!-- End of Modal content -->
-  </div><!-- End of Modal dialog -->
-</div><!-- End of Modal -->
 
 
 <script type="text/javascript">
-  $(document).ready(function(){
-    $('.launch-modal').click(function(){
-      $('#addPerfCounters').modal({
-        backdrop: 'static',
-        keyboard: true
-      });
+  function launchModal2(currentValue,id,rate){
+    $('#addPerfCounters').find('#previous-value').val(currentValue);
+    $('#addPerfCounters').find('#current-value-add').action("/user/add/currentvalue/"+id);
+    $('#addPerfCounters').find('#rate').val(rate);
+    $('#addPerfCounters').modal({
+      backdrop: 'static',
+      keyboard: true
     });
-  });
+  }
+  function calc(){
+    alert($('#addPerfCounters').find('#previous-value').val());
+  }
+
+
+  function launchModal(currentValue ){
+    $('#addPerfCounters').find('#previous-value').val(currentValue);
+
+    $('#addPerfCounters').modal({
+      backdrop: 'static',
+      keyboard: true
+    });
+  }
+
+
 </script>
 
 </body>
