@@ -61,11 +61,11 @@
       <td><b></b></td>
     </tr>
     </thead>
-    <c:forEach items="${servicesList}" var="service">
+    <c:forEach items="${servicesList}" var="serviceUser">
       <tr>
-        <td>${service.name}</td>
+        <td>${serviceUser.name}</td>
         <td>
-          <input type="button" class="btn btn-primary launch-modal" onclick="launchModal('${service.lastValue},${service.id},${service.rate}')" value="Внести показания">
+          <input type="button" class="btn btn-primary launch-modal" onclick="launchModal('${serviceUser.lastValue}','${serviceUser.serviceId}','${serviceUser.rate}')" value="Внести показания">
         </td>
       </tr>
     </c:forEach>
@@ -133,7 +133,7 @@
       </div>
       <div class="modal-body">
 
-        <form id="current-value-add" role="form" enctype="multipart/form-data" class="form-horizontal" method="post">
+        <form id="current-value-add" role="form" enctype="multipart/form-data" class="form-horizontal" action="/" method="post">
           <table class="table table-border">
             <thead>
             <tr>
@@ -152,6 +152,7 @@
               <td><input id="invoice" type="number" class="form-control" name="invoice" placeholder="К оплате"></td>
             </tr>
           </table>
+          <button type="submit" class="btn btn-primary">Save changes</button>
         </form>
 
 
@@ -169,7 +170,7 @@
 <script type="text/javascript">
   function launchModal(lastValue,id,rate){
     $('#addPerfCounters').find('#previous-value').val(lastValue);
-    $('#addPerfCounters').find('#current-value-add').action("/user/add/currentvalue/"+id);
+    $('#addPerfCounters').find('#current-value-add').attr("action","/user/add/currentvalue/"+id)
     $('#addPerfCounters').find('#rate').val(rate);
     $('#addPerfCounters').modal({
       backdrop: 'static',
@@ -182,6 +183,7 @@
     var diff = curValue-prValue;
     var rate = $('#addPerfCounters').find('#rate').val();
     var inv = diff*rate;
+    $('#addPerfCounters').find('#diff').val(diff);
     var prValue = $('#addPerfCounters').find('#invoice').val(inv);
   }
 

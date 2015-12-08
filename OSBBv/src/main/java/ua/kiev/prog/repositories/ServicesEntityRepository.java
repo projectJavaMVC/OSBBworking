@@ -10,7 +10,7 @@ import java.util.List;
 /**
  * Created by Пользователь on 30.11.2015.
  */
-@Repository
+//@Repository
 public interface ServicesEntityRepository extends JpaRepository<ServicesEntity, Long> {
 
 }

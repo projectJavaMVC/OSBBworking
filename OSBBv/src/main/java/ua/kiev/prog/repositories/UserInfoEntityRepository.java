@@ -7,7 +7,7 @@ import ua.kiev.prog.entity.UserInfoEntity;
 /**
  * Created by Пользователь on 30.11.2015.
  */
-@Repository
+//@Repository
 public interface UserInfoEntityRepository extends JpaRepository<UserInfoEntity, Long> {
 
 }

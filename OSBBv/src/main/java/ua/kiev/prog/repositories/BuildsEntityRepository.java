@@ -12,7 +12,7 @@ import ua.kiev.prog.entity.FlatsEntity;
 /**
  * Created by Пользователь on 30.11.2015.
  */
-@Repository
+//@Repository
 public interface BuildsEntityRepository extends JpaRepository<BuildsEntity, Long>{
 
     @Query("SELECT c FROM BuildsEntity c where c.code = :key ")

@@ -14,7 +14,7 @@ import java.util.List;
 /**
  * Created by ������������ on 30.11.2015.
  */
-@Repository
+//@Repository
 public interface UserEntityRepository extends JpaRepository<UserEntity, Long> {
 
     UserEntity findOneByLogin (String login);

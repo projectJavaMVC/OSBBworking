@@ -25,8 +25,20 @@ public class Services {
     private ServicesEntityRepository SERepository;
     @Autowired
     private BuildsServicesRepository buildServicesRepository;
+    @Autowired
+    private CountDataRepository countDataRepository;
 
 
+    @Transactional
+    public void addCountData(CountData  countData){
+        countDataRepository.save( countData);
+    }
+
+    @Transactional
+    public CountData findLastValue (UserEntity userEntity,ServicesEntity servicesEntity )
+    {
+        return countDataRepository.findOneByUserEntityAndServicesEntity(userEntity, servicesEntity);
+    }
     @Transactional
     public void addUser(UserEntity userEntity) {
         userEntityRepository.saveAndFlush(userEntity);

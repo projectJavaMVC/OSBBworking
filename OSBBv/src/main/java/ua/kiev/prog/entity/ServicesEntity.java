@@ -17,6 +17,16 @@ public class ServicesEntity {
 
     @OneToMany(mappedBy = "servicesEntity", targetEntity = BuildServices.class)
     private List<BuildServices> buildservices = new ArrayList<BuildServices>();
+    /*@OneToMany(mappedBy = "service_id" , targetEntity = CountData.class)
+    private List<CountData> countData = new ArrayList<CountData>();
+
+    public List<CountData> getCountDatas() {
+        return countData;
+    }
+
+    public void setCountDatas(List<CountData> countDatas) {
+        this.countData = countDatas;
+    }*/
 
     public ServicesEntity(String name) {
         this.name = name;

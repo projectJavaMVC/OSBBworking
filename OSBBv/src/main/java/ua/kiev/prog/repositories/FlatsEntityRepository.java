@@ -13,7 +13,7 @@ import java.util.List;
  * Created by Пользователь on 30.11.2015.
  */
 
-@Repository
+//@Repository
 public interface FlatsEntityRepository extends JpaRepository<FlatsEntity, Long> {
 
     List<FlatsEntity> findAllByBuildsEntity(BuildsEntity build);

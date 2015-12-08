@@ -1,6 +1,8 @@
 package ua.kiev.prog.entity;
 
 import javax.persistence.*;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Created by m.bratyuk on 23.11.2015.
@@ -26,9 +28,20 @@ public class UserEntity {
     @ManyToOne(targetEntity = BuildsEntity.class)
     @JoinColumn(name = "build_id")
     private BuildsEntity buildsEntity;
-
     public UserEntity() {
     }
+   /*@OneToMany(mappedBy = "user_id" , targetEntity = CountData.class)
+    private List<CountData> countDatas = new ArrayList<CountData>();
+
+
+
+  public List<CountData> getCountDatas() {
+        return countDatas;
+    }
+
+    public void setCountDatas(List<CountData> countDatas) {
+        this.countDatas = countDatas;
+    }*/
 
     public UserEntity(String login, String pass, String email, Short type, BuildsEntity buildsEntity) {
         this.login = login;
