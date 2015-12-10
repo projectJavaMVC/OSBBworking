@@ -34,7 +34,6 @@ public class MyController {
 
     @RequestMapping("/")
     public String index(Model model) {
-        new PDFCreate().createPDF();
         return "all/hello/signIN";
     }
     @RequestMapping("/signin")

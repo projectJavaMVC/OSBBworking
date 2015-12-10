@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import ua.kiev.prog.entity.*;
 import ua.kiev.prog.services.Services;
+import ua.kiev.prog.utils.PDFCreate;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -34,6 +35,8 @@ public class MainController {
     @RequestMapping("/sec/signIN")
     public String signin(  Model model) {
         UserEntity user = getCurrUser();
+        //
+        new PDFCreate().createPDF(user);
 
         List<UserEntity> listUsers = services.findAllUsersByBuild(user.getBuildsEntity());
         List<User> listUser = new ArrayList<User>();
